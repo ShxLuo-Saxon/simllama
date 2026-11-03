@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SimLlama Examples</title>
+<title>SimLlama</title>
+<meta name="description" content="How Close to the Theme? Similarity-Label Conditioning for Game Music Generation. Audio examples, code, dataset and model.">
 <style>
 :root { --bg:#fafaf8; --surface:#ffffff; --ink:#1d1d1b; --muted:#5f5f5a; --line:#e3e2dc;
   --hi:#1f6f5c; --hi-bg:#e3f1ec; --lo:#7a5a1d; --lo-bg:#f6eedd; --link:#1f5f8f; }
@@ -36,36 +37,110 @@ audio { width:100%; }
 code { font:.9em ui-monospace,Consolas,monospace; }
 .note { color:var(--muted); font-size:.9rem; margin:4px 0 0; }
 ul { padding-left:20px; }
+header { text-align:center; margin:0 0 32px; }
+.name { font:600 .9rem ui-monospace,Consolas,monospace; color:var(--hi); letter-spacing:.04em; margin:0 0 8px; }
+.authors { margin:12px 0 0; }
+.affil { color:var(--muted); font-size:.95rem; margin:0; }
+.venue { color:var(--muted); font-size:.9rem; font-style:italic; margin:4px 0 0; }
+.buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin:20px 0 0; }
+.buttons a { text-decoration:none; color:var(--ink); background:var(--surface); border:1px solid var(--line);
+  border-radius:999px; padding:6px 16px; font-size:.9rem; }
+.buttons a:hover { border-color:var(--link); color:var(--link); }
+figure { margin:16px 0 24px; }
+figure img { width:100%; height:auto; display:block; background:#fff; border:1px solid var(--line);
+  border-radius:8px; padding:8px; }
+figcaption { color:var(--muted); font-size:.9rem; margin:8px 0 0; }
+.examples { width:100%; border-collapse:separate; border-spacing:0 8px; margin:8px 0 12px; }
+.examples th, .examples td { text-align:center; padding:0 4px; }
+.examples thead th { font-size:.85rem; font-weight:600; color:var(--muted); padding-bottom:2px; }
+.examples tbody th { font-weight:600; width:18%; }
+.share { display:block; font-weight:400; font-size:.75rem; color:var(--muted); }
+.play { position:relative; overflow:hidden; width:100%; max-width:150px; height:44px; display:inline-flex;
+  align-items:center; justify-content:center; gap:10px; font:inherit; color:var(--ink); cursor:pointer;
+  background:var(--surface); border:1px solid var(--line); border-radius:8px; }
+.play:hover, .play:focus-visible { border-color:var(--link); outline:none; }
+.play.hi { border-color:var(--hi); }
+.play.playing { background:var(--hi-bg); }
+.play.lo.playing { background:var(--lo-bg); }
+.play.ref.playing { background:var(--line); }
+.icon { width:0; height:0; border-style:solid; border-width:7px 0 7px 12px;
+  border-color:transparent transparent transparent currentColor; }
+.playing .icon { width:12px; height:14px; border:0; border-left:4px solid currentColor;
+  border-right:4px solid currentColor; }
+.mean { font-variant-numeric:tabular-nums; font-size:.9rem; }
+.bar { position:absolute; left:0; bottom:0; height:3px; width:0; background:var(--link); }
+.bib { position:relative; }
+pre { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:16px;
+  overflow-x:auto; font:.85rem/1.5 ui-monospace,Consolas,monospace; margin:0; }
+.copy { position:absolute; top:8px; right:8px; font:inherit; font-size:.8rem; color:var(--muted);
+  background:var(--bg); border:1px solid var(--line); border-radius:4px; padding:2px 10px; cursor:pointer; }
 </style>
 </head>
 <body>
 <main>
-<h1>SimLlama: generating game music at a requested similarity</h1>
-<p class="lead">Examples from the listening test of "How Close to the Theme? Similarity-Label Conditioning for Game Music Generation" (Luo, Guo, Shi, Reiss; submitted to Computer Music Journal).</p>
-<p>SimLlama continues a section of Super Mario music, the reference, with a new section at a requested similarity: <code>sim:high</code>, <code>sim:mid</code> or <code>sim:low</code>. In each example below, both generated clips continue the same reference, one with <code>sim:high</code> and one with a lower label. Listeners rated each clip's similarity to the reference from 0 to 100.</p>
-<div class="links"><a href="https://github.com/ShxLuo-Saxon/simllama">Code</a><a href="https://huggingface.co/shangxuan-saxon/SimLlama">Model checkpoint</a><a href="https://github.com/ShxLuo-Saxon/supermario-structure-dataset">Dataset</a></div>
+<header>
+<p class="name">SimLlama</p>
+<h1>How Close to the Theme? Similarity-Label Conditioning for Game Music Generation</h1>
+<p class="authors">Shangxuan Luo, Zixun Guo, Jinjie Shi, Joshua Reiss</p>
+<p class="affil">Centre for Digital Music, Queen Mary University of London</p>
+<p class="venue">Submitted to Computer Music Journal</p>
+<nav class="buttons"><a href="https://arxiv.org/abs/2611.01047">Paper (arXiv)</a><a href="https://github.com/ShxLuo-Saxon/simllama">Code</a><a href="https://github.com/ShxLuo-Saxon/supermario-structure-dataset">Dataset</a><a href="https://huggingface.co/shangxuan-saxon/SimLlama">Model</a><a href="https://doi.org/10.5281/zenodo.23915904">Zenodo</a></nav>
+</header>
 
-<h2>The clips</h2>
-<p>All clips are solo piano, rendered from MIDI. The generated clips are about 10 seconds long. The reference clips, about 15 seconds, are excerpts of fan transcriptions from NinSheetMusic of music composed for Nintendo games; they are shown here only to illustrate the comparison, are not part of the released dataset, and are not covered by its licence or the code's.</p>
+<h2>Abstract</h2>
+<p>Composers develop music from an original idea, controlling how similar each new section is to it, from near repetition to new material. Game music needs this often, as its material repeats over long play. Music models, however, rarely learn to control similarity from real pieces. We further train a pretrained MIDI model on section pairs from Super Mario pieces. A label states each pair&#x27;s similarity, and a context vector summarises the given section, or context. For 157 test contexts, the model generates six outputs per label. Twelve measures score the outputs; one main measure each covers melody, pitch content, rhythm and note length. On average, outputs requested as similar are more similar to their context than those requested as dissimilar, and not to other pieces. All twelve measures favour them; each main measure stays significant after correction for multiple tests. On melody, the gap comes mainly from more frequent restatement of the context&#x27;s melody. Against an otherwise identical model without a label, only the request for high similarity makes outputs more similar. In a listening test, ratings followed melodic overlap with the context most closely of all measures.</p>
 
-<h2>How the examples were chosen</h2>
-<ul>
-<li>Of 26 listeners, 20 passed both attention checks; only their ratings count.</li>
-<li>For each of the 30 test trials, we counted the share of these listeners who rated the <code>sim:high</code> clip as more similar to the reference.</li>
-<li>Examples 1 to 5 are the trials with the highest share, one per reference. Example 6 is the trial with the lowest share.</li>
-</ul>
-<p>The selection shows clear cases; across all trials the effect is smaller. The paper reports it in full.</p>
+<h2>How it works</h2>
+<p>SimLlama continues a section of game music, the context, with a new section at a requested similarity: <code>sim:high</code>, <code>sim:mid</code> or <code>sim:low</code>. It adds the label and a summary of the context to a pretrained MIDI model, Moonbeam, and trains only small added parts.</p>
+<figure><img src="figures/architecture.png" alt="Architecture: context, label and target form one sequence for a frozen pretrained model with adapters" loading="lazy">
+<figcaption>A label and a context vector condition a frozen pretrained model. Context, label and target form one sequence; a CTX token at each bar of the target carries the context vector. Only the adapters, the projection and the new token embeddings train.</figcaption></figure>
 
-<h2>Listeners agreed with the label</h2>
-<article class="card"><h3>Example 1<span class="sub">100% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial03_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 47</span></div><audio controls preload="none" src="audio/Trial03_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 16</span></div><audio controls preload="none" src="audio/Trial03_B.mp3"></audio></div></article><article class="card"><h3>Example 2<span class="sub">95% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial24_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 45</span></div><audio controls preload="none" src="audio/Trial24_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 6</span></div><audio controls preload="none" src="audio/Trial24_B.mp3"></audio></div></article><article class="card"><h3>Example 3<span class="sub">90% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial01_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 48</span></div><audio controls preload="none" src="audio/Trial01_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 27</span></div><audio controls preload="none" src="audio/Trial01_B.mp3"></audio></div></article><article class="card"><h3>Example 4<span class="sub">90% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial19_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 45</span></div><audio controls preload="none" src="audio/Trial19_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 28</span></div><audio controls preload="none" src="audio/Trial19_B.mp3"></audio></div></article><article class="card"><h3>Example 5<span class="sub">85% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial09_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 15</span></div><audio controls preload="none" src="audio/Trial09_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 39</span></div><audio controls preload="none" src="audio/Trial09_B.mp3"></audio></div></article>
-<h2>Listeners disagreed with the label</h2>
-<article class="card"><h3>Example 6<span class="sub">5% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial05_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 42</span></div><audio controls preload="none" src="audio/Trial05_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 16</span></div><audio controls preload="none" src="audio/Trial05_B.mp3"></audio></div><p class=note>Listeners rated the <code>sim:low</code> or <code>sim:mid</code> clip as closer here.</p></article>
-<p class="note">Generated clips: CC BY 4.0, from the dataset repository. Reference clips: excerpts for illustration, rights with their owners. Page generated by the authors' release scripts.</p>
+<h2>Audio examples</h2>
+<p>Each row is one example: a reference and two generated clips that continue it, one requested with <code>sim:high</code> and one with a lower label. Click a button to play; click again to stop. The number on a button is the clip's mean similarity rating, 0 to 100; under each example number is the share of listeners who rated the <code>sim:high</code> clip closer. All clips are solo piano, rendered from MIDI: generated clips about 10 seconds, references about 15 seconds.</p>
+<p class="note">How the examples were chosen: of 26 listeners, 20 passed both attention checks. For each of the 30 test trials, we counted the share of them who rated the <code>sim:high</code> clip as more similar. Shown are the 5 trials with the highest share, one per reference. These are clear cases; across all trials the effect is smaller, and the paper reports it in full.</p>
+<table class="examples"><thead><tr><th scope="col">Example<span class="share">listeners agreeing</span></th><th scope="col">Reference</th><th scope="col"><span class="tag hi">sim:high</span></th><th scope="col"><span class="tag lo">sim:low</span></th></tr></thead><tbody><tr><th scope="row">1<span class="share">100%</span></th><td><button class="play ref" type="button" data-src="audio/Trial03_ref.mp3" aria-label="Play example 1 reference"><span class="icon" aria-hidden="true"></span><span class="bar"></span></button></td><td><button class="play hi" type="button" data-src="audio/Trial03_A.mp3" aria-label="Play example 1 sim:high"><span class="icon" aria-hidden="true"></span><span class="mean">47</span><span class="bar"></span></button></td><td><button class="play lo" type="button" data-src="audio/Trial03_B.mp3" aria-label="Play example 1 sim:low"><span class="icon" aria-hidden="true"></span><span class="mean">16</span><span class="bar"></span></button></td></tr><tr><th scope="row">2<span class="share">95%</span></th><td><button class="play ref" type="button" data-src="audio/Trial24_ref.mp3" aria-label="Play example 2 reference"><span class="icon" aria-hidden="true"></span><span class="bar"></span></button></td><td><button class="play hi" type="button" data-src="audio/Trial24_A.mp3" aria-label="Play example 2 sim:high"><span class="icon" aria-hidden="true"></span><span class="mean">45</span><span class="bar"></span></button></td><td><button class="play lo" type="button" data-src="audio/Trial24_B.mp3" aria-label="Play example 2 sim:low"><span class="icon" aria-hidden="true"></span><span class="mean">6</span><span class="bar"></span></button></td></tr><tr><th scope="row">3<span class="share">90%</span></th><td><button class="play ref" type="button" data-src="audio/Trial01_ref.mp3" aria-label="Play example 3 reference"><span class="icon" aria-hidden="true"></span><span class="bar"></span></button></td><td><button class="play hi" type="button" data-src="audio/Trial01_A.mp3" aria-label="Play example 3 sim:high"><span class="icon" aria-hidden="true"></span><span class="mean">48</span><span class="bar"></span></button></td><td><button class="play lo" type="button" data-src="audio/Trial01_B.mp3" aria-label="Play example 3 sim:low"><span class="icon" aria-hidden="true"></span><span class="mean">27</span><span class="bar"></span></button></td></tr><tr><th scope="row">4<span class="share">90%</span></th><td><button class="play ref" type="button" data-src="audio/Trial19_ref.mp3" aria-label="Play example 4 reference"><span class="icon" aria-hidden="true"></span><span class="bar"></span></button></td><td><button class="play hi" type="button" data-src="audio/Trial19_A.mp3" aria-label="Play example 4 sim:high"><span class="icon" aria-hidden="true"></span><span class="mean">45</span><span class="bar"></span></button></td><td><button class="play lo" type="button" data-src="audio/Trial19_B.mp3" aria-label="Play example 4 sim:low"><span class="icon" aria-hidden="true"></span><span class="mean">28</span><span class="bar"></span></button></td></tr><tr><th scope="row">5<span class="share">85%</span></th><td><button class="play ref" type="button" data-src="audio/Trial09_ref.mp3" aria-label="Play example 5 reference"><span class="icon" aria-hidden="true"></span><span class="bar"></span></button></td><td><button class="play hi" type="button" data-src="audio/Trial09_B.mp3" aria-label="Play example 5 sim:high"><span class="icon" aria-hidden="true"></span><span class="mean">39</span><span class="bar"></span></button></td><td><button class="play lo" type="button" data-src="audio/Trial09_A.mp3" aria-label="Play example 5 sim:low"><span class="icon" aria-hidden="true"></span><span class="mean">15</span><span class="bar"></span></button></td></tr></tbody></table>
+
+<h2>What the label changes</h2>
+<p>On melody, the label works mainly through restatement: an output requested as similar takes up the context's melody more often.</p>
+<figure><img src="figures/pianoroll_example.png" alt="Piano rolls of a context and its high- and low-similarity outputs, with the context's melody pattern marked in red" loading="lazy">
+<figcaption>The high-similarity output takes up the context's melody; the low-similarity output hardly does. Six bars of one draw. Red: melody notes, from middle C up, in a three-interval pattern of the context's melody. Chosen among the ten largest mean Melody gaps of contexts up to eight bars; typical gaps are smaller.</figcaption></figure>
+
+<h2>Citation</h2>
+<div class="bib"><button class="copy" type="button">Copy</button><pre id="bibtex">@misc{luo2026simllama,
+  title={How Close to the Theme? Similarity-Label Conditioning for Game Music Generation},
+  author={Luo, Shangxuan and Guo, Zixun and Shi, Jinjie and Reiss, Joshua},
+  year={2026},
+  eprint={2611.01047},
+  archivePrefix={arXiv},
+  note={Submitted to Computer Music Journal}
+}</pre></div>
+
+<p class="note" style="margin-top:32px">Generated clips: CC BY 4.0, from the dataset repository. Reference clips: excerpts of fan transcriptions from NinSheetMusic of music composed for Nintendo games, shown for illustration only; they are not part of the released dataset and not covered by its licence or the code's. Page generated by the authors' release scripts.</p>
 </main>
 <script>
-document.addEventListener("play", e => {
-  document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); });
-}, true);
+const audio = new Audio();
+let current = null;
+function stop() {
+  audio.pause();
+  if (current) { current.classList.remove("playing"); current.querySelector(".bar").style.width = "0"; }
+  current = null;
+}
+document.querySelectorAll(".play").forEach(b => b.addEventListener("click", () => {
+  if (current === b) { stop(); return; }
+  stop();
+  current = b;
+  b.classList.add("playing");
+  audio.src = b.dataset.src;
+  audio.play();
+}));
+audio.addEventListener("timeupdate", () => {
+  if (current && audio.duration) current.querySelector(".bar").style.width = (100 * audio.currentTime / audio.duration) + "%";
+});
+audio.addEventListener("ended", stop);
+document.querySelector(".copy").addEventListener("click", e => {
+  navigator.clipboard.writeText(document.getElementById("bibtex").textContent)
+    .then(() => { e.target.textContent = "Copied"; setTimeout(() => e.target.textContent = "Copy", 1500); });
+});
 </script>
 </body>
 </html>
