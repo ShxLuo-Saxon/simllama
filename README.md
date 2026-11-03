@@ -122,6 +122,8 @@ Parts of `scripts/model/` derive from the Moonbeam foundation model and Hugging 
 
 ## Citation
 
+Version 1.0 of this repository is archived on Zenodo: [doi:10.5281/zenodo.23915905](https://doi.org/10.5281/zenodo.23915905) (all versions: [10.5281/zenodo.23915904](https://doi.org/10.5281/zenodo.23915904)). Please cite the paper:
+
 ```bibtex
 @misc{luo2026simllama,
   title={How Close to the Theme? Similarity-Label Conditioning for Game Music Generation},
