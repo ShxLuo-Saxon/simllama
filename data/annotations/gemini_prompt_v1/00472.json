@@ -1,0 +1,52 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 24, marking the end of the Intro."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 40, indicating a loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building up to the main loop."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic theme with arpeggiated accompaniment."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture with block chords and a new harmonic progression."
+    }
+  ]
+}

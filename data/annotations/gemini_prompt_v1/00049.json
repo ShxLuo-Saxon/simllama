@@ -1,0 +1,96 @@
+{
+  "Tile": "Dreamy Mushrise Winds",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "A double barline || appears at the end of bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "A double barline || appears at the end of bar 50."
+    },
+    {
+      "BarRange": [
+        51,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "A repeat sign :| appears at the end of bar 54."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Syncopated chordal rhythmic motif in E major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a lyrical, soaring lead melody."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the primary rhythmic motif, transposed to C# major."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a new chordal pattern with sustained notes."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Blends the syncopated motif with new sustained melodic chords."
+    },
+    {
+      "BarRange": [
+        41,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "A new lyrical melody followed by an arpeggio run."
+    },
+    {
+      "BarRange": [
+        51,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "A 4-bar transitional arpeggio returning to E major."
+    }
+  ]
+}

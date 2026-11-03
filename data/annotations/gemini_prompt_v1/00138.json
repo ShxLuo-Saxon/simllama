@@ -1,0 +1,43 @@
+{
+  "Tile": "World 6: Cliff Land",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body ending with a :| sign at bar 19."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup note and sparse chords."
+    },
+    {
+      "BarRange": [
+        5,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main thematic sequenced motifs and non-thematic turnaround."
+    }
+  ]
+}

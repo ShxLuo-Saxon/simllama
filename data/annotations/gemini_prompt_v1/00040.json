@@ -1,0 +1,95 @@
+{
+  "Tile": "Let'sa Go!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body ending with || at bar 30."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body modulates to Ab, ending with ||."
+    },
+    {
+      "BarRange": [
+        39,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop ending with :| at bar 54."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase before the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "8-bar rhythmic accompaniment groove establishing the feel."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The main melodic theme is formally introduced."
+    },
+    {
+      "BarRange": [
+        19,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A 4-bar contrasting phrase followed by an 8-bar theme return."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Direct repetition of the main theme transposed to Ab major."
+    },
+    {
+      "BarRange": [
+        39,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "New contrasting 16-bar thematic section in C major."
+    }
+  ]
+}

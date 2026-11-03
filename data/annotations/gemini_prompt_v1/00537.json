@@ -1,0 +1,52 @@
+{
+  "Tile": "Yoshi's Island",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro playing fade-in chords, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body, ends with :| at bar 26."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First melodic theme, followed by a 2-bar short transition."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second melodic theme, merged with a 4-bar turnaround to loop."
+    }
+  ]
+}

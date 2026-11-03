@@ -1,0 +1,61 @@
+{
+  "Tile": "Super Pipe House",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "The section acts as an intro and ends with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, which concludes with a :| repeat sign at bar 28."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary bouncy melodic theme of the track."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting motif featuring syncopated, descending chromatic melodies."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new chordal section that builds rhythmic tension to loop back to the beginning."
+    }
+  ]
+}

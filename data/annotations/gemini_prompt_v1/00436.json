@@ -1,0 +1,105 @@
+{
+  "Tile": "Event & Goal",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A 1-bar intro leading to the repeat sign |:"
+    },
+    {
+      "BarRange": [
+        2,
+        57
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body starting with |: and ending with :|"
+    },
+    {
+      "BarRange": [
+        58,
+        59
+      ],
+      "Function": "St",
+      "Inference": "A short goal stinger triggered upon level completion"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section serving as a brief lead-in"
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced with syncopated melody and accompaniment"
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring continuous eighth-note arpeggios"
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme with melodic and harmonic variations"
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repetition of the arpeggiated B section"
+    },
+    {
+      "BarRange": [
+        42,
+        49
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New texture introduced with half-note block chords"
+    },
+    {
+      "BarRange": [
+        50,
+        57
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Sustained whole notes with rhythmic hits, concluding the loop"
+    },
+    {
+      "BarRange": [
+        58,
+        59
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Goal stinger in a new key and tempo"
+    }
+  ]
+}

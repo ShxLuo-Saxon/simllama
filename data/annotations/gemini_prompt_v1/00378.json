@@ -1,0 +1,96 @@
+{
+  "Tile": "Bonneton",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Ends with |: at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        57
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :| at bar 57."
+    },
+    {
+      "BarRange": [
+        58,
+        58
+      ],
+      "Function": "Ou",
+      "Inference": "Ends with |] at bar 58."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase leading into the loop."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main motif with alternating 16th notes."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting sustained arpeggios and accented chords."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main motif."
+    },
+    {
+      "BarRange": [
+        30,
+        45
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Key change to C, flowing arpeggiated melodies."
+    },
+    {
+      "BarRange": [
+        46,
+        57
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Development of 16th motif and buildup."
+    },
+    {
+      "BarRange": [
+        58,
+        58
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Short final chord."
+    }
+  ]
+}

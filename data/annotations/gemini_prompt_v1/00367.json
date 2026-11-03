@@ -1,0 +1,71 @@
+{
+  "Tile": "Star Maze",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop body ending with a repeat sign at bar 48."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "High-register ostinato motif establishes the primary rhythmic feel."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Main lyrical melody is introduced over the driving bassline."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Ostinato motif returns, with the bass dropping out towards the end."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The main melody repeats in full with the bass returning."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The ostinato motif returns, this time played an octave lower."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Main melody repeats again, and the bass drops out before the loop resets."
+    }
+  ]
+}

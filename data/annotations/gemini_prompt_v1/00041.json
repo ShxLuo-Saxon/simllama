@@ -1,0 +1,61 @@
+{
+  "Tile": "Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section setting the groove, ends with |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the primary themes, ending with :| at bar 38."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic, establishing the primary rhythmic foundation."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary melody and harmonic progression."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B shifts the harmony and presents a contrasting melodic idea."
+    },
+    {
+      "BarRange": [
+        25,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A returns, merging a 6-bar build-up leading to the loop start."
+    }
+  ]
+}

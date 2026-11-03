@@ -1,0 +1,44 @@
+{
+  "Tile": "Creative Exercise",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a single continuous loop, indicated by the D.C. directive at bar 29."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main playful staccato melody and establishes the core rhythmic feel."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Presents a new contrasting melodic idea with a varied harmonic progression."
+    },
+    {
+      "BarRange": [
+        17,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Builds tension with a repeating motif, climaxing before a turnaround resolves back to the start."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Tile": "Egg Planet",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a repeat sign |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        53
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a repeat sign :| at bar 53."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section with a pedal note."
+    },
+    {
+      "BarRange": [
+        4,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme with syncopated chords and a staccato off-beat bass."
+    },
+    {
+      "BarRange": [
+        20,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Begins with a 2-bar pickup into a lyrical soaring melody."
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sequential melody followed by a climbing chordal build-up."
+    },
+    {
+      "BarRange": [
+        38,
+        53
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Strong, syncopated main chorus, repeated with thicker octave textures."
+    }
+  ]
+}

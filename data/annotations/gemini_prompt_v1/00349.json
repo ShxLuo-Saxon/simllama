@@ -1,0 +1,94 @@
+{
+  "Tile": "World 4 Map",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 2, marking the end of the intro."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 10, separating this loop segment."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 18, separating this loop segment."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 22, completing the loop body."
+    },
+    {
+      "BarRange": [
+        23,
+        23
+      ],
+      "Function": "Ou",
+      "Inference": "A |] appears at the end of bar 23, concluding the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the starting accompaniment."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody and rhythmic structure."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting melodic idea in a higher register."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Features a rhythmic shift with triplet arpeggios and block chords."
+    },
+    {
+      "BarRange": [
+        23,
+        23
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Brief outro ending with a fermata chord."
+    }
+  ]
+}

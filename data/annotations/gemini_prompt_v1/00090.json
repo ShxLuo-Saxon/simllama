@@ -1,0 +1,35 @@
+{
+  "Tile": "Director's Room",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-16 form the main loop, ending with a repeat sign at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody over a descending bassline."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces contrasting chordal motifs and a static bass rhythm."
+    }
+  ]
+}

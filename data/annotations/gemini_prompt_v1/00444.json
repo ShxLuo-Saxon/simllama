@@ -1,0 +1,43 @@
+{
+  "Tile": "The Manta Storm",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Short intro ending with a double barline."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body starting at Segno and ending with D.S. and repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase before the main loop."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous 16-bar main thematic block of the loop."
+    }
+  ]
+}

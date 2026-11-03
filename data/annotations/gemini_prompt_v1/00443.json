@@ -1,0 +1,77 @@
+{
+  "Tile": "Proto Piranha / Mid-Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "The first intro segment, ends with || at bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        3
+      ],
+      "Function": "In",
+      "Inference": "The mid-boss intro segment, ends with |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "The first half of the main loop, ends with || at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "The second half of the main loop, ends with :| at bar 31."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        4,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main bluesy theme introduced over a repeating bass groove."
+    },
+    {
+      "BarRange": [
+        18,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repetition of Theme A with minor variations at the end."
+    }
+  ]
+}

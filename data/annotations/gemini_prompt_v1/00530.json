@@ -1,0 +1,52 @@
+{
+  "Tile": "Title Screen",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Ln",
+      "Inference": "Main body of the linear track."
+    },
+    {
+      "BarRange": [
+        17,
+        20
+      ],
+      "Function": "Ou",
+      "Inference": "Outro section ending the track with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary melodic theme in C major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting theme starting on the subdominant."
+    },
+    {
+      "BarRange": [
+        17,
+        20
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Concluding cadence acting as an outro."
+    }
+  ]
+}

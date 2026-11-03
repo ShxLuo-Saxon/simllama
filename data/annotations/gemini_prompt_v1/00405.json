@@ -1,0 +1,26 @@
+{
+  "Tile": "Invincible Star",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a short loop ending with :| at bar 4."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single primary musical theme of this short loop."
+    }
+  ]
+}

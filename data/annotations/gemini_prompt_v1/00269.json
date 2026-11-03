@@ -1,0 +1,26 @@
+{
+  "Tile": "Music Box",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "A single continuous loop ending with a :| repeat mark at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The core thematic melody of the music box, played as a single 8-bar section."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "MAP 5 (Forest of Illusion)",
+  "IsAdaptive": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The section loops from the beginning, indicated by the :| repeat sign at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single primary theme consisting of the entire looping track."
+    }
+  ],
+  "IsStinger": false
+}

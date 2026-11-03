@@ -1,0 +1,26 @@
+{
+  "Tile": "Meringue Clouds",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a loop body ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous theme. Phrases are less than 8 bars and merged into one main section."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "World 4",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1 to 8 are enclosed by repeat signs, forming a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar theme repeating infinitely."
+    }
+  ]
+}

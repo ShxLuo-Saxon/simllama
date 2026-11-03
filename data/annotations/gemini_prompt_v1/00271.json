@@ -1,0 +1,26 @@
+{
+  "Tile": "Underground Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track ends with a repeat sign (:|), indicating an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main rhythmic and motivic loop representing a single continuous musical idea."
+    }
+  ]
+}

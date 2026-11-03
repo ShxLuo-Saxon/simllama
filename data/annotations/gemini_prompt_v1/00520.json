@@ -1,0 +1,35 @@
+{
+  "Tile": "Story Mode - Birdo",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop, ending with a repeat sign at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme characterized by a bouncy swing melody and mf dynamics."
+    },
+    {
+      "BarRange": [
+        9,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section that drops to mp with a new melodic and harmonic structure."
+    }
+  ]
+}

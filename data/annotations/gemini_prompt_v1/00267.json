@@ -1,0 +1,43 @@
+{
+  "Tile": "Hammer Bros.",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body enclosed by |: and :| repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, marked as X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar main theme defining the loop section."
+    }
+  ]
+}

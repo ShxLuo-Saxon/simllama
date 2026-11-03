@@ -1,0 +1,85 @@
+{
+  "Tile": "Mini Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Ends with |:, functioning as the intro."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with ||, establishing the rhythmic ostinato."
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with ||, containing the main melodic phrases."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with ||, presenting a contrasting musical idea."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :|, concluding the loop block."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chords setting the mood."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged initial groove with the primary melody."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme featuring a new treble clef melody."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the core theme from section A."
+    }
+  ]
+}

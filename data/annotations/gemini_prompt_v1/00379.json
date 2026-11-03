@@ -1,0 +1,26 @@
+{
+  "Tile": "Climactic Duel!",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a repeat sign at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main looped rhythmic ostinato section."
+    }
+  ]
+}

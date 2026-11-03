@@ -1,0 +1,145 @@
+{
+  "Tile": "Zone Medley",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Inference": "Tree Zone theme, played linearly before the first loop."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Space Zone theme, a 4-bar loop section."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Macro Zone theme, a 12-bar loop section."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Pumpkin and Mario Zone themes, an 8-bar loop section."
+    },
+    {
+      "BarRange": [
+        33,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of Mario Zone theme, a 5-bar loop."
+    },
+    {
+      "BarRange": [
+        38,
+        38
+      ],
+      "Function": "Br",
+      "Inference": "A 1-bar transition with a fermata to Turtle Zone."
+    },
+    {
+      "BarRange": [
+        39,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Turtle Zone theme, a short 2-bar loop."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Ou",
+      "Inference": "Final fermata ending chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Tree Zone introduces the first primary theme of the medley."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Space Zone introduces a contrasting looped theme."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Macro Zone in 6/8 time introduces a new thematic idea."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Pumpkin and Mario Zone themes form the fourth section."
+    },
+    {
+      "BarRange": [
+        33,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "A distinct thematic continuation of the previous zones."
+    },
+    {
+      "BarRange": [
+        38,
+        38
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Placeholder for the transitional bridge."
+    },
+    {
+      "BarRange": [
+        39,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "F",
+      "Inference": "Turtle Zone theme in a fast tempo."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Placeholder for the outro chord."
+    }
+  ]
+}

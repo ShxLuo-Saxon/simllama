@@ -1,0 +1,43 @@
+{
+  "Tile": "Kitchen Island",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop, ends with || at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, ends with :| at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme in C major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme transposed to F major."
+    }
+  ]
+}

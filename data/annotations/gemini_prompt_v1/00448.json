@@ -1,0 +1,226 @@
+{
+  "Tile": "Ending Theme",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro phrase, sets swing feel, ends with ||"
+    },
+    {
+      "BarRange": [
+        3,
+        50
+      ],
+      "Function": "Ln",
+      "Inference": "Main swing theme with multiple phrases, ends with ||"
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Br",
+      "Inference": "Slower piano solo bridge, ends with ||"
+    },
+    {
+      "BarRange": [
+        59,
+        62
+      ],
+      "Function": "Br",
+      "Inference": "A tempo pickup back to intro riff, ends with ||"
+    },
+    {
+      "BarRange": [
+        63,
+        108
+      ],
+      "Function": "Ln",
+      "Inference": "Fast straight stride section, ends with ||"
+    },
+    {
+      "BarRange": [
+        109,
+        126
+      ],
+      "Function": "Ln",
+      "Inference": "Return to main swing theme, ends with ||"
+    },
+    {
+      "BarRange": [
+        127,
+        136
+      ],
+      "Function": "Ln",
+      "Inference": "Key change to Db, continuous theme, ends with ||"
+    },
+    {
+      "BarRange": [
+        137,
+        140
+      ],
+      "Function": "Ou",
+      "Inference": "Slower drawn-out outro chords, ends with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory 2-bar riff."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main melodic theme."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Second theme with ascending chordal accompaniment."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Contrasting theme with syncopated rhythm."
+    },
+    {
+      "BarRange": [
+        27,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Return of B theme, ending with the intro riff."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of A theme in octaves, ending with intro riff."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "New syncopated theme ending with intro riff."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Slower piano solo bridge."
+    },
+    {
+      "BarRange": [
+        59,
+        62
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "A tempo pickup bringing back the intro riff."
+    },
+    {
+      "BarRange": [
+        63,
+        78
+      ],
+      "Function": "Ln",
+      "Section": "E",
+      "Inference": "Fast stride section with driving melody."
+    },
+    {
+      "BarRange": [
+        79,
+        86
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Stride variation of the C theme."
+    },
+    {
+      "BarRange": [
+        87,
+        94
+      ],
+      "Function": "Ln",
+      "Section": "F",
+      "Inference": "New contrasting melodic idea in stride style."
+    },
+    {
+      "BarRange": [
+        95,
+        108
+      ],
+      "Function": "Ln",
+      "Section": "E",
+      "Inference": "Return and extension of the fast stride theme."
+    },
+    {
+      "BarRange": [
+        109,
+        118
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of main theme A, preceded by intro riff."
+    },
+    {
+      "BarRange": [
+        119,
+        126
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Return of D theme, ending with intro riff."
+    },
+    {
+      "BarRange": [
+        127,
+        136
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "D theme transposed to Db major."
+    },
+    {
+      "BarRange": [
+        137,
+        140
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Slow, drawn-out outro chords."
+    }
+  ]
+}

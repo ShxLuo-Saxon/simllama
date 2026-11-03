@@ -1,0 +1,77 @@
+{
+  "Tile": "Toad Town",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting the track, ends with ||."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ends with ||."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Third part of the loop body, ends with ||."
+    },
+    {
+      "BarRange": [
+        29,
+        30
+      ],
+      "Function": "Br",
+      "Inference": "A short transition section ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic section with main melody."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces new melodic ideas with a different voice."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A significant textural shift with block chords."
+    },
+    {
+      "BarRange": [
+        29,
+        30
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Short transitional bridge leading back to the beginning."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "Castle Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single 6-bar loop ending with a repeat sign :| at bar 6."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The loop consists of a single continuous musical idea and thematic section."
+    }
+  ]
+}

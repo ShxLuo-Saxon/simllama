@@ -1,0 +1,70 @@
+{
+  "Tile": "Slider",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "The track starts with a short intro, followed by a |: repeat sign at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body begins after the |: and ends with a :| at bar 54."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introductory phrase before the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The first main theme is introduced with a lively melody."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A repetition of the main theme A, ending with an ascending transitional phrase."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new, contrasting section with long sustained notes and descending chromatic movements."
+    },
+    {
+      "BarRange": [
+        43,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A highly active section characterized by a repeated 16th-note ostinato pattern and a climactic resolution."
+    }
+  ]
+}

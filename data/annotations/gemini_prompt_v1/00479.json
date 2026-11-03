@@ -1,0 +1,26 @@
+{
+  "Tile": "Room Before Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-6 end with :| indicating an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single tension theme building up over the 6 bars."
+    }
+  ]
+}

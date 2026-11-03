@@ -1,0 +1,52 @@
+{
+  "Tile": "Drip Drop Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "A |: repeat sign at the end of bar 4 marks the end of the intro."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a :| repeat sign at bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Ambient intro with sparse arpeggiated chords."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring a quiet, sparse melody over continued arpeggios."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Texture shifts to rhythmic block chords with a prominent left-hand melody."
+    }
+  ]
+}

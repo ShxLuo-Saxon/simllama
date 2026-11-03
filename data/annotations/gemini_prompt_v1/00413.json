@@ -1,0 +1,52 @@
+{
+  "Tile": "Moleville",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the primary rhythmic and melodic motif."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body containing the primary themes and repeat signs at the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro, sets up the rhythmic accompaniment."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme, which repeats at bar 11 with an added walking bassline."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section introducing a new motif, culminating in a loop turnaround."
+    }
+  ]
+}

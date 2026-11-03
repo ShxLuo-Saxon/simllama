@@ -1,0 +1,61 @@
+{
+  "Tile": "Captain Toad's Fiery Finale",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-5 serve as an intro, ending with a |: at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 6-33 form the main loop body, ending with :| at bar 33."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section establishing the rhythm."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary punchy motif."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B shifts to a lyrical, flowing melody."
+    },
+    {
+      "BarRange": [
+        22,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C builds tension to turn around to the loop."
+    }
+  ]
+}

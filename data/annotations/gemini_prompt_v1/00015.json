@@ -1,0 +1,35 @@
+{
+  "Tile": "Outside",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track consists of a single loop body ending with a repeat sign at bar 17."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes the mysterious ostinato pattern and harmonic foundation without a primary melody."
+    },
+    {
+      "BarRange": [
+        9,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces the main arpeggiated melody and explores more complex harmonic progressions."
+    }
+  ]
+}

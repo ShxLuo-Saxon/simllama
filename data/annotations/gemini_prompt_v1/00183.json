@@ -1,0 +1,52 @@
+{
+  "Tile": "Footlight Lane",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Introductory bar ending with |:"
+    },
+    {
+      "BarRange": [
+        2,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Placeholder for Intro"
+    },
+    {
+      "BarRange": [
+        2,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody in Eb major"
+    },
+    {
+      "BarRange": [
+        11,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulates to Gb major with new melodic ideas"
+    }
+  ]
+}

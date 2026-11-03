@@ -1,0 +1,52 @@
+{
+  "Tile": "Bean Valley",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A 1-bar intro with a pickup phrase ending with |:."
+    },
+    {
+      "BarRange": [
+        2,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup measure leading into the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme featuring the main motif, a contrasting phrase, and a restatement of the initial motif."
+    },
+    {
+      "BarRange": [
+        15,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with syncopated melodies and a descending sequence leading to the loop turnaround."
+    }
+  ]
+}

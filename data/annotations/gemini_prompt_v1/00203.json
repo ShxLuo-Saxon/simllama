@@ -1,0 +1,52 @@
+{
+  "Tile": "Koopa's Road",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a repeat start sign at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body enclosed by repeat signs, concluding at bar 40."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled X as a placeholder."
+    },
+    {
+      "BarRange": [
+        11,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme is introduced, concluding with a double barline at bar 26."
+    },
+    {
+      "BarRange": [
+        27,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new contrasting energetic theme begins at bar 27 and leads back to the loop start."
+    }
+  ]
+}

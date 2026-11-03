@@ -1,0 +1,60 @@
+{
+  "Tile": "Geno Awakens",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        22
+      ],
+      "Function": "In",
+      "Inference": "Intro section in 3/4 time, ending with || at bar 22."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "In",
+      "Inference": "Intro shifts to 4/4 time and B major, ending with |: at bar 30."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body with repeat sign :| at bar 38."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        22
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, placeholder X."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Second intro section, placeholder X."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main thematic section of the loop body."
+    }
+  ]
+}

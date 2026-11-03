@@ -1,0 +1,26 @@
+{
+  "Tile": "World 2 (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is an 8-bar loop enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main looping theme consisting of an 8-bar phrase."
+    }
+  ]
+}

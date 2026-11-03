@@ -1,0 +1,61 @@
+{
+  "Tile": "Heavy Metal Mecha-Bowser",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Starts the track, introduces the rhythm, and ends with a repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body containing the primary themes, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory ostinato pattern setting up the groove."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main melodic idea over a rhythmic ostinato."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting sustained melody, ending with a tension build-up."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main melodic idea, transposed down."
+    }
+  ]
+}

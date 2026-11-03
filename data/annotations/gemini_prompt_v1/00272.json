@@ -1,0 +1,43 @@
+{
+  "Tile": "Underwater Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory pickup ending with |: at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body that repeats, ending with :| at bar 14."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measures, labeled X as a non-thematic placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic material merged into a single section A to avoid over-segmentation of the 4-bar contrasting phrase."
+    }
+  ]
+}

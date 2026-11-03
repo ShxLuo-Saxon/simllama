@@ -1,0 +1,43 @@
+{
+  "Tile": "World 6",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 serves as an intro, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 2-9 form the main loop body, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measure, labeled as X."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main 8-bar loop theme, labeled as A."
+    }
+  ]
+}

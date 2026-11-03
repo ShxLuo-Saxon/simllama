@@ -1,0 +1,43 @@
+{
+  "Tile": "Here's Some Weapons!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Two-bar introduction setting the harmony and ending with a pickup."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the melody, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bars placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme, its transposed variation, and a closing sequence."
+    }
+  ]
+}

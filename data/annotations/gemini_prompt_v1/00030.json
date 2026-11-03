@@ -1,0 +1,44 @@
+{
+  "Tile": "Title Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop ending with a repeat sign at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main playful theme establishing the core motif in 4/4 time."
+    },
+    {
+      "BarRange": [
+        9,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section that builds tension and merges a short return of the main motif."
+    },
+    {
+      "BarRange": [
+        23,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Meter changes to 3/4, introducing a new flowing melody until the repeat."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Tile": "Marrymore",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        80
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body starting at bar 5 and ending at bar 80."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bars establishing the rhythm."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody introduced in Ab major."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New melodic idea introduced after a key change to Gb."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct transposition of the Section A melody into Gb major."
+    },
+    {
+      "BarRange": [
+        53,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new harmonized, chordal melodic section."
+    },
+    {
+      "BarRange": [
+        61,
+        71
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Descending sequences based on earlier motifs in Gb."
+    },
+    {
+      "BarRange": [
+        72,
+        80
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "Key returns to Ab, repeating motifs lead back to the loop."
+    }
+  ]
+}

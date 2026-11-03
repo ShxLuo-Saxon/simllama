@@ -1,0 +1,52 @@
+{
+  "Tile": "Underwater Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory waltz vamp establishing the key and rhythm before the melody."
+    },
+    {
+      "BarRange": [
+        5,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with a D.C. instruction to repeat the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp preceding the main thematic material."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary 16-bar waltz period containing antecedent and consequent melodic phrases."
+    },
+    {
+      "BarRange": [
+        21,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with a chromatic descending texture leading into the loop cadence."
+    }
+  ]
+}

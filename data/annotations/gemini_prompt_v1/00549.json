@@ -1,0 +1,35 @@
+{
+  "Tile": "Tall Tower",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track loops, as indicated by the repeat sign at the end of bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces a rhythmic chord motif that builds tension and resolves into a sustained note."
+    },
+    {
+      "BarRange": [
+        12,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new melodic idea, concluding with a short rhythmic turnaround back to the beginning."
+    }
+  ]
+}

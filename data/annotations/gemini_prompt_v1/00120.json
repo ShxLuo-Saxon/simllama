@@ -1,0 +1,52 @@
+{
+  "Tile": "Walking the Hot Desert",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Introductory section establishing the bass groove and setting the mood. Ends with |: at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body featuring evolving melodic ideas and shifting textures. Ends with :| at bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory groove building up the rhythm."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring a primary melody in Piano 1 over a steady rhythmic bass."
+    },
+    {
+      "BarRange": [
+        14,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Texture shifts significantly with new rhythmic patterns; melodies are traded between the pianos."
+    }
+  ]
+}

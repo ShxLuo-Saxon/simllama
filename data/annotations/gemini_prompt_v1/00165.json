@@ -1,0 +1,26 @@
+{
+  "Tile": "World 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1 to 8 are enclosed by |: and :|, indicating an infinite loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar thematic idea forming the core loop of the track."
+    }
+  ]
+}

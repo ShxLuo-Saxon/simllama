@@ -1,0 +1,43 @@
+{
+  "Tile": "Valley of Bowser",
+  "IsAdaptive": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a start repeat sign '|:' at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by repeat signs, ending with ':|' at bar 10."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the bass groove."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main thematic loop featuring sustained chords over the ostinato bassline."
+    }
+  ],
+  "IsStinger": false
+}

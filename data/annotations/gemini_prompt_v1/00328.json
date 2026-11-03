@@ -1,0 +1,77 @@
+{
+  "Tile": "Chompworks Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase establishing the groove, ending with a repeat sign |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body in F major, ending with a || at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body continues, modulating to G major, ending with a || at bar 29."
+    },
+    {
+      "BarRange": [
+        30,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "Turnaround section returning to F major, ending with :| to loop back."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, non-thematic."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary Theme A, presenting the main melodic motif."
+    },
+    {
+      "BarRange": [
+        15,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B, transposes the motif and introduces a contrasting rhythmic texture."
+    },
+    {
+      "BarRange": [
+        30,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic turnaround repeating the intro material to smoothly loop."
+    }
+  ]
+}

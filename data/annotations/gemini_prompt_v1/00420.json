@@ -1,0 +1,89 @@
+{
+  "Tile": "Sunken Ship",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous background loop ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main theme melody over a steady, repeating minor bass pattern."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The melody continues and develops in a higher register over shifting harmonies."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A highly rhythmic, syncopated chordal ostinato section lacking a single-note melody."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Features heavy, descending block chords and a progressing downward bassline."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "A sparse, ambient breakdown featuring long, sustained dissonant chords."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "F",
+      "Inference": "Introduces a repeating chordal ostinato over a newly active and driving bass pattern."
+    },
+    {
+      "BarRange": [
+        53,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "G",
+      "Inference": "Harmony shifts as a new melodic build begins over the continuing active bassline."
+    },
+    {
+      "BarRange": [
+        61,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "A brief, non-thematic turnaround phrase leading back to the beginning of the loop."
+    }
+  ]
+}

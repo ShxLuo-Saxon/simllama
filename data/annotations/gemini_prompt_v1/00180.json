@@ -1,0 +1,26 @@
+{
+  "Tile": "Course Clear! (Short Version)",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "A short 2-bar jingle played upon course completion."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections are marked with placeholder X."
+    }
+  ]
+}

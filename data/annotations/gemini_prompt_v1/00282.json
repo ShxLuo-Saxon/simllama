@@ -1,0 +1,61 @@
+{
+  "Tile": "Dark Forest (Normal)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Two-bar intro ending with ||."
+    },
+    {
+      "BarRange": [
+        3,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body from Segno to D.S., ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Two-bar intro ending with ||."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme in C minor, ending with || at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulates to A minor, introduces rhythmic and arpeggio motifs."
+    },
+    {
+      "BarRange": [
+        27,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Lyrical melody with expressive bass, leading to D.S. repeat."
+    }
+  ]
+}

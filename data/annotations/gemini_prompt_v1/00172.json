@@ -1,0 +1,26 @@
+{
+  "Tile": "World 8 (Part 2)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed in |: and :|, forms an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 16-bar build-up phrase forming the main loop."
+    }
+  ]
+}

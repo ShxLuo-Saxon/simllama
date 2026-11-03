@@ -1,0 +1,43 @@
+{
+  "Tile": "Gwarhar Lagoon",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A 2-bar introduction that establishes the accompaniment, ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, starting after the |: and ending with a :| repeat sign at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "An introductory vamp setting up the rhythmic and harmonic feel."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A unified 16-bar section containing the primary melody and a brief textural contrast, merged into one."
+    }
+  ]
+}

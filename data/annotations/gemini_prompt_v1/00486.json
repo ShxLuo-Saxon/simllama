@@ -1,0 +1,60 @@
+{
+  "Tile": "Yoshi's Island",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Ends with :| and marked 'fade in and repeat', serving as an intro loop."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Ln",
+      "Inference": "Ends with |:, forming a linear body played once before entering the main loop."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :|, representing the main infinite loop body of the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, marked as X per rules."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Linear section presenting the primary 8-bar melody and a 4-bar continuation."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Loop section introducing new chordal textures and recontextualizing previous motifs."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "The Castle Gates",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-8 form a complete continuous loop ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single primary theme comprising the entire looping track."
+    }
+  ]
+}

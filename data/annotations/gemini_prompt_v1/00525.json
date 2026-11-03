@@ -1,0 +1,60 @@
+{
+  "Tile": "Title Screen",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introduction section ending with a |: repeat sign at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "First loop body that ends with a :| repeat sign at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop body that ends with a :| repeat sign at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory non-thematic section."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme is introduced."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing arpeggiated chords and a new melody."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Tile": "On The Beach",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "4-bar intro with accompaniment vamp."
+    },
+    {
+      "BarRange": [
+        5,
+        53
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing multiple themes, ending with D.C."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "4-bar intro with accompaniment vamp."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "16-bar main theme introducing the primary melody."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "8-bar contrasting theme featuring a new rhythmic motif."
+    },
+    {
+      "BarRange": [
+        29,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "9-bar section building tension and ending with a full stop."
+    },
+    {
+      "BarRange": [
+        38,
+        53
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "4-bar vamp leading into a 12-bar return of the main theme."
+    }
+  ]
+}

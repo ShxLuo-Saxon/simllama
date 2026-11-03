@@ -1,0 +1,70 @@
+{
+  "Tile": "Athletic",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short 1-bar introduction ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        2,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary main theme A presented in D major."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Restatement of theme A with a closed tonic ending."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting B section that transitions and modulates."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of theme A transposed up to E major."
+    }
+  ]
+}

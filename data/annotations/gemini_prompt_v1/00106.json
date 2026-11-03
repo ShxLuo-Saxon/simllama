@@ -1,0 +1,128 @@
+{
+  "Tile": "Menu",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop begins, ends with || at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to C major, ends with || at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to E major, ends with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "16-bar section in Eb, ends with || at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to C major, ends with || at bar 48."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to F major, ends with || at bar 56."
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "Final loop section ending with D.C. instruction."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme A in E major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B in C major."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of theme A with fuller texture."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New extended 16-bar theme C in Eb major."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Return of theme B with added harmony."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "New theme D in F major."
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Repetition of theme D leading to D.C."
+    }
+  ]
+}

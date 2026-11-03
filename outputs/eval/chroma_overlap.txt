@@ -1,0 +1,5 @@
+Pairs: 3304 of 3304 (pairs with every score defined)
+  Spearman, CS-Chroma vs Chroma  : 0.796
+  Spearman, CS-Chroma vs Melody  : 0.424
+  Spearman, CS-Chroma vs Rhythm  : 0.295
+  Spearman, CS-Chroma vs Duration: 0.301

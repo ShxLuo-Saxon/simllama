@@ -1,0 +1,60 @@
+{
+  "Tile": "Special World 8 (5 Stars) (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with |: and establishes a rhythmic motif, ending with ||."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main melodic theme is introduced, ending with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to the rhythmic motif, ending with :| to loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Rhythmic motif introduced by V1 over a steady chord progression."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new lyrical melodic theme is presented by V2."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the primary rhythmic structure of Section A."
+    }
+  ]
+}

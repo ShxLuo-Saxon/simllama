@@ -1,0 +1,77 @@
+{
+  "Tile": "Slipsand Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A Segno mark appears at the start of bar 3."
+    },
+    {
+      "BarRange": [
+        3,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 29."
+    },
+    {
+      "BarRange": [
+        30,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "A D.S. and || appear at the end of bar 39."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measures establishing the groove."
+    },
+    {
+      "BarRange": [
+        3,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme is introduced over an ostinato."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting lyrical melody with new harmony."
+    },
+    {
+      "BarRange": [
+        30,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "An energetic, rhythmic chordal section builds to the loop."
+    }
+  ]
+}

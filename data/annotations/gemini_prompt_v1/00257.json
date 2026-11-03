@@ -1,0 +1,77 @@
+{
+  "Tile": "Title Theme",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Introductory descending runs stopping on a rest."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Inference": "Primary theme divided into two 8-bar phrases."
+    },
+    {
+      "BarRange": [
+        22,
+        32
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting theme with chromatic descending bass and cadence."
+    },
+    {
+      "BarRange": [
+        33,
+        36
+      ],
+      "Function": "Ou",
+      "Inference": "Outro featuring descending arpeggios to the final chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory descending runs stopping on a rest."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary theme divided into two 8-bar phrases."
+    },
+    {
+      "BarRange": [
+        22,
+        32
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting theme with chromatic descending bass and cadence."
+    },
+    {
+      "BarRange": [
+        33,
+        36
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro featuring descending arpeggios to the final chord."
+    }
+  ]
+}

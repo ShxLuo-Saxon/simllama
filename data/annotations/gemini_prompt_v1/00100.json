@@ -1,0 +1,53 @@
+{
+  "Tile": "Mario Power Tennis- Menu",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop ending with a repeat sign at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main thematic material and rhythmic motif."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A repetition of the previous section, modulating to C major at the end."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new melody in octaves and a contrasting texture."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A direct repeat of the B section, concluding the loop."
+    }
+  ]
+}

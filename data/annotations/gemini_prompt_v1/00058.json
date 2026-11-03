@@ -1,0 +1,94 @@
+{
+  "Tile": "Hollijolli Village",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 31."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Initial 4-bar progression and rhythm established."
+    },
+    {
+      "BarRange": [
+        6,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Main melody introduced over the repeating progression."
+    },
+    {
+      "BarRange": [
+        18,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the initial 4-bar section."
+    },
+    {
+      "BarRange": [
+        22,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting phrase with descending bassline and new melody."
+    }
+  ]
+}

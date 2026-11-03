@@ -1,0 +1,77 @@
+{
+  "Tile": "Crisp Climb Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase, ends with |: at bar 3"
+    },
+    {
+      "BarRange": [
+        4,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop, ends with || at bar 31"
+    },
+    {
+      "BarRange": [
+        32,
+        51
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, ends with || at bar 51"
+    },
+    {
+      "BarRange": [
+        52,
+        69
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop, ends with :| at bar 69"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic"
+    },
+    {
+      "BarRange": [
+        4,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A introduced"
+    },
+    {
+      "BarRange": [
+        32,
+        51
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repetition of Theme A with variation"
+    },
+    {
+      "BarRange": [
+        52,
+        69
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B introduced"
+    }
+  ]
+}

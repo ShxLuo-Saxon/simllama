@@ -1,0 +1,26 @@
+{
+  "Tile": "Looping Steps",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop body ending with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous theme throughout the loop body."
+    }
+  ]
+}

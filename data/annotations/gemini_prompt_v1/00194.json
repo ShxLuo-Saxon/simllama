@@ -1,0 +1,26 @@
+{
+  "Tile": "World Clear!",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "St",
+      "Inference": "Short 4-bar musical jingle."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger track, placeholder X is used."
+    }
+  ]
+}

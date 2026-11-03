@@ -1,0 +1,60 @@
+{
+  "Tile": "Special World 8",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with |: and introduces chord motif, ends with ||"
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody section, ends with ||"
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :| to loop back to the beginning"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Chord progression introduced without melody"
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new distinct melody is introduced"
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the initial chord progression of Section A"
+    }
+  ]
+}

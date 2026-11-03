@@ -1,0 +1,137 @@
+{
+  "Tile": "Title Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro, ends with a || double barline."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro percussion, ends with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        7,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section, ends with a ||."
+    },
+    {
+      "BarRange": [
+        27,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop section, ends with a ||."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Third loop section, ends with a ||."
+    },
+    {
+      "BarRange": [
+        51,
+        74
+      ],
+      "Function": "Lp",
+      "Inference": "Final loop section, ends with a :|."
+    },
+    {
+      "BarRange": [
+        75,
+        77
+      ],
+      "Function": "Ou",
+      "Inference": "Outro, ends with a |] barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro motif, placeholder X."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Percussion buildup, placeholder X."
+    },
+    {
+      "BarRange": [
+        7,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A, the primary melody with percussion breaks."
+    },
+    {
+      "BarRange": [
+        27,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B, a chromatic descending motif."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, a contrasting rhythmic section."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of Theme A melody continuously."
+    },
+    {
+      "BarRange": [
+        59,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D, a new melodic idea."
+    },
+    {
+      "BarRange": [
+        75,
+        77
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro with ritardando, placeholder X."
+    }
+  ]
+}

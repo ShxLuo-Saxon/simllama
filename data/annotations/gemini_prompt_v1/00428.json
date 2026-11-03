@@ -1,0 +1,35 @@
+{
+  "Tile": "Welcome to Booster Tower",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop body ending with a repeat sign at bar 20."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme, setting the rhythmic and harmonic foundation."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A repetition of the first theme's core melody, concluding with an extended variation."
+    }
+  ]
+}

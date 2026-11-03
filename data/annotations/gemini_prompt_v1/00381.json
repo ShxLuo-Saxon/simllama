@@ -1,0 +1,61 @@
+{
+  "Tile": "Honeylune Ridge",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending at the double barline at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, concluding with a D.C. command."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody with long sustained notes."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting melodic phrase ending at the double barline."
+    },
+    {
+      "BarRange": [
+        21,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats the primary melody with modified harmonic accompaniment."
+    },
+    {
+      "BarRange": [
+        33,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repeats the secondary melody, merging a brief turnaround phrase at the end."
+    }
+  ]
+}

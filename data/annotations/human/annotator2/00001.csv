@@ -1,0 +1,10 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+1,4,a,pr,a,pr,,,,,,,
+5,6,a,it,,,,,,,,,
+11,4,b,it,b,it,,,,,,,
+15,4,b,en,,,,,,,,,
+19,2,c,tr,,,,,,,,,
+21,4,b,it,b,mi,,,,,,,
+25,4,b,en,,,,,,,,,
+29,4,a,it,a,en,,,,,,,
+33,7,a,tr,,,,,,,,,

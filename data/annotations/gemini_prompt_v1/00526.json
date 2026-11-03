@@ -1,0 +1,52 @@
+{
+  "Tile": "1P Music Type A",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short pickup measure before the loop starts."
+    },
+    {
+      "BarRange": [
+        2,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body ending with a repeat sign at bar 33."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup notes."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary 16-bar melodic theme."
+    },
+    {
+      "BarRange": [
+        18,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting 16-bar theme featuring sustained notes."
+    }
+  ]
+}

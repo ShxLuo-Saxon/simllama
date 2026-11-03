@@ -1,0 +1,26 @@
+{
+  "Tile": "\"Underground Theme\"",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop body ending with a repeat sign at bar 6."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary underground theme motif, acting as a single cohesive section."
+    }
+  ]
+}

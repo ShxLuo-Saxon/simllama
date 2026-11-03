@@ -1,0 +1,61 @@
+{
+  "Tile": "Mystic Lake",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory 4 bars ending with a repeat sign |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a :| repeat sign at bar 37."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase establishing the initial mood."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Starts with a 4-bar vamp, followed by the first 8-bar main melody."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Melodic development with syncopated rhythms over similar harmony."
+    },
+    {
+      "BarRange": [
+        25,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sparse melodic phrase followed by an interlocking polyphonic tail returning to the loop."
+    }
+  ]
+}

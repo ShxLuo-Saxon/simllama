@@ -1,0 +1,26 @@
+{
+  "Tile": "Peach Misfortune",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "The track lacks a start repeat but ends with :|, indicating the entire piece loops."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The entire 9-bar looping sequence is merged into a single thematic section due to its short length."
+    }
+  ]
+}

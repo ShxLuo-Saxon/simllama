@@ -1,0 +1,61 @@
+{
+  "Tile": "Yoshi and Cookies",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 2, marking the intro."
+    },
+    {
+      "BarRange": [
+        3,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body of the track, ending with a :| at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory 2 bars establishing the main rhythmic and melodic motif."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged 6-bar first theme and 8-bar secondary theme to satisfy the minimum length rule."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting 8-bar section featuring a repeated rhythmic figure and ascending chords."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Descending chord progression leading into the intro motif to seamlessly loop back."
+    }
+  ]
+}

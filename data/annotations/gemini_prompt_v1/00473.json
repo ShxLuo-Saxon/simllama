@@ -1,0 +1,69 @@
+{
+  "Tile": "Flower Garden",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A 1-bar intro ending with a |: start-repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        30,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "The second part of the loop, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "1-bar introductory measure."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main melody A after a 4-bar accompaniment."
+    },
+    {
+      "BarRange": [
+        18,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repetition of the melody from the previous section."
+    },
+    {
+      "BarRange": [
+        30,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with syncopated chordal textures."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Tile": "Muda Kingdom",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro, labeled as X."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme A with syncopated rhythms."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B theme leading to the loop turnaround."
+    }
+  ]
+}

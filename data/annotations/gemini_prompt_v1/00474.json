@@ -1,0 +1,43 @@
+{
+  "Tile": "Goal & Score",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Starts the track, ending at the |: sign in bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with the :| sign in bar 19."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        4,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 16-bar cohesive thematic section."
+    }
+  ]
+}

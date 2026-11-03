@@ -1,0 +1,62 @@
+{
+  "Tile": "Boss Battle Theme - Mario+Luigi: Superstar Saga",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is enclosed in repeat signs |: and :|, forming a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main rhythmic chord motif and ascending lines."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the initial 8-bar section."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new driving melodic section with steady 16th notes."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting rhythmic staccato chords shifting the texture."
+    },
+    {
+      "BarRange": [
+        33,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Melody similar to B but transposed, ending with a 2-bar turnaround."
+    }
+  ]
+}

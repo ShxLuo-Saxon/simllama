@@ -1,0 +1,43 @@
+{
+  "Tile": "Kobito",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Sparse texture introduces the main rhythmic motif."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Ln",
+      "Inference": "Full accompaniment enters; the melody develops to a conclusive final hit."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "The primary thematic idea of this linear track."
+    }
+  ]
+}

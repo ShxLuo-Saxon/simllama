@@ -1,0 +1,61 @@
+{
+  "Tile": "Castle Area - Mario & Luigi Superstar Saga",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory chordal vamp establishing the rhythmic groove."
+    },
+    {
+      "BarRange": [
+        5,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body that ends with a repeat sign back to the melody."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp without a main melody."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody over the established groove."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Shares the same melodic core as the previous section but varies the ending."
+    },
+    {
+      "BarRange": [
+        21,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting chorus melody followed by a 4-bar non-thematic turnaround to the loop."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "Tile": "Shifty Boo Mansion",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section establishing the main motif."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body featuring the primary melody."
+    },
+    {
+      "BarRange": [
+        25,
+        28
+      ],
+      "Function": "Br",
+      "Inference": "Short bridge using the intro motif."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of the loop, ending with ||."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "Loop section in E minor, ending with ||."
+    },
+    {
+      "BarRange": [
+        53,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Final loop section in G# minor, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Non-thematic intro."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduced."
+    },
+    {
+      "BarRange": [
+        25,
+        28
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Non-thematic bridge."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of Theme A."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B in new key."
+    },
+    {
+      "BarRange": [
+        53,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, climactic finish."
+    }
+  ]
+}

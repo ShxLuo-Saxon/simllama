@@ -1,0 +1,95 @@
+{
+  "Tile": "Castle (Super Mario World) (Night)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Inference": "A |: at bar 1 and :| at bar 9 mark this atmospheric intro."
+    },
+    {
+      "BarRange": [
+        10,
+        15
+      ],
+      "Function": "Br",
+      "Inference": "Transitional phrase building tension, ending with || at bar 15."
+    },
+    {
+      "BarRange": [
+        16,
+        23
+      ],
+      "Function": "In",
+      "Inference": "Pre-loop intro in a new tempo leading up to the Segno."
+    },
+    {
+      "BarRange": [
+        24,
+        47
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body from Segno to D.S. at bar 47."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Atmospheric intro sequence."
+    },
+    {
+      "BarRange": [
+        10,
+        15
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Transition into the new tempo and key."
+    },
+    {
+      "BarRange": [
+        16,
+        23
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Arpeggiated pre-loop motif."
+    },
+    {
+      "BarRange": [
+        24,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced followed by an arpeggio break."
+    },
+    {
+      "BarRange": [
+        32,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme repeats with thicker harmony and a new consequent."
+    },
+    {
+      "BarRange": [
+        40,
+        47
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody resolving into the arpeggio turnaround."
+    }
+  ]
+}

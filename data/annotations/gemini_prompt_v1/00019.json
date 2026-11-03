@@ -1,0 +1,43 @@
+{
+  "Tile": "Talking with Ghosts",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 serves as an intro and ends with a |: sign."
+    },
+    {
+      "BarRange": [
+        2,
+        7
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ending with a :| sign at bar 7."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section uses placeholder X."
+    },
+    {
+      "BarRange": [
+        2,
+        7
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary repeating musical idea of the loop."
+    }
+  ]
+}

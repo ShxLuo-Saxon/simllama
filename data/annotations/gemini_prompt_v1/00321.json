@@ -1,0 +1,35 @@
+{
+  "Tile": "The Girl's Sadness",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        15
+      ],
+      "Function": "Lp",
+      "Inference": "The track ends with a :| at bar 15, indicating the entire track is a single loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces a slow melody with an echo effect and arpeggiated accompaniment."
+    },
+    {
+      "BarRange": [
+        10,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a contrasting, steady eighth-note accompaniment and block chords, resolving at the loop point."
+    }
+  ]
+}

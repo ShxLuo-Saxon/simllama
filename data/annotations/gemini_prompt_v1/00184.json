@@ -1,0 +1,61 @@
+{
+  "Tile": "Fuzzy Flood Mine",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a forward repeat mark at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by repeat marks, ending at bar 40."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory groove establishing the walking bass and sparse chords."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme featuring a syncopated jazz melody and steady walking bass."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture introducing long sustained piano chords over the bass."
+    },
+    {
+      "BarRange": [
+        29,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Mixed meter section with fast runs, merging a 4-bar turnaround at the end."
+    }
+  ]
+}

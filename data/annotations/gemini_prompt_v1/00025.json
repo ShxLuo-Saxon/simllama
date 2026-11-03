@@ -1,0 +1,35 @@
+{
+  "Tile": "Ghostly Piano",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a loop body ending with a :| at bar 20."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme establishing G minor (bars 1-4) and moving to C minor (bars 5-8)."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting material followed by a brief thematic return and a descending chromatic sequence."
+    }
+  ]
+}

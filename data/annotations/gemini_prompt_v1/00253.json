@@ -1,0 +1,78 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Ln",
+      "Inference": "A linear section representing the main theme, ending with || at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Br",
+      "Inference": "A transitional vamp that connects to the loop, ending with |: at bar 22."
+    },
+    {
+      "BarRange": [
+        23,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop section enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First phrase of the linear section, establishing the main theme."
+    },
+    {
+      "BarRange": [
+        9,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Shares the same rhythmic structure and melodic core as the previous phrase, ending in a cadence."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Non-thematic accompaniment vamp acting as a bridge."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "First thematic idea of the loop section."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting second thematic idea of the loop section."
+    }
+  ]
+}

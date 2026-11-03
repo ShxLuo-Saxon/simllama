@@ -1,0 +1,111 @@
+{
+  "Tile": "Page Themes",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Bounded by |: and ::, functioning as a continuous loop."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Bounded by ::, functioning as a continuous loop."
+    },
+    {
+      "BarRange": [
+        9,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Bounded by ::, functioning as a continuous loop."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Bounded by ::, functioning as a continuous loop."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Bounded by ::, functioning as a continuous loop."
+    },
+    {
+      "BarRange": [
+        31,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :|, functioning as a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the first distinct theme."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new theme with a shift in key and tempo."
+    },
+    {
+      "BarRange": [
+        9,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a new distinct theme."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Introduces a new distinct theme."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "Introduces a new distinct theme."
+    },
+    {
+      "BarRange": [
+        31,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "F",
+      "Inference": "Introduces the final distinct theme."
+    }
+  ]
+}

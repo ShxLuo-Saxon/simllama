@@ -1,0 +1,43 @@
+{
+  "Tile": "World 1 (The Plains)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign at the end of bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body enclosed by repeat signs, ending with :| at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First thematic section of the loop, introducing the primary melody."
+    }
+  ]
+}

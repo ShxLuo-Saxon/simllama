@@ -1,0 +1,43 @@
+{
+  "Tile": "Prologue",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Inference": "Introductory section, ends with a |: repeat sign at bar 9."
+    },
+    {
+      "BarRange": [
+        10,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with a :| repeat sign at bar 29."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material establishing the harmonic and rhythmic feel."
+    },
+    {
+      "BarRange": [
+        10,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main cohesive melodic theme of the loop section."
+    }
+  ]
+}

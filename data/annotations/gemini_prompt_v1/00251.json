@@ -1,0 +1,26 @@
+{
+  "Tile": "Battle with Wart",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-6 form an infinite loop body, indicated by the repeat sign at bar 6."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous theme that makes up the entire battle loop."
+    }
+  ]
+}

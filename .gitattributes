@@ -1,0 +1,6 @@
+# LF line endings everywhere, so the shell scripts run on Linux and macOS
+* text=auto eol=lf
+*.mp3 binary
+*.pt binary
+*.pdf binary
+*.png binary

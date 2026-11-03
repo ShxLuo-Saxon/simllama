@@ -1,0 +1,61 @@
+{
+  "Tile": "Barrel Volcano",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Bass establishes the groove, ending with |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with :| at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bass groove with no thematic melody."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Chordal rhythmic pattern introduced over the continuous bass groove."
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Arpeggio motifs and long melody notes develop into a lyrical theme."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Arpeggio motif returns and extends to 8 bars, concluding the loop."
+    }
+  ]
+}

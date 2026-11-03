@@ -1,0 +1,113 @@
+{
+  "Tile": "Deep Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body containing loop instructions and || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        56
+      ],
+      "Function": "Ln",
+      "Inference": "Linear written-out repeat of the loop sections."
+    },
+    {
+      "BarRange": [
+        57,
+        58
+      ],
+      "Function": "Ou",
+      "Inference": "Outro marked 'last time' ending the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the main ostinato pattern."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary lyrical melody in Piano 2."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Melody develops with a new harmonic progression and crescendo."
+    },
+    {
+      "BarRange": [
+        21,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Quasi harpsichord texture, merging a 4-bar ostinato turnaround."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Exact written-out repeat of Theme A."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Exact written-out repeat of Theme B."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Exact written-out repeat of the harpsichord texture."
+    },
+    {
+      "BarRange": [
+        57,
+        58
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Brief outro section concluding the track."
+    }
+  ]
+}

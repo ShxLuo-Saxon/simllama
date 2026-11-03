@@ -1,0 +1,77 @@
+{
+  "Tile": "Melody Pianissima Collection",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "Mansion theme loop, ends with :| at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        29
+      ],
+      "Function": "Ln",
+      "Inference": "Water theme linear section, ends with |] at bar 29."
+    },
+    {
+      "BarRange": [
+        30,
+        35
+      ],
+      "Function": "St",
+      "Inference": "SMB3 short cue theme, ends with |] at bar 35."
+    },
+    {
+      "BarRange": [
+        36,
+        43
+      ],
+      "Function": "Lp",
+      "Inference": "Battle theme loop, ends with :| at bar 43."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary loop for the Mansion theme."
+    },
+    {
+      "BarRange": [
+        18,
+        29
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Distinct Water theme with new meter and tempo."
+    },
+    {
+      "BarRange": [
+        30,
+        35
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder for the SMB3 cue."
+    },
+    {
+      "BarRange": [
+        36,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Battle theme introduces a new distinct loop."
+    }
+  ]
+}

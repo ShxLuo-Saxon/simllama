@@ -1,0 +1,9 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+1,4,a,it,a,it,,,,,,,"edge case, contemporary music, complex time signaure and interval movement, non-sync voice line. the current structure analysis mainly rely on texture (left hand keep the same pattern) and phrase articulation/rest (right hand)."
+5,4,a,en,,,,,,,,,
+9,3,b,it,b,mi,,,,,,,
+12,2,c,mi,,,,,,,,,
+14,3,d,en,,,,,,,,,
+17,4,e,it,c,en,,,,,,,
+21,4,f,mi,,,,,,,,,
+25,4,g,en,,,,,,,,,

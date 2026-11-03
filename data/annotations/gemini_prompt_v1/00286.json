@@ -1,0 +1,43 @@
+{
+  "Tile": "Birth",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "In",
+      "Inference": "Introductory section that sets the mood, ending with a repeat start sign."
+    },
+    {
+      "BarRange": [
+        8,
+        23
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the primary musical content, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section acts as a preamble before the main looped theme."
+    },
+    {
+      "BarRange": [
+        8,
+        23
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A continuous 16-bar melodic theme functioning as the core looped section."
+    }
+  ]
+}

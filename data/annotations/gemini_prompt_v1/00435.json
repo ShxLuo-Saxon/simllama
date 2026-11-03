@@ -1,0 +1,26 @@
+{
+  "Tile": "Delfino Police",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "St",
+      "Inference": "A short 7-bar event music ending with a final barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections use the placeholder X for thematic labeling."
+    }
+  ]
+}

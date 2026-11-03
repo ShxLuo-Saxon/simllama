@@ -1,0 +1,60 @@
+{
+  "Tile": "Overture",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Grand intro ending with a double barline || in bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        6
+      ],
+      "Function": "Br",
+      "Inference": "Tempo change and accompaniment setup ending with |: in bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Main melodic loop bounded by the repeat sign :| in bar 14."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section is assigned placeholder X."
+    },
+    {
+      "BarRange": [
+        5,
+        6
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge section is assigned placeholder X."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary thematic melody of the loop."
+    }
+  ]
+}

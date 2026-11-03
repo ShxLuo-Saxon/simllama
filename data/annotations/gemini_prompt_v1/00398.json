@@ -1,0 +1,61 @@
+{
+  "Tile": "Fight Against an Armed Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 is a pickup measure leading into the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body ending with a :| at bar 31."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup measure."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main rhythmic theme played twice, concluding with syncopated stabs."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting lyrical sweeping melody presented in two 4-bar sequences."
+    },
+    {
+      "BarRange": [
+        22,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Suspended descending chords followed by fast runs to conclude the loop."
+    }
+  ]
+}

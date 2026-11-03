@@ -1,0 +1,44 @@
+{
+  "Tile": "Bogmire Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a D.C. instruction creating an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 8 bars introduce an unsettling rhythmic pattern."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Melody enters with increased dynamic and syncopated phrasing."
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sustained chords transition into a sparse bass groove to loop."
+    }
+  ]
+}

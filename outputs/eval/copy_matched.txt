@@ -1,0 +1,11 @@
+M1 sim:high CS, all valid draws: middle 50% 0.559 to 0.751; real targets cut at the context's length
+
+  M1 high                      n  929 outputs, 157 units (49 pieces)   contain  12.4% [9.0%, 16.4%]   mostly   1.0%
+  M1 mid                       n  929 outputs, 157 units (49 pieces)   contain   6.0% [4.1%, 8.1%]   mostly   0.3%
+  M1 low                       n  929 outputs, 157 units (49 pieces)   contain   7.1% [4.6%, 9.9%]   mostly   0.5%
+  M4 no label                  n 1880 outputs, 157 units (49 pieces)   contain   7.0% [4.7%, 9.6%]   mostly   0.7%
+  real high (per pair)         n  142 outputs, 142 units (32 pieces)   contain  43.0% [23.3%, 66.4%]   mostly  32.4%
+  real mid (per pair)          n  156 outputs, 156 units (31 pieces)   contain  21.8% [11.1%, 37.3%]   mostly   9.6%
+  real low (per pair)          n  130 outputs, 130 units (25 pieces)   contain   6.9% [0.8%, 16.7%]   mostly   1.5%
+  real, CS matched to M1 high  n  224 outputs, 224 units (37 pieces)   contain  17.4% [9.7%, 27.5%]   mostly   7.1%
+  M1 high minus matched real    -5.1%  [-16.1%, +4.2%]

@@ -1,0 +1,30 @@
+1. Stimulus gaps, high - low, 30 trials, 10 s heard
+  Melody  mean +0.0098 [-0.0150, +0.0346]  positive in 12 of 30
+  CS      mean -0.0402 [-0.1006, +0.0225]  positive in 12 of 30
+
+2. Power
+  SE of the label effect 2.47 points; minimum detectable effect (80% power, two-sided 0.05) = 2.80 x SE = 6.9 points
+
+3. Choice rate, untied pairs
+  0.538 of 595; two-way cluster 95% interval [0.422, 0.654]
+
+4. Melody robustness
+  clips with Melody = 0: 28 of 60; clips quoting 8+ notes: 4
+  quoting clips by label (review round 7, R18): {'high': 2, 'low': 2}
+  all clips              clips 60  Melody +6.73 per SD [+4.60, +8.86]  p 0.0000
+  without Melody = 0     clips 32  Melody +7.02 per SD [+3.92, +10.13]  p 0.0000
+  without quoting clips  clips 56  Melody +3.61 per SD [+1.40, +5.83]  p 0.0014
+
+5. Every measure without the 4 quoting clips (Holm over 12)
+  Melody-Intervals  +4.09 per SD [+2.00, +6.18]  p 0.0001  Holm 0.0015
+  Density           +4.01 per SD [+1.67, +6.35]  p 0.0008  Holm 0.0079
+  Melody-Contour    +3.71 per SD [+1.61, +5.82]  p 0.0005  Holm 0.0059
+  Melody            +3.61 per SD [+1.40, +5.83]  p 0.0014  Holm 0.0122
+  Register          +2.83 per SD [+0.62, +5.04]  p 0.0122  Holm 0.0973
+  Melody-Alignment  +2.63 per SD [+0.30, +4.95]  p 0.0270  Holm 0.1887
+  CS (ours)         +2.44 per SD [+0.09, +4.80]  p 0.0419  Holm 0.2511
+  Rhythm-Grid       +2.17 per SD [-0.14, +4.47]  p 0.0656  Holm 0.3281
+  Duration          +1.90 per SD [-0.49, +4.28]  p 0.1195  Holm 0.4782
+  Rhythm            +1.76 per SD [-0.56, +4.08]  p 0.1372  Holm 0.4782
+  Rhythm-Overlap    +1.59 per SD [-0.76, +3.93]  p 0.1849  Holm 0.4782
+  Chroma            +1.06 per SD [-1.30, +3.43]  p 0.3788  Holm 0.4782

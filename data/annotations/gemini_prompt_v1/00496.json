@@ -1,0 +1,79 @@
+{
+  "Tile": "Monsoon Jungle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short pickup bar acting as an intro, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        2,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing multiple themes, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A short pickup bar before the loop begins."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces Theme A with a calm rhythmic melody."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces Theme B with a contrasting musical motif."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces Theme C, distinctively featuring triplet rhythms."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to Theme A with slight melodic and harmonic variations."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Returns to Theme B, bringing the track to the loop point."
+    }
+  ]
+}

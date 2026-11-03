@@ -1,0 +1,52 @@
+{
+  "Tile": "Swimming",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body that ends with a :| repeat sign at bar 19."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material setting the accompaniment and harmonic tone."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme is played, then repeated an octave higher."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting melodic idea before returning to the A motif."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Tile": "Boss Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the groove, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :| at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, non-thematic."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic theme including an 8-bar phrase and a 4-bar transposed variation."
+    }
+  ]
+}

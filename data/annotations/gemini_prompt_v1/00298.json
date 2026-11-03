@@ -1,0 +1,94 @@
+{
+  "Tile": "Flying Mario",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Introductory section establishing the tempo and mood, ending with ||."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Inference": "Primary melody section, lyrical and sweeping, ending with ||."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting rhythmic section with accented chords, ending with ||."
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Ln",
+      "Inference": "Ascending chromatic progression section, accelerating and ending with ||."
+    },
+    {
+      "BarRange": [
+        38,
+        45
+      ],
+      "Function": "Ou",
+      "Inference": "Repeats the chromatic ascent at a faster tempo, fading to ppp."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrases, non-thematic."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main sweeping thematic material."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "New rhythmic and harmonic idea introduced."
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Distinct chromatic rising sequence."
+    },
+    {
+      "BarRange": [
+        38,
+        45
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section based on the previous chromatic sequence."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Tile": "Marion Clubhouse",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop body, ending with a repeat sign at bar 26."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme with a steady accompaniment, presented as a 16-bar repeated period."
+    },
+    {
+      "BarRange": [
+        17,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme featuring 16th-note bass arpeggios, concluding with a 4-bar chordal turnaround."
+    }
+  ]
+}

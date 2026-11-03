@@ -1,0 +1,17 @@
+20 listeners, 60 clips, first 10 s
+slope: intercepts only; slope_rs: with a by-listener random slope
+
+                   slope       p  slope_rs   lo_rs   hi_rs    p_rs  converged    holm  holm_rs
+measure                                                                                       
+Melody            6.7294  0.0000    6.7077  4.3658  9.0496  0.0000      False  0.0000   0.0000
+Chroma            2.8535  0.0352    2.8548  0.1984  5.5111  0.0352      False  0.2110   0.2110
+Rhythm            2.6895  0.0536    2.6896 -0.0993  5.4785  0.0587       True  0.2238   0.2349
+Duration          1.5252  0.2808    1.5257 -1.2525  4.3039  0.2818      False  0.4416   0.4579
+CS (ours)         3.4431  0.0086    3.3665  0.4545  6.2785  0.0235      False  0.0603   0.1642
+Melody-Contour    5.0466  0.0000    5.0449  2.6411  7.4487  0.0000      False  0.0003   0.0004
+Melody-Intervals  5.6354  0.0000    5.6013  3.1548  8.0477  0.0000      False  0.0000   0.0001
+Melody-Alignment  2.8902  0.0448    2.8903  0.0486  5.7320  0.0462       True  0.2238   0.2310
+Rhythm-Overlap    1.7058  0.2208    1.7059 -1.0733  4.4851  0.2290       True  0.4416   0.4579
+Rhythm-Grid       2.4188  0.0832    2.4188 -0.3806  5.2182  0.0904       True  0.2496   0.2711
+Register          3.7304  0.0031    3.7277  1.1105  6.3450  0.0052      False  0.0247   0.0420
+Density           4.1258  0.0023    4.1599  1.7238  6.5959  0.0008      False  0.0211   0.0074

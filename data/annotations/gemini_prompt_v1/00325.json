@@ -1,0 +1,70 @@
+{
+  "Tile": "Beta Song 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting after |: and ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First presentation of the main theme."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the main theme with octave doubling in the melody."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new melodic motif and modified rhythmic structure."
+    },
+    {
+      "BarRange": [
+        27,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting section characterized by syncopated block chords."
+    }
+  ]
+}

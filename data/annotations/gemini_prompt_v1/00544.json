@@ -1,0 +1,61 @@
+{
+  "Tile": "Games of Happiness",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with a |: repeat sign at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body ending with a :| repeat sign at bar 34."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introduction establishing the rapid ostinato pattern."
+    },
+    {
+      "BarRange": [
+        3,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring staccato motifs, syncopated chords, and rapid melodic runs."
+    },
+    {
+      "BarRange": [
+        14,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with a continuous, lyrical melody over a sequential chord progression."
+    },
+    {
+      "BarRange": [
+        25,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Returns to the intro's ostinato riff, eventually adding a walking bassline to loop back."
+    }
+  ]
+}

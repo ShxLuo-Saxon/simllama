@@ -1,0 +1,26 @@
+{
+  "Tile": "Game Select",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop ending with a repeat sign at bar 12."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single cohesive 12-bar ragtime theme, consolidated due to the 8-bar minimum merging rule."
+    }
+  ]
+}

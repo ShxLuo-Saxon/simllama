@@ -1,0 +1,43 @@
+{
+  "Tile": "Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro ends with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Loop section ends with a :| repeat sign at bar 20."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section is labeled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main 16-bar primary theme section."
+    }
+  ]
+}

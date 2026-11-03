@@ -1,0 +1,94 @@
+{
+  "Tile": "Yoshi and Baby Mario's Court",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bass and piano vamp establish the groove before melody enters."
+    },
+    {
+      "BarRange": [
+        5,
+        18
+      ],
+      "Function": "Ln",
+      "Inference": "Main melody is introduced, played twice with slight variation."
+    },
+    {
+      "BarRange": [
+        19,
+        25
+      ],
+      "Function": "Br",
+      "Inference": "Contrasting transition with sustained chords builds tension."
+    },
+    {
+      "BarRange": [
+        26,
+        34
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the main melody, ending with a strong cadence."
+    },
+    {
+      "BarRange": [
+        35,
+        43
+      ],
+      "Function": "Ou",
+      "Inference": "Bridge material is reused to build up to final hits."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp sets the rhythmic foundation."
+    },
+    {
+      "BarRange": [
+        5,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A features the primary syncopated melody."
+    },
+    {
+      "BarRange": [
+        19,
+        25
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge builds harmonic tension with chromaticism."
+    },
+    {
+      "BarRange": [
+        26,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A returns, concluding with a full cadence."
+    },
+    {
+      "BarRange": [
+        35,
+        43
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro utilizes bridge material for a dramatic finish."
+    }
+  ]
+}

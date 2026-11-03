@@ -1,0 +1,196 @@
+{
+  "Tile": "The Journey Home",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro builds up and ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Ln",
+      "Inference": "Primary melodic theme presented."
+    },
+    {
+      "BarRange": [
+        21,
+        29
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting section with new texture, ends with :|"
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Ln",
+      "Inference": "Calmer middle section with new melody."
+    },
+    {
+      "BarRange": [
+        38,
+        45
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the primary theme."
+    },
+    {
+      "BarRange": [
+        46,
+        54
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the contrasting section."
+    },
+    {
+      "BarRange": [
+        55,
+        70
+      ],
+      "Function": "Ln",
+      "Inference": "Full restatement of the primary theme."
+    },
+    {
+      "BarRange": [
+        71,
+        72
+      ],
+      "Function": "Br",
+      "Inference": "Short transitional bridge, ends with ||."
+    },
+    {
+      "BarRange": [
+        73,
+        74
+      ],
+      "Function": "Br",
+      "Inference": "Bridge repeats modulated in the new key."
+    },
+    {
+      "BarRange": [
+        75,
+        89
+      ],
+      "Function": "Ln",
+      "Inference": "Modulated primary theme pushes to the end."
+    },
+    {
+      "BarRange": [
+        90,
+        93
+      ],
+      "Function": "Ou",
+      "Inference": "Brillante grand finale outro ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main Theme A."
+    },
+    {
+      "BarRange": [
+        21,
+        29
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Theme B introduces a new rhythmic motif."
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Theme C introduces a calmer, fundamentally new idea."
+    },
+    {
+      "BarRange": [
+        38,
+        45
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Direct repeat of Theme A."
+    },
+    {
+      "BarRange": [
+        46,
+        54
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Direct repeat of Theme B."
+    },
+    {
+      "BarRange": [
+        55,
+        70
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Full restatement of Theme A."
+    },
+    {
+      "BarRange": [
+        71,
+        72
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge, non-thematic."
+    },
+    {
+      "BarRange": [
+        73,
+        74
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge continues, non-thematic."
+    },
+    {
+      "BarRange": [
+        75,
+        89
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A played in a new key."
+    },
+    {
+      "BarRange": [
+        90,
+        93
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section, non-thematic."
+    }
+  ]
+}

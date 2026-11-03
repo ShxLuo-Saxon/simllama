@@ -1,0 +1,43 @@
+{
+  "Tile": "Bogey",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 serves as the intro and ends with |:"
+    },
+    {
+      "BarRange": [
+        2,
+        3
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 2 to 3 form the looping section ending with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        3
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main rhythmic and melodic idea of the loop."
+    }
+  ]
+}

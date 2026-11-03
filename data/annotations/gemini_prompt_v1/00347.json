@@ -1,0 +1,69 @@
+{
+  "Tile": "World 1 & 2",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Bar 2 ends with a repeat sign |:"
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with :| at bar 22"
+    },
+    {
+      "BarRange": [
+        23,
+        24
+      ],
+      "Function": "Ou",
+      "Inference": "Coda/outro section ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introductory material"
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary 8-bar melodic theme"
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody and buildup returning to the start"
+    },
+    {
+      "BarRange": [
+        23,
+        24
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Brief ending coda"
+    }
+  ]
+}

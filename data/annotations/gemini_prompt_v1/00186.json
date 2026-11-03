@@ -1,0 +1,26 @@
+{
+  "Tile": "Grand Finale",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "St",
+      "Inference": "The entire 10-bar track is a short grand finale fanfare."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "The entire stinger track acts as a single musical event, labeled as X."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "Special World 5",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is enclosed within repeat barlines |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous rhythmic and melodic loop without significant contrast."
+    }
+  ]
+}

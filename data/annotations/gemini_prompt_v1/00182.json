@@ -1,0 +1,43 @@
+{
+  "Tile": "Final Curtain for Meowser",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Starts ff, decrescendos, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping section enclosed by repeat signs, ending with :| at bar 12."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, labelled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "An 8-bar main thematic section representing the primary loop body."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "Tile": "Final Battle with Bowser",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Dramatic opening hits ending with a double barline at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Tempo increases, introducing the rhythmic bass ostinato, ending with |:."
+    },
+    {
+      "BarRange": [
+        9,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body of the battle theme, ending with :| at bar 48."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Dramatic opening hits."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Bass ostinato buildup."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme in D minor, followed by a transposition to F minor."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting sustained melody with legato phrasing."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Driving, staccato 8th-note sequential build-up."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Climactic 3/4 chords followed by a 4/4 turnaround ostinato."
+    }
+  ]
+}

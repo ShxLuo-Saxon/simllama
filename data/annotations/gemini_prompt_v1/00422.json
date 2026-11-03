@@ -1,0 +1,43 @@
+{
+  "Tile": "Tadpole Pond",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Contains the pickup notes before the repeat start sign."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body ending with the repeat end sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary 8-bar melodic theme of the loop."
+    }
+  ]
+}

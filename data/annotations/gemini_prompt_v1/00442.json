@@ -1,0 +1,70 @@
+{
+  "Tile": "Secret Course",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro ending with a repeat sign at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with a repeat sign at bar 39."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        4,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main underworld motifs 1 and 2."
+    },
+    {
+      "BarRange": [
+        16,
+        23
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Ascending motif leading back to the main motif."
+    },
+    {
+      "BarRange": [
+        24,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Finger snap break introducing a new melody."
+    },
+    {
+      "BarRange": [
+        32,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Ascending motif concluding with the new melody."
+    }
+  ]
+}

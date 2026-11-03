@@ -1,0 +1,52 @@
+{
+  "Tile": "Gateway Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body that ends with a :| repeat sign at bar 41."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro establishing the primary accompanying motif."
+    },
+    {
+      "BarRange": [
+        5,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary floating theme in Ab major."
+    },
+    {
+      "BarRange": [
+        22,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulating sequence section ending with a short transition to the loop start."
+    }
+  ]
+}

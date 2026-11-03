@@ -1,0 +1,77 @@
+{
+  "Tile": "World S",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Br",
+      "Inference": "A :| appears at the end of bar 41."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measure leading to the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main rhythmic theme section in G major."
+    },
+    {
+      "BarRange": [
+        21,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting dolce legato theme in C major."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "1-bar connector to loop back to bar 2."
+    }
+  ]
+}

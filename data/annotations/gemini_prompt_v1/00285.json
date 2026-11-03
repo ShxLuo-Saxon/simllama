@@ -1,0 +1,70 @@
+{
+  "Tile": "Beach Bowl Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short 1-bar introduction ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bar."
+    },
+    {
+      "BarRange": [
+        2,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces Theme A after a 2-bar lead-in, ending with || at bar 11."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct iteration of Theme A, ending with || at bar 19."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new melody (Theme B), ending with || at bar 27."
+    },
+    {
+      "BarRange": [
+        28,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repetition of Theme B, extended with a 4-bar turnaround back to the loop."
+    }
+  ]
+}

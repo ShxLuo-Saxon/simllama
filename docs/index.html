@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SimLlama Examples</title>
+<style>
+:root { --bg:#fafaf8; --surface:#ffffff; --ink:#1d1d1b; --muted:#5f5f5a; --line:#e3e2dc;
+  --hi:#1f6f5c; --hi-bg:#e3f1ec; --lo:#7a5a1d; --lo-bg:#f6eedd; --link:#1f5f8f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161615; --surface:#1f1f1d;
+  --ink:#ecebe6; --muted:#a3a29b; --line:#34332f; --hi:#7fd1b9; --hi-bg:#1c3a32; --lo:#e2bf7a;
+  --lo-bg:#3a3020; --link:#8cc4f0; } }
+:root[data-theme="dark"] { --bg:#161615; --surface:#1f1f1d; --ink:#ecebe6; --muted:#a3a29b; --line:#34332f;
+  --hi:#7fd1b9; --hi-bg:#1c3a32; --lo:#e2bf7a; --lo-bg:#3a3020; --link:#8cc4f0; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+h1 { font-size:1.9rem; line-height:1.2; margin:0 0 8px; }
+h2 { font-size:1.2rem; margin:40px 0 12px; }
+h3 { font-size:1rem; margin:0 0 12px; display:flex; flex-wrap:wrap; gap:4px 12px; align-items:baseline; }
+.sub { font-weight:400; color:var(--muted); font-size:.9rem; }
+p { margin:0 0 12px; }
+a { color:var(--link); }
+.lead { color:var(--muted); }
+.links { display:flex; flex-wrap:wrap; gap:8px 20px; margin:16px 0 0; }
+.card { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:16px; margin:0 0 16px; }
+.clip { margin:0 0 12px; }
+.clip-head { display:flex; justify-content:space-between; gap:12px; margin:0 0 4px; font-size:.9rem; }
+.mean { color:var(--muted); font-variant-numeric:tabular-nums; }
+.tag { font:600 .8rem ui-monospace,Consolas,monospace; padding:1px 8px; border-radius:4px; }
+.tag.hi { color:var(--hi); background:var(--hi-bg); }
+.tag.ref { color:var(--muted); background:var(--line); }
+.tag.lo { color:var(--lo); background:var(--lo-bg); }
+audio { width:100%; }
+code { font:.9em ui-monospace,Consolas,monospace; }
+.note { color:var(--muted); font-size:.9rem; margin:4px 0 0; }
+ul { padding-left:20px; }
+</style>
+</head>
+<body>
+<main>
+<h1>SimLlama: generating game music at a requested similarity</h1>
+<p class="lead">Examples from the listening test of "How Close to the Theme? Similarity-Label Conditioning for Game Music Generation" (Luo, Guo, Shi, Reiss; submitted to Computer Music Journal).</p>
+<p>SimLlama continues a section of Super Mario music, the reference, with a new section at a requested similarity: <code>sim:high</code>, <code>sim:mid</code> or <code>sim:low</code>. In each example below, both generated clips continue the same reference, one with <code>sim:high</code> and one with a lower label. Listeners rated each clip's similarity to the reference from 0 to 100.</p>
+<div class="links"><a href="https://github.com/ShxLuo-Saxon/simllama">Code</a><a href="https://huggingface.co/shangxuan-saxon/SimLlama">Model checkpoint</a><a href="https://github.com/ShxLuo-Saxon/supermario-structure-dataset">Dataset</a></div>
+
+<h2>The clips</h2>
+<p>All clips are solo piano, rendered from MIDI. The generated clips are about 10 seconds long. The reference clips, about 15 seconds, are excerpts of fan transcriptions from NinSheetMusic of music composed for Nintendo games; they are shown here only to illustrate the comparison, are not part of the released dataset, and are not covered by its licence or the code's.</p>
+
+<h2>How the examples were chosen</h2>
+<ul>
+<li>Of 26 listeners, 20 passed both attention checks; only their ratings count.</li>
+<li>For each of the 30 test trials, we counted the share of these listeners who rated the <code>sim:high</code> clip as more similar to the reference.</li>
+<li>Examples 1 to 5 are the trials with the highest share, one per reference. Example 6 is the trial with the lowest share.</li>
+</ul>
+<p>The selection shows clear cases; across all trials the effect is smaller. The paper reports it in full.</p>
+
+<h2>Listeners agreed with the label</h2>
+<article class="card"><h3>Example 1<span class="sub">100% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial03_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 47</span></div><audio controls preload="none" src="audio/Trial03_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 16</span></div><audio controls preload="none" src="audio/Trial03_B.mp3"></audio></div></article><article class="card"><h3>Example 2<span class="sub">95% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial24_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 45</span></div><audio controls preload="none" src="audio/Trial24_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 6</span></div><audio controls preload="none" src="audio/Trial24_B.mp3"></audio></div></article><article class="card"><h3>Example 3<span class="sub">90% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial01_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 48</span></div><audio controls preload="none" src="audio/Trial01_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 27</span></div><audio controls preload="none" src="audio/Trial01_B.mp3"></audio></div></article><article class="card"><h3>Example 4<span class="sub">90% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial19_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 45</span></div><audio controls preload="none" src="audio/Trial19_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 28</span></div><audio controls preload="none" src="audio/Trial19_B.mp3"></audio></div></article><article class="card"><h3>Example 5<span class="sub">85% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial09_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 15</span></div><audio controls preload="none" src="audio/Trial09_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 39</span></div><audio controls preload="none" src="audio/Trial09_B.mp3"></audio></div></article>
+<h2>Listeners disagreed with the label</h2>
+<article class="card"><h3>Example 6<span class="sub">5% of listeners rated the <code>sim:high</code> clip closer</span></h3><div class="clip"><div class="clip-head"><span class="tag ref">reference</span></div><audio controls preload="none" src="audio/Trial05_ref.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag lo">sim:low</span><span class="mean">mean rating 42</span></div><audio controls preload="none" src="audio/Trial05_A.mp3"></audio></div><div class="clip"><div class="clip-head"><span class="tag hi">sim:high</span><span class="mean">mean rating 16</span></div><audio controls preload="none" src="audio/Trial05_B.mp3"></audio></div><p class=note>Listeners rated the <code>sim:low</code> or <code>sim:mid</code> clip as closer here.</p></article>
+<p class="note">Generated clips: CC BY 4.0, from the dataset repository. Reference clips: excerpts for illustration, rights with their owners. Page generated by the authors' release scripts.</p>
+</main>
+<script>
+document.addEventListener("play", e => {
+  document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); });
+}, true);
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory 2 bars establishing the accompaniment pattern before the loop begins."
+    },
+    {
+      "BarRange": [
+        3,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary musical content, enclosed by repeat marks."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro setting up the harmony and texture."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main theme with a delicate piano texture, ending at the double barline."
+    },
+    {
+      "BarRange": [
+        11,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Restatement of the main theme with fuller chords and forte dynamics, ending at the loop mark."
+    }
+  ]
+}

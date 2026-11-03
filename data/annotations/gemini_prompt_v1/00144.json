@@ -1,0 +1,43 @@
+{
+  "Tile": "Main Theme (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-4 serve as an introduction ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 5-20 form the main loop body, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, designated with placeholder X."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 16-bar main theme comprising antecedent and consequent phrases."
+    }
+  ]
+}

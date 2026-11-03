@@ -1,0 +1,60 @@
+{
+  "Tile": "Overworld",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "A |: repeat sign appears at the end of bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "A || double barline appears at the end of bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "A :| repeat sign appears at the end of bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase leading into the main loop."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme is established."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing a new motif and texture."
+    }
+  ]
+}

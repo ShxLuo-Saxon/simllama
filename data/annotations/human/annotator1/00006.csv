@@ -1,0 +1,10 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+0,2,a,it,a,it,a,pr,,,,,"section boundary seems also valid at 9 and 25, the texture keep similar"
+2,4,b,it,b,it,b,it,,,,,
+6,4,b,en,,,,,,,,,
+10,4,c,it,c,en,,,,,,,
+14,4,c,en,,,,,,,,,
+18,4,d,it,d,it,c,en,,,,,
+22,4,d,en,,,,,,,,,
+26,4,e,it,e,en,,,,,,,
+30,4,e,en,,,,,,,,,

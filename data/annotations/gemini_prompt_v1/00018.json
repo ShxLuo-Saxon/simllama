@@ -1,0 +1,43 @@
+{
+  "Tile": "Stage Clear",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        7
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, placeholder X."
+    },
+    {
+      "BarRange": [
+        4,
+        7
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main looping motif."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "Sticky Situation",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 52."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic and melodic core."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new melodic idea and harmony."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct return to the primary melody."
+    },
+    {
+      "BarRange": [
+        33,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a contrasting texture with chordal melodies."
+    }
+  ]
+}

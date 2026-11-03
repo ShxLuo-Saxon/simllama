@@ -1,0 +1,26 @@
+{
+  "Tile": "Toad House",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Track consists of a single loop ending with a repeat sign at bar 6."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only thematic section of the track."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "Tile": "Piranha Plant's Lullaby - Piano",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Ln",
+      "Inference": "A || appears at the end of bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Ln",
+      "Inference": "A || appears at the end of bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Ln",
+      "Inference": "A || appears at the end of bar 48."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Ln",
+      "Inference": "A || appears at the end of bar 64."
+    },
+    {
+      "BarRange": [
+        65,
+        78
+      ],
+      "Function": "Ln",
+      "Inference": "A || appears at the end of bar 78."
+    },
+    {
+      "BarRange": [
+        79,
+        83
+      ],
+      "Function": "Ou",
+      "Inference": "A |] appears at the end of bar 83."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Introduces the primary lyrical melodic theme A."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Restates theme A with slight harmonic variations."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Introduces contrasting theme B with repeated block chords."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Returns to the main melodic theme A."
+    },
+    {
+      "BarRange": [
+        65,
+        78
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Final statement of theme A ending with a ritardando."
+    },
+    {
+      "BarRange": [
+        79,
+        83
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section marked by a slower tempo and meter change."
+    }
+  ]
+}

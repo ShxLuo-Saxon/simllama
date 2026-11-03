@@ -1,0 +1,43 @@
+{
+  "Tile": "The Road is Full of Dangers",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The primary loop body begins, ending at a double barline in bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "A contrasting segment continues the loop, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main motif is introduced, followed by a new counter-melody in the same texture."
+    },
+    {
+      "BarRange": [
+        13,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a distinct, heavily articulated rhythmic texture before looping."
+    }
+  ]
+}

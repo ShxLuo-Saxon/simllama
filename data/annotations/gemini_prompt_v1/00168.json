@@ -1,0 +1,43 @@
+{
+  "Tile": "World 6",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 ends with |: acting as an intro."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :| at bar 9."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Single 8-bar musical theme for the loop."
+    }
+  ]
+}

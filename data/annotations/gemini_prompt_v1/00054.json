@@ -1,0 +1,79 @@
+{
+  "Tile": "Boss Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a repeat sign |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a repeat sign :| at bar 46."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short dramatic intro."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduced with an ostinato bass."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Key changes to F with a new bold chordal motif."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to Theme A in the original key of C."
+    },
+    {
+      "BarRange": [
+        27,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A 4-bar build-up leading into a new sweeping melody."
+    },
+    {
+      "BarRange": [
+        39,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Return to Theme B with thicker chords, concluding the loop."
+    }
+  ]
+}

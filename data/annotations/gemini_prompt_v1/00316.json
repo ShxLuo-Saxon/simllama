@@ -1,0 +1,52 @@
+{
+  "Tile": "Speedy Comet",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "1-bar intro pick-up measure ending with |:"
+    },
+    {
+      "BarRange": [
+        2,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro pick-up measure."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "C#m ostinato bass with evolving melody."
+    },
+    {
+      "BarRange": [
+        18,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulates to Cmin; ends with a 6-bar 5/4 crescendo."
+    }
+  ]
+}

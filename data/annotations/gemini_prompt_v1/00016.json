@@ -1,0 +1,26 @@
+{
+  "Tile": "Playing Mini-Games With Ghosts",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "The track ends with :| at bar 10, indicating a full loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single coherent thematic section spanning the entire loop."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Tile": "Overworld Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory section setting up the rhythm, ending with a |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary musical content, ending with a :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melodic theme and establishes the main groove."
+    },
+    {
+      "BarRange": [
+        13,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with new syncopated chordal rhythms and harmonic shifts."
+    }
+  ]
+}

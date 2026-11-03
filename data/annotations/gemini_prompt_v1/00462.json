@@ -1,0 +1,26 @@
+{
+  "Tile": "Princess Peach is Rescued",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "St",
+      "Inference": "Short 7-bar event ending with |] indicating a stinger."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections are labeled as X."
+    }
+  ]
+}

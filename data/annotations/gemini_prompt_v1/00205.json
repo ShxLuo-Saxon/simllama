@@ -1,0 +1,26 @@
+{
+  "Tile": "Lakitu's Message",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "The track is a very short 2-bar stinger ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections use X as a placeholder for the Theme label"
+    }
+  ]
+}

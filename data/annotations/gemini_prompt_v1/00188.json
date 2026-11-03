@@ -1,0 +1,94 @@
+{
+  "Tile": "Sprixie Kingdom",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "In",
+      "Inference": "Swing intro with piano chords and trills, concluding with a fermata."
+    },
+    {
+      "BarRange": [
+        19,
+        29
+      ],
+      "Function": "Br",
+      "Inference": "Tempo and meter changes, rubato transition bridging into the main section."
+    },
+    {
+      "BarRange": [
+        30,
+        39
+      ],
+      "Function": "Ln",
+      "Inference": "Main Sprixie Kingdom theme introduced in C minor."
+    },
+    {
+      "BarRange": [
+        40,
+        47
+      ],
+      "Function": "Ln",
+      "Inference": "The main theme transposes up to D minor."
+    },
+    {
+      "BarRange": [
+        48,
+        54
+      ],
+      "Function": "Ou",
+      "Inference": "Final section in Eb minor, building up to a concluding hit."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Swing intro with piano chords and trills, concluding with a fermata."
+    },
+    {
+      "BarRange": [
+        19,
+        29
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Tempo and meter changes, rubato transition bridging into the main section."
+    },
+    {
+      "BarRange": [
+        30,
+        39
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main Sprixie Kingdom theme introduced in C minor."
+    },
+    {
+      "BarRange": [
+        40,
+        47
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "The main theme transposes up to D minor."
+    },
+    {
+      "BarRange": [
+        48,
+        54
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final section in Eb minor, building up to a concluding hit."
+    }
+  ]
+}

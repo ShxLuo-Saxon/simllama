@@ -1,0 +1,68 @@
+{
+  "Tile": "Dimble Wood",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Intro phrase, ends with |: marking the start of the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body in G major, ends with ||."
+    },
+    {
+      "BarRange": [
+        6,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Key changes to F major, main loop melody, ends with ||."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Br",
+      "Inference": "Bridge section transitioning back to G major, ends with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, assigned X."
+    },
+    {
+      "BarRange": [
+        2,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged the short 4-bar Lp segment with the subsequent Lp to form Theme A."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge section, assigned placeholder X."
+    }
+  ]
+}

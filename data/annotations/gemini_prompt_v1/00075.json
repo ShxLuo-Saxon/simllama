@@ -1,0 +1,43 @@
+{
+  "Tile": "Elemental Palace",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Pickup measure before the repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed by |: and :|, loops infinitely."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup measure."
+    },
+    {
+      "BarRange": [
+        2,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main rhythmic ostinato theme with a 4-bar turnaround at the end."
+    }
+  ]
+}

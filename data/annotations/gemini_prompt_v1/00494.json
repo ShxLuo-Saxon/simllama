@@ -1,0 +1,88 @@
+{
+  "Tile": "Crescent Moon Village",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section setting up the groove, ending with a |: repeat sign at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping background track, ending with a :| repeat sign at bar 64."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp establishing the accompaniment."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary funky melody introduced in the treble."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting motif featuring syncopated, tied notes."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "An extended 16-bar section with long, sustained melodic phrases."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct restatement of the primary Theme A melody."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A highly syncopated bass solo section."
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "A driving, straight-rhythm buildup leading back to the loop start."
+    }
+  ]
+}

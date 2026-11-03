@@ -1,0 +1,52 @@
+{
+  "Tile": "Title",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section, leading up to the start repeat sign |: at the end of bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with the :| repeat sign at bar 20 for infinite playback."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup bars establishing the harmonic foundation and leading into the main loop."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme introduced with a clear melody and steady periodic structure over 8 bars."
+    },
+    {
+      "BarRange": [
+        12,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B theme with a new rhythmic motif that builds up and resolves into the loop point."
+    }
+  ]
+}

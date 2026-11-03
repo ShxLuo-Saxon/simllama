@@ -1,0 +1,77 @@
+{
+  "Tile": "Level 4: Ice Cave",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "A || double barline appears at the end of bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "A || double barline appears at the end of bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "A || double barline appears at the end of bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "A :| repeat sign appears at the end of bar 32, looping the entire track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary upbeat melodic theme and rhythmic structure."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Shares the same melodic core as the first section with slight variations."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting melodic idea and a shift in texture."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new chordal build-up section that leads back to the start of the loop."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Tile": "Shiveria: Town",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A single pickup measure preceding the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        80
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with a repeat sign at bar 80."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Pickup measure."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Cheerful main theme, presented twice, the second time an octave lower."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting middle section with a new chord progression."
+    },
+    {
+      "BarRange": [
+        26,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme, extended with sustained notes at the end."
+    },
+    {
+      "BarRange": [
+        44,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new section introduced by a C major shift, building to a climax."
+    },
+    {
+      "BarRange": [
+        65,
+        80
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Concluding phrase with descending scales, preparing to restart the loop."
+    }
+  ]
+}

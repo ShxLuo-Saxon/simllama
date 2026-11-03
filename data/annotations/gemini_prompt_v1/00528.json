@@ -1,0 +1,61 @@
+{
+  "Tile": "Two Player Music Type C",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory heavy piano chords setting up the track."
+    },
+    {
+      "BarRange": [
+        3,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing multiple themes and ending with a repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chords before the main melody."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody in E minor."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting rhythmic motif with repeated high stabs."
+    },
+    {
+      "BarRange": [
+        19,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Descending scale leading into arpeggiated progression and cadence."
+    }
+  ]
+}

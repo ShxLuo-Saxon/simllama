@@ -1,0 +1,26 @@
+{
+  "Tile": "Inside a Jar",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 8-bar track is a single loop ending with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single main theme of this looping track."
+    }
+  ]
+}

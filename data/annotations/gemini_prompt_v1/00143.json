@@ -1,0 +1,60 @@
+{
+  "Tile": "Jazzy Overworld",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-4 act as the Intro, ending with |:"
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending with || at bar 20"
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ending with :| at bar 36"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory sequence, placeholder X."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A establishes the main jazzy melody."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B provides contrast with new chordal motifs."
+    }
+  ]
+}

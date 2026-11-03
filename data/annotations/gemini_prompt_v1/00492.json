@@ -1,0 +1,61 @@
+{
+  "Tile": "Wario Land 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory vamp establishing the accompaniment pattern."
+    },
+    {
+      "BarRange": [
+        3,
+        27
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, concluding with a repeat sign at bar 27."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme with a distinctive call-and-response rhythm."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting arpeggiated section acting as a development and turnaround."
+    },
+    {
+      "BarRange": [
+        19,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the primary theme closing with a final cadence."
+    }
+  ]
+}

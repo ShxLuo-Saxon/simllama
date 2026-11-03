@@ -1,0 +1,60 @@
+{
+  "Tile": "Overworld",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Rhythmic section starting the track, ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The primary melody section, ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Contrasting melody section ending with a :| repeat sign to loop the entire track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Distinct rhythmic vamp and chord pattern serving as the first theme."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a fundamentally new melodic core in the treble."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a contrasting rhythmic motif and texture featuring clef changes."
+    }
+  ]
+}

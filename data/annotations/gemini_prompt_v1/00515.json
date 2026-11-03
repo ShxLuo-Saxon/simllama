@@ -1,0 +1,43 @@
+{
+  "Tile": "Thrillsville",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro before the start repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Loop section enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main theme of the loop, featuring an ostinato and distinct melodic fragments."
+    }
+  ]
+}

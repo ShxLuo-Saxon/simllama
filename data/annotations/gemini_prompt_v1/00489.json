@@ -1,0 +1,79 @@
+{
+  "Tile": "Gleam Glacier 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section, ending with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with a :| repeat sign at bar 50."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory motif establishing the harmonic and rhythmic feel."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme in C major."
+    },
+    {
+      "BarRange": [
+        13,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme that merges into a return of the intro motif."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repetition of the primary theme."
+    },
+    {
+      "BarRange": [
+        31,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Development of the contrasting theme featuring extended modulations."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A new triumphant theme in D major, leading back to the loop start."
+    }
+  ]
+}

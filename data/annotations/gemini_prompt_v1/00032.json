@@ -1,0 +1,94 @@
+{
+  "Tile": "Cavi Cape (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Short opening phrase, ends with || at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Key changes to C major, establishes groove, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "First loop segment with main melody, ends with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Key changes to F major, ends with || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Key returns to C, ends with :| to repeat the loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase, placeholder X."
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory groove, placeholder X."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic theme. Contains an internal groove phrase but remains a single structural unit."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme in F major introducing new rhythmic textures."
+    },
+    {
+      "BarRange": [
+        33,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic ostinato groove serving as a turnaround back to the loop start."
+    }
+  ]
+}

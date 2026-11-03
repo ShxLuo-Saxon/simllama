@@ -1,0 +1,26 @@
+{
+  "Tile": "\"Symmetry City\" (Present)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 8-bar track is a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main thematic section of the loop."
+    }
+  ]
+}

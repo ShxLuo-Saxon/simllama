@@ -1,0 +1,43 @@
+{
+  "Tile": "Metallic Mario",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with a |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a :| at bar 17."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section building up into the main loop."
+    },
+    {
+      "BarRange": [
+        4,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main thematic block containing alternating motifs, merged as one."
+    }
+  ]
+}

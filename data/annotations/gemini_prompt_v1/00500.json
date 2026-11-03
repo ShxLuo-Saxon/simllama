@@ -1,0 +1,43 @@
+{
+  "Tile": "Anyone for B-ball? - Boss Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body with 1st and 2nd endings."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short intro before the main loop starts."
+    },
+    {
+      "BarRange": [
+        3,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single comprehensive 16-bar period theme with endings."
+    }
+  ]
+}

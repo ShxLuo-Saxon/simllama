@@ -1,0 +1,69 @@
+{
+  "Tile": "Title",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Sets the mood with a calm, slow melody and sustained chords."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Ln",
+      "Inference": "Main melodic body consisting of two distinct 8-bar phrases."
+    },
+    {
+      "BarRange": [
+        25,
+        25
+      ],
+      "Function": "Ou",
+      "Inference": "Final fermata chord marking the end of the piece."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First primary theme with a more active bass accompaniment."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting theme leading into a ritardando."
+    },
+    {
+      "BarRange": [
+        25,
+        25
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section, labeled as X."
+    }
+  ]
+}

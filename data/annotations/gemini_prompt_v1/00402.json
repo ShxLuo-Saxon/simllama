@@ -1,0 +1,52 @@
+{
+  "Tile": "Hello, Happy Kingdom",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A one-bar intro setting the accompaniment pattern, ending with |:."
+    },
+    {
+      "BarRange": [
+        2,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary melodies, bounded by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp establishing the key and rhythm."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme in an a-b-a form, culminating in a thicker texture. Ends with ||."
+    },
+    {
+      "BarRange": [
+        14,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Thematic sequence leading to a triumphant new melody in bars 19-26, ending with :|."
+    }
+  ]
+}

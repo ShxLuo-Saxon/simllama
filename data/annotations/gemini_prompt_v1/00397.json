@@ -1,0 +1,94 @@
+{
+  "Tile": "Fight Against Smithy, Who Likes Transforming",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Sets up the bass ostinato and a lead-in before the segno."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section with primary theme, ending at a double barline."
+    },
+    {
+      "BarRange": [
+        21,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to C minor with syncopated chords, ending at a double barline."
+    },
+    {
+      "BarRange": [
+        31,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to A minor, featuring an intense chord progression."
+    },
+    {
+      "BarRange": [
+        47,
+        50
+      ],
+      "Function": "Br",
+      "Inference": "Short transition mirroring the intro to loop back via D.S."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic placeholder."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the first primary rhythmic and melodic motif."
+    },
+    {
+      "BarRange": [
+        21,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a new syncopated idea in C minor."
+    },
+    {
+      "BarRange": [
+        31,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C shifts to an aggressive melodic pattern in A minor."
+    },
+    {
+      "BarRange": [
+        47,
+        50
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge section, non-thematic placeholder."
+    }
+  ]
+}

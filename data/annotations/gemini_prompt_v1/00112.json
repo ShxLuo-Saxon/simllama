@@ -1,0 +1,52 @@
+{
+  "Tile": "Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Inference": "Introductory section, ends with a |: at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with a :| at bar 37."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X."
+    },
+    {
+      "BarRange": [
+        15,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme with driving bass, labeled A."
+    },
+    {
+      "BarRange": [
+        31,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting legato misterioso section, labeled B."
+    }
+  ]
+}

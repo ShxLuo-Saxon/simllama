@@ -1,0 +1,43 @@
+{
+  "Tile": "Chasing the Axem Rangers",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Sets up the bass ostinato while the treble rests. Ends with |: marking loop start."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section of the track, containing the primary melodic content and repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building the rhythmic foundation."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme section A, introducing the primary rhythmic and melodic motifs over the ostinato."
+    }
+  ]
+}

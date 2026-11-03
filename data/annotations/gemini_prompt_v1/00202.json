@@ -1,0 +1,26 @@
+{
+  "Tile": "Koopa Clear",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "A short 2-bar musical event ending in |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger track requires the placeholder X."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+SimLlama
+Copyright 2026 Shangxuan Luo, Zixun Guo, Jinjie Shi and Joshua Reiss,
+Centre for Digital Music, Queen Mary University of London
+
+This product includes software and model weights derived from Moonbeam
+(https://github.com/guozixunnicolas/Moonbeam-MIDI-Foundation-Model,
+https://huggingface.co/guozixunnicolas/moonbeam-midi-foundation-model),
+licensed under the Apache License, Version 2.0. The files
+scripts/model/embeddings.py, scripts/model/gru_decoder.py,
+scripts/model/llama_backbone.py and scripts/model/tokenizer.py are copied or
+adapted from Moonbeam; their headers say which. The SimLlama checkpoint is a
+fine-tuned derivative of the Moonbeam 839M weights.
+
+Moonbeam's model code is in turn based on the Llama implementation of
+Hugging Face Transformers (https://github.com/huggingface/transformers),
+licensed under the Apache License, Version 2.0.

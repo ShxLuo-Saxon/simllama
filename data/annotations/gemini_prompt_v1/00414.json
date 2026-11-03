@@ -1,0 +1,111 @@
+{
+  "Tile": "Nimbus Land",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Main theme starts in 4/4 and ends with a 3/4 transitional phrase."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Key changes to Gb major; motif develops extensively over 16 bars."
+    },
+    {
+      "BarRange": [
+        25,
+        28
+      ],
+      "Function": "Br",
+      "Inference": "A 4-bar ascending bridge in 3/4 returning to C major."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Return of the main theme structure (4 bars in 4/4, 4 in 3/4)."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces a soaring new melody with triplets in high register."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "Syncopated final section that naturally leads back to the loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A establishes the main melodic motif."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting development section in Gb major."
+    },
+    {
+      "BarRange": [
+        25,
+        28
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge building tension to return to the home key."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Restatement of Theme A in C major."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, featuring completely new contrasting melodic material."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D, a distinct 8-bar idea closing the loop cycle."
+    }
+  ]
+}

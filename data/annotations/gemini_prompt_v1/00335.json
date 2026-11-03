@@ -1,0 +1,102 @@
+{
+  "Tile": "Melty Monster Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory hit ending with a |: repeat sign at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body begins, ending with a || at bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Continues loop with fuller texture, ending with a || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Intense 4-bar continuation ending with a || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "New melodic section in A major, ending with a || at bar 34."
+    },
+    {
+      "BarRange": [
+        35,
+        36
+      ],
+      "Function": "Br",
+      "Inference": "Short transition returning to C major, ending with :| at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory hit, marked as non-thematic placeholder X."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main rhythmic motif in the bass."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats motif an octave higher; merges the 4-bar continuation."
+    },
+    {
+      "BarRange": [
+        25,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting flowing melody in a new key."
+    },
+    {
+      "BarRange": [
+        35,
+        36
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Short 2-bar bridge back to the start of the loop."
+    }
+  ]
+}

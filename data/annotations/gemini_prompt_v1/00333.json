@@ -1,0 +1,52 @@
+{
+  "Tile": "Green Star",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introduction establishing the groove, ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body, containing the primary themes and ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Non-thematic intro sequence."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 16-bar melodic theme, ending with a double barline at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second theme, merged with a 4-bar non-thematic transition at the end."
+    }
+  ]
+}

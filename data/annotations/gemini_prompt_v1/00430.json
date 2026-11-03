@@ -1,0 +1,79 @@
+{
+  "Tile": "Bianco Hills",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Ends with a |: at bar 2, setting up the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body, ending with a :| at bar 50."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A short introductory phrase before the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme introduced with sparse instrumentation."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct repeat of the primary theme with a fuller texture."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting 16-bar section with sustained chords and new melody."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A return of the primary theme."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A syncopated chordal section that transitions back to the loop start."
+    }
+  ]
+}

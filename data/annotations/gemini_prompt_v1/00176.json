@@ -1,0 +1,68 @@
+{
+  "Tile": "Captain Toad Goes Forth!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro phrase ending before the Segno at bar 3."
+    },
+    {
+      "BarRange": [
+        3,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop, ends with |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Repeated loop section ending with :| at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        27
+      ],
+      "Function": "Lp",
+      "Inference": "Concluding loop section ending with D.S. at bar 27."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, marked as X."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged 6-bar motif with the following 10-bar development."
+    },
+    {
+      "BarRange": [
+        19,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme leading back to the Segno."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Tile": "Showdown with Cackletta!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a |: sign at bar 9, part of the main loop."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "Repeated section enclosed by |: and :|, ending at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a D.C. instruction at bar 26, looping to start."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main sixteenth-note motif and rhythmic hits."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture with new melodic and bass patterns."
+    },
+    {
+      "BarRange": [
+        18,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Features descending lines and a return to the initial motif."
+    }
+  ]
+}

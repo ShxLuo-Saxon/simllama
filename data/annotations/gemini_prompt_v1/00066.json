@@ -1,0 +1,79 @@
+{
+  "Tile": "Yoshi Mountain",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section, establishing the rhythm before the Segno."
+    },
+    {
+      "BarRange": [
+        5,
+        72
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body from Segno to D.S., ending at fine on stop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory rhythmic accompaniment before the main loop."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A, groove starts at S, melody enters at bar 9."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B, a contrasting forte section with new motifs."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the second half of Theme A, developed."
+    },
+    {
+      "BarRange": [
+        49,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, a new melody ending at fine and a ||."
+    },
+    {
+      "BarRange": [
+        69,
+        72
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic 4-bar vamp (identical to bars 5-8) to Segno."
+    }
+  ]
+}

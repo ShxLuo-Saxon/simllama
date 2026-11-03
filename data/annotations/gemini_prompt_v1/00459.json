@@ -1,0 +1,171 @@
+{
+  "Tile": "MAP 7 (Special)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Intro vamp. Ends with :|."
+    },
+    {
+      "BarRange": [
+        13,
+        16
+      ],
+      "Function": "In",
+      "Inference": "Intro continuation. Ends with ||."
+    },
+    {
+      "BarRange": [
+        17,
+        18
+      ],
+      "Function": "In",
+      "Inference": "Intro lead-in to loop. Ends with |:."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop starts at Segno. Ends with ::."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body. Ends with :|."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body. Ends with |:."
+    },
+    {
+      "BarRange": [
+        39,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body. Ends with ::."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body. Ends with :|."
+    },
+    {
+      "BarRange": [
+        51,
+        66
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body. Ends with D.S. and |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro vamp."
+    },
+    {
+      "BarRange": [
+        13,
+        16
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro continuation."
+    },
+    {
+      "BarRange": [
+        17,
+        18
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro lead-in."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A. Distinct rhythmic motif. Plays twice."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B. Contrasting chromatic melody."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C. Classic overworld motif."
+    },
+    {
+      "BarRange": [
+        39,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A returns. Exact repeat of 19-22."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D. New ascending arpeggio melody."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C returns. Identical to 31-38."
+    },
+    {
+      "BarRange": [
+        59,
+        66
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D returns. Identical to 43-50."
+    }
+  ]
+}

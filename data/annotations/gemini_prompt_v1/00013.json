@@ -1,0 +1,44 @@
+{
+  "Tile": "Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop as indicated by the :| at bar 21."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Introductory non-thematic vamp establishing the eerie mood."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic motif is introduced, repeated, and reaches a cadence."
+    },
+    {
+      "BarRange": [
+        15,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting buildup section with descending chromatic chords."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "Gelato Beach",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase without a strong beat before the main groove."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends at bar 22 with a || mark."
+    },
+    {
+      "BarRange": [
+        23,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Another loop section, ends at bar 34 with a || mark."
+    },
+    {
+      "BarRange": [
+        35,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Final loop section, ends at bar 38 with a :| mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled X as it is an Intro."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody A establishes the main theme."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B, merged with a 4-bar return of A."
+    },
+    {
+      "BarRange": [
+        23,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, merged with the final 4-bar return of A."
+    }
+  ]
+}

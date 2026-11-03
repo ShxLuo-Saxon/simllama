@@ -1,0 +1,78 @@
+{
+  "Tile": "Underwater",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory waltz phrase ending with a start repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Main waltz loop enclosed by repeat signs."
+    },
+    {
+      "BarRange": [
+        45,
+        50
+      ],
+      "Function": "Ou",
+      "Inference": "Outro section with ritardando leading to final chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory waltz phrase."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main lyrical waltz theme consisting of 16 bars."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with varied harmonic rhythm and higher melody."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Distinct rhythmic staccato motif leading to the loop point."
+    },
+    {
+      "BarRange": [
+        45,
+        50
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro sequence concluding the arrangement."
+    }
+  ]
+}

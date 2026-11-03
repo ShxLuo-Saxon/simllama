@@ -1,0 +1,94 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Slow intro ending with ||"
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "In",
+      "Inference": "Tempo increases, ending with |:"
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with Segno, ends with :|"
+    },
+    {
+      "BarRange": [
+        25,
+        35
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with D.S., looping back to Segno"
+    },
+    {
+      "BarRange": [
+        36,
+        36
+      ],
+      "Function": "Ou",
+      "Inference": "Final resolution bar ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder"
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder"
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First main theme of the loop"
+    },
+    {
+      "BarRange": [
+        25,
+        35
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting second theme"
+    },
+    {
+      "BarRange": [
+        36,
+        36
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro placeholder"
+    }
+  ]
+}

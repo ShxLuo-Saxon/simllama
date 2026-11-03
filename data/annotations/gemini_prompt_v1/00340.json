@@ -1,0 +1,114 @@
+{
+  "Tile": "Sky Station",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a double barline."
+    },
+    {
+      "BarRange": [
+        9,
+        46
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body ending with a double barline."
+    },
+    {
+      "BarRange": [
+        47,
+        85
+      ],
+      "Function": "Ln",
+      "Inference": "Repetition of the linear body concluding the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material building tension."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary melody Theme A is introduced."
+    },
+    {
+      "BarRange": [
+        17,
+        27
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A is repeated and extended with a buildup."
+    },
+    {
+      "BarRange": [
+        28,
+        36
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "A new contrasting melodic idea Theme B is presented."
+    },
+    {
+      "BarRange": [
+        37,
+        46
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Climactic Theme C leading to a section end."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return to Theme A repeating bars 9-16."
+    },
+    {
+      "BarRange": [
+        55,
+        65
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Repetition of the second part of Theme A."
+    },
+    {
+      "BarRange": [
+        66,
+        74
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Repetition of Theme B."
+    },
+    {
+      "BarRange": [
+        75,
+        85
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Repetition of Theme C with a final cadence."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Tile": "Hightail Falls Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 ends with a |: mark, marking the intro before the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "Bar 9 ends with a || double barline, separating loop segments."
+    },
+    {
+      "BarRange": [
+        10,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "Bar 25 ends with a :| mark, concluding the loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A short one-bar introductory phrase leading into the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A syncopated chordal vamp that establishes the rhythmic foundation."
+    },
+    {
+      "BarRange": [
+        10,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The primary melodic theme accompanied by a stride piano bass pattern."
+    }
+  ]
+}

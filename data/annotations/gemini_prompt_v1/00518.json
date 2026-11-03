@@ -1,0 +1,103 @@
+{
+  "Tile": "Wario Dance Company",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "In",
+      "Inference": "16-bar intro establishing the groove with only a bassline."
+    },
+    {
+      "BarRange": [
+        17,
+        34
+      ],
+      "Function": "Ln",
+      "Inference": "First linear section introducing a rhythmic piano chord riff."
+    },
+    {
+      "BarRange": [
+        35,
+        40
+      ],
+      "Function": "Br",
+      "Inference": "A distinct 4-bar silent pause followed by a 2-bar melodic pickup."
+    },
+    {
+      "BarRange": [
+        41,
+        72
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body featuring the primary melody and building to a climax."
+    },
+    {
+      "BarRange": [
+        73,
+        73
+      ],
+      "Function": "Ou",
+      "Inference": "Final concluding chord and end barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        17,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A: Rhythmic piano riff and harmonic progression."
+    },
+    {
+      "BarRange": [
+        35,
+        40
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge placeholder."
+    },
+    {
+      "BarRange": [
+        41,
+        56
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Theme B: Main melody consisting of transposed repetitive motifs."
+    },
+    {
+      "BarRange": [
+        57,
+        72
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Theme C: Contrasting jazzy, solo-like section leading to a fortissimo climax."
+    },
+    {
+      "BarRange": [
+        73,
+        73
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro placeholder."
+    }
+  ]
+}

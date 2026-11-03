@@ -1,0 +1,52 @@
+{
+  "Tile": "Koopa Castle (Both Times)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :: double repeat sign, forming the first loop."
+    },
+    {
+      "BarRange": [
+        5,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :| repeat sign, forming the second loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes the primary rhythmic and melodic motif."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats and extends the A section motif, ending at ||."
+    },
+    {
+      "BarRange": [
+        15,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new key, texture, and melodic idea."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "Slider",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 2, marking the intro."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 18, ending this loop section."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 34, ending this loop section."
+    },
+    {
+      "BarRange": [
+        35,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 54, concluding the loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced with a playful melody."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repetition of the main theme with slight variations."
+    },
+    {
+      "BarRange": [
+        35,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with a new melodic contour and arpeggios."
+    }
+  ]
+}

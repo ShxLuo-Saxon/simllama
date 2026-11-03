@@ -1,0 +1,70 @@
+{
+  "Tile": "Peronza Plaza",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Establishes the vamp; bar 3 ends with a start repeat sign |:"
+    },
+    {
+      "BarRange": [
+        4,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with an end repeat sign :| at bar 41"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp"
+    },
+    {
+      "BarRange": [
+        4,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main melody"
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody repeats an octave higher"
+    },
+    {
+      "BarRange": [
+        22,
+        35
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with new motifs and progression"
+    },
+    {
+      "BarRange": [
+        36,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Turnaround vamp to loop back to the start"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Tile": "Bonus Game",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the main loop ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        35,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short non-thematic intro ending with |:."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary 32-bar melodic theme A ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        35,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting 16-bar theme B ending with a :| repeat sign."
+    }
+  ]
+}

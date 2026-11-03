@@ -1,0 +1,77 @@
+{
+  "Tile": "Battlerock Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the rhythm, ends with a |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "First segment of the loop body, ends with a || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Second segment of the loop body, ends with a || at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Final segment of the loop body, concludes with a :| at bar 60."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory rhythmic material before the main melody."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary main theme is introduced."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A repetition of the primary theme with a thicker texture/octaves."
+    },
+    {
+      "BarRange": [
+        41,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with key modulations and a climactic buildup."
+    }
+  ]
+}

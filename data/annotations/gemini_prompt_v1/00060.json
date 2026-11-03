@@ -1,0 +1,70 @@
+{
+  "Tile": "Princess Shroob Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A pickup measure before the repeat sign |: starts the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        53
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, concluding with a :| repeat back to bar 2."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Brief intro pickup measure."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced after a 4-bar rhythmic vamp."
+    },
+    {
+      "BarRange": [
+        14,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting syncopated rhythm leading into a varied melody."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A contrasting section featuring thick ascending and descending chords."
+    },
+    {
+      "BarRange": [
+        34,
+        53
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme, first an octave lower, then transposed."
+    }
+  ]
+}

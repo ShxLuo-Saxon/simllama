@@ -1,0 +1,14 @@
+Test contexts 157; with both a high and a low real target: 39
+
+measure     pooled real  paired real  gen (paired)   ratio
+Melody           0.2378       0.3035        0.0063   0.021
+Chroma           0.0637       0.0836        0.0081   0.097
+Rhythm           0.0511       0.0542        0.0020   0.037
+Duration         0.1641       0.1411       -0.0138  -0.098
+CS (ours)        0.3618       0.3580        0.0027   0.007
+
+Mean CS per label: real targets of the test contexts; generated outputs (context means)
+  high  real 0.9181 (142 targets)  generated 0.6529 (over outputs 0.6538)
+  mid   real 0.6584 (156 targets)  generated 0.6378 (over outputs 0.6381)
+  low   real 0.5564 (130 targets)  generated 0.6397 (over outputs 0.6405)
+  no-label control                       generated 0.6367 (over outputs 0.6364)

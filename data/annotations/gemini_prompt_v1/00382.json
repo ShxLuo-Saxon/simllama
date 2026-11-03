@@ -1,0 +1,61 @@
+{
+  "Tile": "New Donk City",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase, ends with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        43
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, concludes with a :| at bar 43."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material establishing the groove."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main theme with a lighter texture."
+    },
+    {
+      "BarRange": [
+        17,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repetition of the main theme with fuller harmonization."
+    },
+    {
+      "BarRange": [
+        31,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring a new melody and a climatic turnaround."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "Outside Horror Manor",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro establishing the creepy groove with syncopated piano and steady bass."
+    },
+    {
+      "BarRange": [
+        5,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "Main body starts with a walking bass and piano melody. Ends with || at 18."
+    },
+    {
+      "BarRange": [
+        19,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces a new bass riff and improvisational piano lines. Ends with || at 28."
+    },
+    {
+      "BarRange": [
+        29,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "Heavy accented chords followed by a decrescendo, ending with :| to loop back."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, setting the rhythmic and harmonic foundation."
+    },
+    {
+      "BarRange": [
+        5,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary melodic material and walking bassline."
+    },
+    {
+      "BarRange": [
+        19,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B contrasts with a distinct bass riff and expressive piano solo elements."
+    },
+    {
+      "BarRange": [
+        29,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C provides dynamic contrast with heavy chords and a decrescendo turnaround."
+    }
+  ]
+}

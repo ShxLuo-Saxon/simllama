@@ -1,0 +1,77 @@
+{
+  "Tile": "Puzzle Plank Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a double barline at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        41,
+        57
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop body, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "An introduction that sets the rhythm and leads into the main theme."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme is introduced with a driving bass accompaniment."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme is repeated with a lighter treble chord texture."
+    },
+    {
+      "BarRange": [
+        41,
+        57
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the initial driving bass accompaniment, completing the loop."
+    }
+  ]
+}

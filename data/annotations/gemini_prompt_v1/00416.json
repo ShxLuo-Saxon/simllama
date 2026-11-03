@@ -1,0 +1,43 @@
+{
+  "Tile": "Pipe Vault",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with |: at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body ending with :| at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main musical theme of the loop."
+    }
+  ]
+}

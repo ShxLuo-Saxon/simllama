@@ -1,0 +1,43 @@
+{
+  "Tile": "World 1: Grass Land",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "The track begins with a short 2-bar introduction that ends with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "This is the main loop body, starting after |: and concluding with the :| repeat sign at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introduction section, assigned X as a placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary 16-bar melodic theme of the track, consisting of a continuous musical idea leading to a turnaround cadence."
+    }
+  ]
+}

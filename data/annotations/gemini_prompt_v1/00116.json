@@ -1,0 +1,86 @@
+{
+  "Tile": "Overworld",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with || at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Loop starts at Segno, ends with || at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Main body continues, ends with || at bar 30."
+    },
+    {
+      "BarRange": [
+        31,
+        70
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ends with D.S. and |] at bar 70."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section is marked as X."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First distinctive rhythmic motif."
+    },
+    {
+      "BarRange": [
+        11,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces the main lyrical melody."
+    },
+    {
+      "BarRange": [
+        31,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Direct repeat of the 20-bar B theme."
+    },
+    {
+      "BarRange": [
+        51,
+        70
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New contrasting theme leading to D.S."
+    }
+  ]
+}

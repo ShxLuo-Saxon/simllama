@@ -1,0 +1,88 @@
+{
+  "Tile": "Boss Battle - Super Mario Sunshine",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Dramatic intro ending with a sustained forte chord."
+    },
+    {
+      "BarRange": [
+        4,
+        53
+      ],
+      "Function": "Ln",
+      "Inference": "Main continuous linear body containing repeating thematic sections."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First theme, rhythmic stabs with a melodic tail."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Second theme, varied rhythm and an ascending run."
+    },
+    {
+      "BarRange": [
+        20,
+        28
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Forte section with heavy chords and sustained notes."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the first theme with arpeggiated rhythmic variation."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Return of the second theme with rhythmic variation."
+    },
+    {
+      "BarRange": [
+        45,
+        53
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Return of the forte section, concluding the track."
+    }
+  ]
+}

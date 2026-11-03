@@ -1,0 +1,60 @@
+{
+  "Tile": "Come On!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory rhythmic motif, ends with |:"
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with || at bar 16"
+    },
+    {
+      "BarRange": [
+        17,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "Loop continuation with dynamic drop, ends with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X"
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic material with energetic bass line"
+    },
+    {
+      "BarRange": [
+        17,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Maintains the identical melodic core with a pedal bass"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Tile": "Scarescraper",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Entire track loops indicated by :| at bar 16"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Staccato motif establishes the core theme"
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting sustained melody ending with repeat sign"
+    }
+  ]
+}

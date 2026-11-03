@@ -1,0 +1,96 @@
+{
+  "Tile": "Credits",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Introductory section, ends with a || at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        38
+      ],
+      "Function": "Ln",
+      "Inference": "First main linear body, ending with a || at bar 38."
+    },
+    {
+      "BarRange": [
+        39,
+        65
+      ],
+      "Function": "Ln",
+      "Inference": "Second linear body, ending with |] at bar 65."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section setting the mood."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First 8-bar presentation of the main theme."
+    },
+    {
+      "BarRange": [
+        15,
+        24
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Extended repetition of the main theme with variation."
+    },
+    {
+      "BarRange": [
+        25,
+        38
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "New contrasting melodic section and rhythmic build-up."
+    },
+    {
+      "BarRange": [
+        39,
+        46
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the main theme, played an octave higher."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Exact repetition of the first theme statement."
+    },
+    {
+      "BarRange": [
+        55,
+        65
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Final theme statement with a cadential extension."
+    }
+  ]
+}

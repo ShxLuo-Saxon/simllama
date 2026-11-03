@@ -1,0 +1,86 @@
+{
+  "Tile": "Dimble Wood (Inside Bowser)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory groove, ends with a start-repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the main loop, ends with a double barline."
+    },
+    {
+      "BarRange": [
+        17,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop with key changes, ends with a double barline."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop, ends with an end-repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary G minor theme featuring a rhythmic bass melody."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New melodic idea introduced in F major."
+    },
+    {
+      "BarRange": [
+        25,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting texture with shifting tonal centers and bass leads."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Climactic chords and a phrase that leads back to the loop start."
+    }
+  ]
+}

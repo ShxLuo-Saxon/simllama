@@ -1,0 +1,35 @@
+{
+  "Tile": "File Select",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a single loop body ending with a :| repeat sign at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic ostinato motif and harmonic foundation."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The ostinato motif shifts to a new pitch center with contrasting harmony."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "Tile": "Cave Dungeon",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "In",
+      "Inference": "Intro building up, ends with |: at bar 28"
+    },
+    {
+      "BarRange": [
+        29,
+        40
+      ],
+      "Function": "Ln",
+      "Inference": "Main melody repeats, ends with :| at bar 40"
+    },
+    {
+      "BarRange": [
+        41,
+        52
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting chordal section, ends with ||"
+    },
+    {
+      "BarRange": [
+        53,
+        102
+      ],
+      "Function": "Ln",
+      "Inference": "Long continuous section developing previous themes"
+    },
+    {
+      "BarRange": [
+        103,
+        108
+      ],
+      "Function": "Ou",
+      "Inference": "Outro fading out to a final fermata"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory build-up with ostinato"
+    },
+    {
+      "BarRange": [
+        29,
+        40
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main melodic theme introduced"
+    },
+    {
+      "BarRange": [
+        41,
+        52
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting section with sustained chords"
+    },
+    {
+      "BarRange": [
+        53,
+        66
+      ],
+      "Function": "Ln",
+      "Section": "X",
+      "Inference": "Non-thematic ostinato from the intro returns"
+    },
+    {
+      "BarRange": [
+        67,
+        78
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Return of the chordal texture from Section B"
+    },
+    {
+      "BarRange": [
+        79,
+        102
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A melody returns over Section B chords"
+    },
+    {
+      "BarRange": [
+        103,
+        108
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro fading out to the end"
+    }
+  ]
+}

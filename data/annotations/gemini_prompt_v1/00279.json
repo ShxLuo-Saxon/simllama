@@ -1,0 +1,26 @@
+{
+  "Tile": "World 7 (Pipe Land)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :| at bar 4, indicating an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single main thematic core of this short loop."
+    }
+  ]
+}

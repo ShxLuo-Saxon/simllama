@@ -1,0 +1,51 @@
+{
+  "Tile": "Lethal Lava Land",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro ends with a |: at the end of bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        15
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a || at bar 15."
+    },
+    {
+      "BarRange": [
+        16,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "A 1-bar turn-around ending with :| to loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, designated with X."
+    },
+    {
+      "BarRange": [
+        4,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary loop theme, merging the short turnaround bar."
+    }
+  ]
+}

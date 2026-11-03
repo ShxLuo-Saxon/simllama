@@ -1,0 +1,43 @@
+{
+  "Tile": "Yoshi Start Demo",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        13
+      ],
+      "Function": "In",
+      "Inference": "Intro section building tension, ending with |: at bar 13."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body playing indefinitely, ending with :| at bar 21."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        13
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic build-up."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main looping theme characterized by upbeat rhythmic chord progressions."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Snow Mountain",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A short 2-bar intro ending with a |: sign indicating the start of a loop."
+    },
+    {
+      "BarRange": [
+        3,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary musical ideas, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced, an 8-bar phrase ending with a pickup to the next."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting 8-bar section in a higher register, ending with a trill cadence."
+    },
+    {
+      "BarRange": [
+        19,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New ideas leading to a climax, followed by a breakdown returning to the loop start."
+    }
+  ]
+}

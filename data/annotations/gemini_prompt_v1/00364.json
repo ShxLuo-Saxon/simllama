@@ -1,0 +1,26 @@
+{
+  "Tile": "Overworld Map",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "The track loops continuously using a D.C. instruction and a repeat barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous theme, where the second half is an exact transposition of the first."
+    }
+  ]
+}

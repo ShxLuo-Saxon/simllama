@@ -1,0 +1,70 @@
+{
+  "Tile": "Space Junk Road",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory arpeggiated bass with sparse high chords."
+    },
+    {
+      "BarRange": [
+        5,
+        62
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body of the track with multiple thematic sections ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase, non-thematic."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary A theme introduced in Ab major."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A theme repeats with octave doubling, ending at ||."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B theme in E major with staccato chords, ending at ||."
+    },
+    {
+      "BarRange": [
+        53,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of A theme motif in Ab major, truncated to loop back at :|."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Tile": "Desert (Super Mario World)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body marked with Segno and ending with a :| repeat sign."
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of the loop body ending with a D.S. and |] to loop back."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Brief introduction presenting an initial rhythmic motif."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main repeated theme A initiated by the Segno."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting melodic idea with shifting bass pedals."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Develops the intro motif into a full 8-bar thematic phrase leading to the D.S."
+    }
+  ]
+}

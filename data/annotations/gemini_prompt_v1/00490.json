@@ -1,0 +1,60 @@
+{
+  "Tile": "Colossal Hole, Cave of Flames",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Percussion intro, ends with |:"
+    },
+    {
+      "BarRange": [
+        3,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody in C minor, ends with ||"
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Modulates to F minor, ends with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic material in C minor."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Exact transposition of Theme A to F minor."
+    }
+  ]
+}

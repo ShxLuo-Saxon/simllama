@@ -1,0 +1,60 @@
+{
+  "Tile": "Treasure Binder",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1"
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 9"
+    },
+    {
+      "BarRange": [
+        10,
+        15
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 15"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup measure"
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme of the loop body"
+    },
+    {
+      "BarRange": [
+        10,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting thematic section with new harmony"
+    }
+  ]
+}

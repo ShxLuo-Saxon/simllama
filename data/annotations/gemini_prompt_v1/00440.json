@@ -1,0 +1,71 @@
+{
+  "Tile": "Ricco Harbor",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        76
+      ],
+      "Function": "Lp",
+      "Inference": "The track consists of a single continuous loop ending with a :| at bar 76."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 4-bar intro merged into the 16-bar primary jazzy theme."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing a new rhythmic and melodic motif."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "An 8-bar return of the primary main theme."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A development section with distinct motifs and harmonic shifts."
+    },
+    {
+      "BarRange": [
+        61,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A bridge-like melody preparing for the return of the main theme."
+    },
+    {
+      "BarRange": [
+        69,
+        76
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Final 8-bar return of the primary theme before looping."
+    }
+  ]
+}

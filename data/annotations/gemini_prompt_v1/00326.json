@@ -1,0 +1,77 @@
+{
+  "Tile": "Bowser Jr.'s Fiery Flotilla",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bars ending with a |: at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "First loop segment in E minor, ending with || at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop segment in C minor, ending with || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        34
+      ],
+      "Function": "Br",
+      "Inference": "Turnaround connector back to E minor, ending with :| at bar 34."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introduction placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A establishing the primary melody and ostinato."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting Theme B in C minor that builds tension."
+    },
+    {
+      "BarRange": [
+        33,
+        34
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge connector to restart the loop."
+    }
+  ]
+}

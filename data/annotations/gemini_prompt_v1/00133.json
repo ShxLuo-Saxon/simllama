@@ -1,0 +1,26 @@
+{
+  "Tile": "Volcanic Underground Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 14-bar track acts as a loop, indicated by the :| at the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged into a single section A, as the distinct textural shifts are shorter than 8 bars."
+    }
+  ]
+}

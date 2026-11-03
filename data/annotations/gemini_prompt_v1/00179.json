@@ -1,0 +1,70 @@
+{
+  "Tile": "Chain-Link Charge",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introduction section ending with a loop start sign |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body spanning from the start of the repeat to the end repeat sign :| at bar 48."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material establishing the rhythmic feel and building up to the main theme."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main theme."
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the main theme with slight harmonic and textural variations in the accompaniment."
+    },
+    {
+      "BarRange": [
+        29,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing a fundamentally new musical idea and melody."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A rhythmic section with repeated motifs building tension to lead back to the start of the loop."
+    }
+  ]
+}

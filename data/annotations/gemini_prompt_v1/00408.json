@@ -1,0 +1,43 @@
+{
+  "Tile": "Let's Play, Geno!",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory vamp establishing the rhythm before the melody."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body containing the primary melody, concluding with a |] mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic placeholder."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main thematic content; internal 4-bar phrases are merged into a single comprehensive section."
+    }
+  ]
+}

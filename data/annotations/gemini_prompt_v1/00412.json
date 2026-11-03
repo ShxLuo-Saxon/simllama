@@ -1,0 +1,70 @@
+{
+  "Tile": "Moleville Mountain Ride",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "1-bar introductory section ending with a |: loop start."
+    },
+    {
+      "BarRange": [
+        2,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body of the track, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short 1-bar intro establishing the groove."
+    },
+    {
+      "BarRange": [
+        2,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 10-bar statement of the primary melody with active 16th notes."
+    },
+    {
+      "BarRange": [
+        12,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the A section, ending with a different cadence."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B theme featuring sustained, heavily accented notes."
+    },
+    {
+      "BarRange": [
+        30,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repeat of the B section, closing with a turnaround to loop."
+    }
+  ]
+}

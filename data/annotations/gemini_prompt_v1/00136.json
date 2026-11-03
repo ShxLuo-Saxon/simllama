@@ -1,0 +1,26 @@
+{
+  "Tile": "Unknown",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a repeat sign at bar 8, indicating a loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous 8-bar thematic loop."
+    }
+  ]
+}

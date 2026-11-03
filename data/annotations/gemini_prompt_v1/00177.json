@@ -1,0 +1,52 @@
+{
+  "Tile": "Captain Toad Plays Peek-a-Boo",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "A 6-bar introduction establishing the spooky atmosphere, ending with a start repeat sign at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary themes, ending with a repeat sign at bar 26."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building up to the main loop."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The first main theme featuring a distinct staccato melody."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with trill-like arpeggios, followed by a 4-bar turnaround back to the loop start."
+    }
+  ]
+}

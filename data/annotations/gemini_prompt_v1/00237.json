@@ -1,0 +1,43 @@
+{
+  "Tile": "SMB1 Bowser Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-2 serve as an introduction, ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 3-6 contain the main looping battle theme, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic and rhythmic material of the battle loop."
+    }
+  ]
+}

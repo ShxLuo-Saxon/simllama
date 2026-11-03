@@ -1,0 +1,162 @@
+{
+  "Tile": "End Title",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Inference": "Grand orchestral main theme in Eb major."
+    },
+    {
+      "BarRange": [
+        9,
+        28
+      ],
+      "Function": "Ln",
+      "Inference": "Ostinato leading into a lyrical melody."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Ln",
+      "Inference": "Quiet, expressive piano melody building up."
+    },
+    {
+      "BarRange": [
+        45,
+        56
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the main theme transposed to F."
+    },
+    {
+      "BarRange": [
+        57,
+        72
+      ],
+      "Function": "Ln",
+      "Inference": "Calm, slow section in Ab major."
+    },
+    {
+      "BarRange": [
+        73,
+        80
+      ],
+      "Function": "Br",
+      "Inference": "Sparse transition building tension."
+    },
+    {
+      "BarRange": [
+        81,
+        96
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the lyrical melody, energetic."
+    },
+    {
+      "BarRange": [
+        97,
+        114
+      ],
+      "Function": "Ln",
+      "Inference": "Lyrical melody with ostinato, ends with modulations."
+    },
+    {
+      "BarRange": [
+        115,
+        121
+      ],
+      "Function": "Ou",
+      "Inference": "Big final chords and ritardando to the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Grand orchestral main theme in Eb major."
+    },
+    {
+      "BarRange": [
+        9,
+        28
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Ostinato leading into a lyrical melody."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Quiet, expressive piano melody building up."
+    },
+    {
+      "BarRange": [
+        45,
+        56
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the main theme transposed to F."
+    },
+    {
+      "BarRange": [
+        57,
+        72
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Calm, slow section in Ab major."
+    },
+    {
+      "BarRange": [
+        73,
+        80
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Sparse transition building tension."
+    },
+    {
+      "BarRange": [
+        81,
+        96
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Return of the lyrical melody, energetic."
+    },
+    {
+      "BarRange": [
+        97,
+        114
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Lyrical melody with ostinato, ends with modulations."
+    },
+    {
+      "BarRange": [
+        115,
+        121
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Big final chords and ritardando to the end."
+    }
+  ]
+}

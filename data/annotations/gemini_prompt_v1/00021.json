@@ -1,0 +1,61 @@
+{
+  "Tile": "Bolierworks",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ending with a double barline || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ending with a repeat sign :| at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary swing melody and rhythmic motif."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section featuring longer, sustained melodic notes."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the primary melody, concluding with a double barline."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new section featuring rapid, continuous arpeggiated figures."
+    }
+  ]
+}

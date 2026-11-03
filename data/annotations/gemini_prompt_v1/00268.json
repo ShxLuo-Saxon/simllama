@@ -1,0 +1,179 @@
+{
+  "Tile": "Miscellaneous Short Themes",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        9
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 9."
+    },
+    {
+      "BarRange": [
+        10,
+        11
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed by repeat signs |: and :|."
+    },
+    {
+      "BarRange": [
+        12,
+        13
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 13."
+    },
+    {
+      "BarRange": [
+        14,
+        15
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 15."
+    },
+    {
+      "BarRange": [
+        16,
+        18
+      ],
+      "Function": "St",
+      "Inference": "Ends with |] at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        19
+      ],
+      "Function": "St",
+      "Inference": "A single bar stinger ending with |]."
+    },
+    {
+      "BarRange": [
+        20,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with |: and ends with ::."
+    },
+    {
+      "BarRange": [
+        22,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Follows :: and ends with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        5,
+        9
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        10,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A short isolated 2-bar motif loop."
+    },
+    {
+      "BarRange": [
+        12,
+        13
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        14,
+        15
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        16,
+        18
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        19,
+        19
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section placeholder."
+    },
+    {
+      "BarRange": [
+        20,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A rhythmic piano tap loop."
+    },
+    {
+      "BarRange": [
+        22,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "An arpeggiated piano melody loop."
+    }
+  ]
+}

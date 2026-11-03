@@ -1,0 +1,26 @@
+{
+  "Tile": "Course Clear Fanfare",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "St",
+      "Inference": "A short 4-bar fanfare played once, ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections are labeled as X."
+    }
+  ]
+}

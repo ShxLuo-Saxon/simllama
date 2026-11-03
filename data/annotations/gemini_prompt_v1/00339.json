@@ -1,0 +1,145 @@
+{
+  "Tile": "Rightside Down Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Short introductory pickup phrase ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the main loop, ends with a double barline."
+    },
+    {
+      "BarRange": [
+        18,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, ends with a double barline."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the first loop, ends with a repeat sign."
+    },
+    {
+      "BarRange": [
+        42,
+        42
+      ],
+      "Function": "In",
+      "Inference": "Intro for the Inverted Gravity variation."
+    },
+    {
+      "BarRange": [
+        43,
+        58
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the second loop variation."
+    },
+    {
+      "BarRange": [
+        59,
+        74
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the second loop variation."
+    },
+    {
+      "BarRange": [
+        75,
+        82
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the second loop variation, ends with a repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measure placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes a syncopated rhythmic piano groove and walking bass."
+    },
+    {
+      "BarRange": [
+        18,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces the primary melodic theme over the rhythmic groove."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A contrasting progression that builds tension back to the loop."
+    },
+    {
+      "BarRange": [
+        42,
+        42
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measure for the inverted state."
+    },
+    {
+      "BarRange": [
+        43,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A returns but with sustained whole note basslines."
+    },
+    {
+      "BarRange": [
+        59,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B returns over the sustained bass."
+    },
+    {
+      "BarRange": [
+        75,
+        82
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C returns with sustained bass, resolving to repeat."
+    }
+  ]
+}

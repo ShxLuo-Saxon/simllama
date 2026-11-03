@@ -1,0 +1,26 @@
+{
+  "Tile": "Game Start",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "A short 2-bar track ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections must use X as a placeholder."
+    }
+  ]
+}

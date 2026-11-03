@@ -1,0 +1,60 @@
+{
+  "Tile": "Airship Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bassline ending with a start repeat sign"
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section ending with a close repeat sign"
+    },
+    {
+      "BarRange": [
+        7,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop section ending with a Da Capo instruction"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section marked as X placeholder"
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme featuring sustained chords over ostinato"
+    },
+    {
+      "BarRange": [
+        7,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme with syncopated staccato rhythmic chords"
+    }
+  ]
+}

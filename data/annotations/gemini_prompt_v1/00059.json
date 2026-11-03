@@ -1,0 +1,70 @@
+{
+  "Tile": "Normal Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section, ends with a start-repeat sign at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        51
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body, ending with a repeat sign at bar 51."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro building up the rhythmic ostinato."
+    },
+    {
+      "BarRange": [
+        4,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody introduced over piano ostinato and bass."
+    },
+    {
+      "BarRange": [
+        16,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Melody repeats, concluding with a breakdown and crescendo build-up."
+    },
+    {
+      "BarRange": [
+        28,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting heavy texture with a new rhythmic motif."
+    },
+    {
+      "BarRange": [
+        44,
+        51
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sparse breakdown section with ostinato, leading back to loop start."
+    }
+  ]
+}

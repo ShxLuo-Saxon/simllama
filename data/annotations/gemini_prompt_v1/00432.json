@@ -1,0 +1,95 @@
+{
+  "Tile": "Deep Sea of Mare",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A single pickup measure ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body sections ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        35,
+        43
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of the loop body ending with a :| repeat sign."
+    },
+    {
+      "BarRange": [
+        44,
+        44
+      ],
+      "Function": "Ou",
+      "Inference": "A final fermata chord ending with a |] mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup measure."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Ambient pad buildup establishing the main accompaniment."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A distinct lead melody enters over the established harmony."
+    },
+    {
+      "BarRange": [
+        26,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New melodic idea with shifted harmonic progression."
+    },
+    {
+      "BarRange": [
+        35,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Contrasting rhythm and lyrical melody ending the loop."
+    },
+    {
+      "BarRange": [
+        44,
+        44
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final sustained chord to conclude the track."
+    }
+  ]
+}

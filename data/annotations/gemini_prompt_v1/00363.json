@@ -1,0 +1,26 @@
+{
+  "Tile": "Haunted House",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "The track ends with :| indicating an infinite loop from the start."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous 9-bar thematic loop."
+    }
+  ]
+}

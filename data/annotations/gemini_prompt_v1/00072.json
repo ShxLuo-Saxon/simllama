@@ -1,0 +1,35 @@
+{
+  "Tile": "Castle Courtyard",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a continuous loop body ending with a repeat sign :| at bar 37."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme with a syncopated chordal melody, ending with a transitional pickup measure."
+    },
+    {
+      "BarRange": [
+        18,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting, lyrical second theme that repeats and eventually leads back to the start."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Tile": "Mario Classic Court Exhibition",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting from bar 1 and ending with :| at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Ou",
+      "Inference": "A single concluding chord marked with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced with syncopated melody and rhythmic bass."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody with arpeggiated bass, ending with ||."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct restatement of the initial main theme."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New melodic idea with a continuous 16th-note bass pattern."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Another new melody over the returning A section bass groove."
+    },
+    {
+      "BarRange": [
+        41,
+        41
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final sustained chord to resolve the track."
+    }
+  ]
+}

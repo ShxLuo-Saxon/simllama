@@ -1,0 +1,79 @@
+{
+  "Tile": "Bowser Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign at the end of bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing multiple thematic sections, ending with a :| at bar 64."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory sustained chords with rhythmic stabs."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme featuring long sustained melody notes accompanied by syncopated chord stabs."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section introducing a staccato F-c motif and descending runs."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of Theme A with fuller octave voicings in the melody."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new driving, rhythmic eighth-note motif driven by BE octaves."
+    },
+    {
+      "BarRange": [
+        61,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Return of the introductory material acting as a non-thematic turnaround to loop."
+    }
+  ]
+}

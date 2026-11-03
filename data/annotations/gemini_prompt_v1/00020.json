@@ -1,0 +1,43 @@
+{
+  "Tile": "Toad's Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 serves as an intro, ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 2-13 form the main repeating body, enclosed by repeat signs ending at bar 13."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, labelled as X."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main continuous thematic idea, characterized by a persistent ostinato accompaniment and playful melody."
+    }
+  ]
+}

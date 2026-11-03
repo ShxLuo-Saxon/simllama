@@ -1,0 +1,52 @@
+{
+  "Tile": "Stage Theme I",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        27
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a :| at bar 27."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material before the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme followed by a 4-bar continuation."
+    },
+    {
+      "BarRange": [
+        15,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of main theme with swapped parts and turnaround."
+    }
+  ]
+}

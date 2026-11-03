@@ -1,0 +1,281 @@
+{
+  "Tile": "Short Themes & Sound Effects",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Bonus Room theme loop ending with :|."
+    },
+    {
+      "BarRange": [
+        5,
+        13
+      ],
+      "Function": "Lp",
+      "Inference": "Invincibility theme loop ending with :|."
+    },
+    {
+      "BarRange": [
+        14,
+        16
+      ],
+      "Function": "St",
+      "Inference": "Course Clear short theme ending with |]."
+    },
+    {
+      "BarRange": [
+        17,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Bonus Game loop ending with :|."
+    },
+    {
+      "BarRange": [
+        21,
+        23
+      ],
+      "Function": "St",
+      "Inference": "Walking Towards Prize short theme ending |]."
+    },
+    {
+      "BarRange": [
+        24,
+        24
+      ],
+      "Function": "St",
+      "Inference": "Prize short jingle ending with |]."
+    },
+    {
+      "BarRange": [
+        25,
+        25
+      ],
+      "Function": "St",
+      "Inference": "No Prize short jingle ending with |]."
+    },
+    {
+      "BarRange": [
+        26,
+        27
+      ],
+      "Function": "Lp",
+      "Inference": "Boss theme loop ending with :|."
+    },
+    {
+      "BarRange": [
+        28,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "False Daisy theme loop ending with :|."
+    },
+    {
+      "BarRange": [
+        30,
+        33
+      ],
+      "Function": "In",
+      "Inference": "Tatanga theme intro ending with |:."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "Tatanga theme loop ending with :|."
+    },
+    {
+      "BarRange": [
+        42,
+        42
+      ],
+      "Function": "St",
+      "Inference": "Miss short jingle ending with |]."
+    },
+    {
+      "BarRange": [
+        43,
+        46
+      ],
+      "Function": "St",
+      "Inference": "Game Over short theme ending with |]."
+    },
+    {
+      "BarRange": [
+        47,
+        47
+      ],
+      "Function": "St",
+      "Inference": "Coin sound effect ending with |]."
+    },
+    {
+      "BarRange": [
+        48,
+        48
+      ],
+      "Function": "St",
+      "Inference": "Pause sound effect ending with |]."
+    },
+    {
+      "BarRange": [
+        49,
+        49
+      ],
+      "Function": "St",
+      "Inference": "1-Up sound effect ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        5,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        14,
+        16
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        17,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        21,
+        23
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        24,
+        24
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        25,
+        25
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        26,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        28,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        30,
+        33
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "F",
+      "Inference": "Distinct loop theme."
+    },
+    {
+      "BarRange": [
+        42,
+        42
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        43,
+        46
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        47,
+        47
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        48,
+        48
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    },
+    {
+      "BarRange": [
+        49,
+        49
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger placeholder."
+    }
+  ]
+}

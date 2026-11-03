@@ -1,0 +1,60 @@
+{
+  "Tile": "Bonus Screen",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a repeat sign |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body ending with a double barline || at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body ending with a repeat sign :| at bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section uses placeholder X."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Section A merges a 4-bar accompaniment vamp and an 8-bar main melodic theme."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Section B merges a 4-bar contrasting motif and a 4-bar return to the A theme."
+    }
+  ]
+}

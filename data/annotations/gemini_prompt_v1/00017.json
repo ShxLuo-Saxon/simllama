@@ -1,0 +1,61 @@
+{
+  "Tile": "Professor E. Gadd's Laboratory",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Short introductory chord ending with a start repeat."
+    },
+    {
+      "BarRange": [
+        2,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section of the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chord before the loop begins."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme with sparse accompaniment."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct repetition of the primary theme."
+    },
+    {
+      "BarRange": [
+        18,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with ascending bassline building up tension to loop."
+    }
+  ]
+}

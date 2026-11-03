@@ -1,0 +1,94 @@
+{
+  "Tile": "Tower Tennis Terror",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro marked Pesante with dramatic chords and rests."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body begins in A minor with 16th note arpeggios."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to A major, concluding with a double barline."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to C major with alternating meter changes."
+    },
+    {
+      "BarRange": [
+        37,
+        42
+      ],
+      "Function": "Br",
+      "Inference": "Bridge marked rit. molto leading back to the beginning via D.C."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A in A minor featuring continuous pedal notes."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A transposed to A major with an identical rhythmic core."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B in C major introducing a new melodic contour and alternating meters."
+    },
+    {
+      "BarRange": [
+        37,
+        42
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Transition back to the start, non-thematic."
+    }
+  ]
+}

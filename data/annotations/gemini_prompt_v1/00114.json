@@ -1,0 +1,42 @@
+{
+  "Tile": "Mega Mushroom",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "Lp",
+      "Inference": "Section ends with || marking a modulation."
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Section ends with || marking another modulation."
+    },
+    {
+      "BarRange": [
+        5,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Section ends with :| completing the loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged short sections (less than 8 bars) into a single main theme."
+    }
+  ]
+}

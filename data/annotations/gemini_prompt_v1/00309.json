@@ -1,0 +1,60 @@
+{
+  "Tile": "Observatory Dome",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Intro ends with |: and features a free-form ad lib arpeggio."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body starting with a Segno and ending with :|."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body ending with D.S. to repeat infinitely."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory arpeggio, placeholder X."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main ambient rhythmic motif is established."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Continues the exact same rhythmic structure with harmonic shifts."
+    }
+  ]
+}

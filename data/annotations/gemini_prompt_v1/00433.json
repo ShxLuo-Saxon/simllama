@@ -1,0 +1,61 @@
+{
+  "Tile": "Delfino Airstrip",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 5, marking the end of the intro."
+    },
+    {
+      "BarRange": [
+        6,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 33, enclosing the infinite loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bars leading into the main loop."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the first texture with sustained chords over an ostinato bass."
+    },
+    {
+      "BarRange": [
+        14,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture with offbeat staccato chords and a 4-bar melodic transition."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Key changes to C major, introducing a bouncy melody and walking bassline."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Tile": "Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop, ending with a repeat sign at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main whimsical melody of the track."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats Theme A with thicker chords and minor variations."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting theme introducing new rhythmic motifs and harmony."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Melody shifts an octave higher, forming the final theme before looping."
+    }
+  ]
+}

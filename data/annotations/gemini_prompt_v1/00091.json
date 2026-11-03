@@ -1,0 +1,69 @@
+{
+  "Tile": "mario golf intro",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Short introductory motif followed by a pause"
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear musical content"
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Ou",
+      "Inference": "Triplet buildup concluding with final staccato chords"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory motif"
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First theme featuring slower, syncopated rhythms"
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Second theme introduces eighth-note arpeggiated figures"
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section"
+    }
+  ]
+}

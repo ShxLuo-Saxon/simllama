@@ -1,0 +1,26 @@
+{
+  "Tile": "\"World 8 (Dark Land)\"",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1 to 4 form an infinite loop indicated by a :| sign at bar 4."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 4-bar theme marked by dissonant chords over a repeated ostinato."
+    }
+  ]
+}

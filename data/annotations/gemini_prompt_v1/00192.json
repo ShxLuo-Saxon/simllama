@@ -1,0 +1,26 @@
+{
+  "Tile": "World 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 10, looping the entire track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main thematic section containing an initial 2-bar vamp and an 8-bar melody."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Tile": "Smithy Battle 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "A |: repeat mark appears at the end of bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop section ending with a :| repeat mark at bar 30."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bass notes establishing the groove before the loop."
+    },
+    {
+      "BarRange": [
+        5,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Stabs and arpeggios transition into rhythmic hits over a driving 16th-note bass."
+    },
+    {
+      "BarRange": [
+        18,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Sustained syncopated chords transition into a fast 16th-note melodic passage."
+    }
+  ]
+}

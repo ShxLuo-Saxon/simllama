@@ -1,0 +1,26 @@
+Listeners 20, ratings 1200, clips 60
+
+1. Correlations over the 60 clips
+          Melody  Density  Register    CS
+Melody      1.00     0.12      0.15  0.29
+Density     0.12     1.00      0.31  0.30
+Register    0.15     0.31      1.00  0.05
+CS          0.29     0.30      0.05  1.00
+
+2. Joint model (REML): rating points per SD, Wald 95% interval
+  Melody     +5.93  [ +3.21,  +8.66]  p 0.0000
+  Density    +1.89  [ -0.60,  +4.37]  p 0.1370
+  Register   +2.17  [ -0.43,  +4.78]  p 0.1020
+  CS         +0.52  [ -2.10,  +3.13]  p 0.6973
+
+3. Adding Melody to Density + Register + CS (ML fits)
+  LR 25.02, df 1, p 0.00000
+
+4. Melody minus CS in the joint model (REML), Wald 95% interval
+   +5.41  [ +1.08,  +9.74]  p 0.0142
+
+5. Melody and CS alone (REML), Wald 95% interval; 4 quoting clips
+  all clips              Melody +6.29 [+4.02, +8.56]  CS +1.34 [-0.98, +3.66]  Melody - CS +4.95 [+1.21, +8.69]
+  without quoting clips  Melody +4.77 [+1.43, +8.11]  CS +1.71 [-0.70, +4.12]  Melody - CS +3.05 [-1.48, +7.59]
+  per-trial Spearman, all trials: rho 0.55, p 0.002
+  per-trial Spearman, without the 3 quoting trials: rho 0.50, p 0.009

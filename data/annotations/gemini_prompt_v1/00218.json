@@ -1,0 +1,70 @@
+{
+  "Tile": "Slider",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a loop start sign at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introductory sequence."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 16-bar period establishing the main melodic theme."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repetition of the main theme with varied accompaniment."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New contrasting 8-bar section with distinct harmony."
+    },
+    {
+      "BarRange": [
+        43,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Final 12-bar section with a vamping motif and climax."
+    }
+  ]
+}

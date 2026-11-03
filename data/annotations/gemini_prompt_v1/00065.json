@@ -1,0 +1,52 @@
+{
+  "Tile": "Yoob's Belly",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A 2-bar intro ending with a |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped section ending with a :| at bar 26."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bars establishing the piano ostinato."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A featuring the ostinato and the first melody."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B with a second melody and returning to the ostinato."
+    }
+  ]
+}

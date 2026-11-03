@@ -1,0 +1,79 @@
+{
+  "Tile": "Athletic",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase setting the swing rhythm, ending with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        68
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body of the piece, starting from the repeat sign and ending at :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase establishing the swing rhythm."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary ragtime-style melody, ending with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repetition of the main A section, ending with || at bar 36."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B section with a different rhythmic motif, ending with ||."
+    },
+    {
+      "BarRange": [
+        53,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main A melody, bringing back the primary motif."
+    },
+    {
+      "BarRange": [
+        61,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New arpeggiated texture leading to the loop point at :|."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "Tile": "The Evil King Bowser",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "The track starts with an accelerating introduction ending with a || at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "In",
+      "Inference": "A rhythmic build-up section before the loop, ending with a |: at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section of the track, enclosed by the repeat sign :| at bar 38."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introduction placeholder."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Second part of the introduction with rhythmic hits."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The first main theme is introduced with a descending slow melody over heavy bass."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The texture changes with a higher register melody and a continuous 16th-note bass accompaniment."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A turnaround section that recalls the rhythmic hits from the intro, leading back to the loop start."
+    }
+  ]
+}

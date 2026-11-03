@@ -1,0 +1,78 @@
+{
+  "Tile": "Fawful Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro ends with a forward repeat sign |: at bar 2"
+    },
+    {
+      "BarRange": [
+        3,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping section ending with a backward repeat sign :| at bar 28"
+    },
+    {
+      "BarRange": [
+        29,
+        29
+      ],
+      "Function": "Ou",
+      "Inference": "Final ending chord marked with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short two-bar intro establishing the ostinato pattern"
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First section featuring a slow, sustained bass melody"
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second section introduces a more active rhythmic bass line"
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Melody shifts to treble with a completely new rhythmic motif"
+    },
+    {
+      "BarRange": [
+        29,
+        29
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Single bar outro consisting of a final sustained chord"
+    }
+  ]
+}

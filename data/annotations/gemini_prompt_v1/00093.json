@@ -1,0 +1,43 @@
+{
+  "Tile": "Playing Golf 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "Lp",
+      "Inference": "The section ends with a repeat sign :| at bar 7."
+    },
+    {
+      "BarRange": [
+        8,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "A new loop body ending with a repeat sign :| at bar 21."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme of the first loop section."
+    },
+    {
+      "BarRange": [
+        8,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new contrasting theme for the second loop section."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Tile": "Everyone, Attack!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section, introduces rhythmic motif, ends with |:"
+    },
+    {
+      "BarRange": [
+        5,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing multiple themes, ends with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section building up to the main loop."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme with driving 8th note melody."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme with a quarter note melody."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the primary theme."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting section with longer note values."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Higher register active 8th note melody."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "Climactic build-up leading back to the loop start."
+    }
+  ]
+}

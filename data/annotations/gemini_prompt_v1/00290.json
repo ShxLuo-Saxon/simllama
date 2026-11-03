@@ -1,0 +1,61 @@
+{
+  "Tile": "Chase the Bunnies!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A short introduction setting up the tempo, ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing multiple themes, ending with :| at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory segment."
+    },
+    {
+      "BarRange": [
+        3,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme played twice, ending with a 2-bar transitional hold."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with a new syncopated melody and a lighter bass texture."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A climactic section featuring driving chordal melodies, leading back to the loop point."
+    }
+  ]
+}

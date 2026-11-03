@@ -1,0 +1,87 @@
+{
+  "Tile": "Wildlands",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the swing groove, ends with a || double barline at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body starting with a Segno sign, ends with || at bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        81
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, concluding with a D.S. repeat instruction at bar 81."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory rhythmic phrase setting the initial tempo and mood."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A introduced with a lively, syncopated melody."
+    },
+    {
+      "BarRange": [
+        22,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Restatement of theme A with minor accompaniment variations."
+    },
+    {
+      "BarRange": [
+        38,
+        55
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B introducing new melodic motifs in a higher register."
+    },
+    {
+      "BarRange": [
+        56,
+        69
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of theme A, initially dropping the bass for a stripped-down piano texture."
+    },
+    {
+      "BarRange": [
+        70,
+        81
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New rhythmic motif that resolves into a turnaround leading back to the Segno."
+    }
+  ]
+}

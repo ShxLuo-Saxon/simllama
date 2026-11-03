@@ -1,0 +1,70 @@
+{
+  "Tile": "D.K.'s Court",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short upbeat intro ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body starting after |: and ending with :| at bar 34."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Pickup measure serving as an intro."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring sustained melody notes with brief syncopated responses."
+    },
+    {
+      "BarRange": [
+        10,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme characterized by rapid sixteenth-note alternations and staccato-like articulation."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct restatement of the first theme."
+    },
+    {
+      "BarRange": [
+        27,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New section characterized by a continuous stream of eighth-note dyads before looping back."
+    }
+  ]
+}

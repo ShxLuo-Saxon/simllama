@@ -1,0 +1,61 @@
+{
+  "Tile": "Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory pickup bars ending with a loop start sign."
+    },
+    {
+      "BarRange": [
+        3,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing diverse thematic sections."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup bars."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Syncopated rhythmic chordal progression establishing the groove."
+    },
+    {
+      "BarRange": [
+        11,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Lyrical main melody over the accompaniment, spanning 16 bars."
+    },
+    {
+      "BarRange": [
+        27,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting arpeggiated 16th-note texture ending with a turnaround."
+    }
+  ]
+}

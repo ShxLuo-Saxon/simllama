@@ -1,0 +1,26 @@
+{
+  "Tile": "1P Music Type C",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The section forms a continuous background loop, ending with a repeat sign at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The entire 8-bar loop represents a single cohesive musical theme without further division."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Tile": "Ghost House (Super Mario Bros.)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The track is enclosed by |: at bar 1 and :| at bar 16, forming a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the bass ostinato pattern followed by the entrance of the main treble melody."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Ostinato repeats alone, then transitions into slow, suspenseful sustained chords that build tension to loop."
+    }
+  ]
+}

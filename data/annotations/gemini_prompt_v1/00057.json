@@ -1,0 +1,70 @@
+{
+  "Tile": "Gritzy Desert",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section establishing the mood before the segno."
+    },
+    {
+      "BarRange": [
+        5,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting at the segno and ending with a D.S."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro with a rhythmic ostinato motif."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First presentation of the primary melody (Theme A)."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B section with long arpeggiated chords."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of Theme A with variations in the second half."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C utilizing the intro motif to transition back to the segno."
+    }
+  ]
+}

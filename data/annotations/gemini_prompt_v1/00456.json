@@ -1,0 +1,26 @@
+{
+  "Tile": "MAP 4 (Star World)",
+  "IsAdaptive": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "The track consists of a single 6-bar loop ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The entire 6-bar loop constitutes the single main theme A."
+    }
+  ],
+  "IsStinger": false
+}

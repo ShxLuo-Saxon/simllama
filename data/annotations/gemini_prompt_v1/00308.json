@@ -1,0 +1,88 @@
+{
+  "Tile": "Melty Molten Galaxy (Hell Prominence)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "In",
+      "Inference": "Introductory section building energy, ending with a double barline before the loop."
+    },
+    {
+      "BarRange": [
+        21,
+        104
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body containing several thematic sections, returning to the Segno via D.S."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building energy and establishing the rhythmic drive."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First iteration of the main theme in D minor."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the main theme an octave higher with thicker instrumentation."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New contrasting section featuring a soaring lyrical melody."
+    },
+    {
+      "BarRange": [
+        69,
+        84
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Modulation to G dorian, introducing a triumphant new musical idea."
+    },
+    {
+      "BarRange": [
+        85,
+        100
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "The previous triumphant theme is transposed up a whole step to A dorian."
+    },
+    {
+      "BarRange": [
+        101,
+        104
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Short non-thematic transition used to smoothly loop back to the Segno."
+    }
+  ]
+}

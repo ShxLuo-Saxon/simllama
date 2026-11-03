@@ -1,0 +1,26 @@
+{
+  "Tile": "World 4 (Giant Land)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop ending with a :| at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single thematic 8-bar loop representing the main musical idea."
+    }
+  ]
+}

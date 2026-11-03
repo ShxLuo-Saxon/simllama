@@ -1,0 +1,145 @@
+{
+  "Tile": "Music from Mario Bros.",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "Short Game Start jingle ending with |]"
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "St",
+      "Inference": "Short Phase Start jingle ending with |]"
+    },
+    {
+      "BarRange": [
+        5,
+        5
+      ],
+      "Function": "St",
+      "Inference": "Perfect Bonus jingle ending with |]"
+    },
+    {
+      "BarRange": [
+        6,
+        8
+      ],
+      "Function": "St",
+      "Inference": "Restart jingle ending with |]"
+    },
+    {
+      "BarRange": [
+        9,
+        9
+      ],
+      "Function": "In",
+      "Inference": "A one-bar intro for the Demo section"
+    },
+    {
+      "BarRange": [
+        10,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Demo loop enclosed by |: and :|"
+    },
+    {
+      "BarRange": [
+        13,
+        17
+      ],
+      "Function": "St",
+      "Inference": "Game Over jingle ending with |]"
+    },
+    {
+      "BarRange": [
+        18,
+        18
+      ],
+      "Function": "St",
+      "Inference": "Coin sound effect ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Game Start jingle"
+    },
+    {
+      "BarRange": [
+        3,
+        4
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Phase Start jingle"
+    },
+    {
+      "BarRange": [
+        5,
+        5
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Perfect Bonus jingle"
+    },
+    {
+      "BarRange": [
+        6,
+        8
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Restart jingle"
+    },
+    {
+      "BarRange": [
+        9,
+        9
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro to Demo section"
+    },
+    {
+      "BarRange": [
+        10,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main Demo loop"
+    },
+    {
+      "BarRange": [
+        13,
+        17
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Game Over jingle"
+    },
+    {
+      "BarRange": [
+        18,
+        18
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Coin sound effect"
+    }
+  ]
+}

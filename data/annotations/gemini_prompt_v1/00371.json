@@ -1,0 +1,53 @@
+{
+  "Tile": "Wario's Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a continuous loop ending with a repeat sign at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme with sustained notes and rests over the bass groove."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme featuring a moving melody in a higher register."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Exact repetition of the first theme."
+    },
+    {
+      "BarRange": [
+        25,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Four bars of rest leading into a new syncopated chordal theme."
+    }
+  ]
+}

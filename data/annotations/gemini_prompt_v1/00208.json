@@ -1,0 +1,26 @@
+{
+  "Tile": "Merry-Go-Round",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop body that ends with a repeat sign at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A continuous 32-bar waltz theme representing a single cohesive musical idea without major textural shifts."
+    }
+  ]
+}

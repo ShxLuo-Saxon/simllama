@@ -1,0 +1,26 @@
+{
+  "Tile": "Training Course",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed by repeat barlines |: and :| indicating a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar thematic loop introducing an ostinato pattern."
+    }
+  ]
+}

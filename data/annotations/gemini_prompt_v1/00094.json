@@ -1,0 +1,61 @@
+{
+  "Tile": "Playing Golf 2",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "In",
+      "Inference": "Intro section, ending with |: at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ending with :| at bar 64."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory melody with block chords."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody introduced with arpeggiated bass accompaniment."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Restatement of the intro's block chord melody."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Running 1/8th note melody with varied bass accompaniment."
+    }
+  ]
+}

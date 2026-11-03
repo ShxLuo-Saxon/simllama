@@ -1,0 +1,43 @@
+{
+  "Tile": "File Select/Game Over",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-8 serve as an intro, ending with a |: loop start mark."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 9-16 act as the main loop body following the |: mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, marked as X."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A, presenting a fuller variation of the intro."
+    }
+  ]
+}

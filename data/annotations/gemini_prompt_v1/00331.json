@@ -1,0 +1,69 @@
+{
+  "Tile": "Fateful Decision Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        12,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by repeat signs."
+    },
+    {
+      "BarRange": [
+        35,
+        39
+      ],
+      "Function": "Ou",
+      "Inference": "Outro section with a final ending chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section building up to the loop."
+    },
+    {
+      "BarRange": [
+        12,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme and climax in Ab major."
+    },
+    {
+      "BarRange": [
+        25,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulates to A major, recalling the main motif."
+    },
+    {
+      "BarRange": [
+        35,
+        39
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section repeating the main motif."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "F.L.U.D.D.",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase with fermata pauses, ends with ||."
+    },
+    {
+      "BarRange": [
+        4,
+        13
+      ],
+      "Function": "Ln",
+      "Inference": "Linear progression of rhythmic chords, ends with ||."
+    },
+    {
+      "BarRange": [
+        14,
+        14
+      ],
+      "Function": "St",
+      "Inference": "Short fanfare jingle for an event, ends with ||."
+    },
+    {
+      "BarRange": [
+        15,
+        41
+      ],
+      "Function": "Ln",
+      "Inference": "Main background music for instructions, ends with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory non-thematic section."
+    },
+    {
+      "BarRange": [
+        4,
+        13
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Rhythmic chord progression providing tension."
+    },
+    {
+      "BarRange": [
+        14,
+        14
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Standalone fanfare jingle."
+    },
+    {
+      "BarRange": [
+        15,
+        41
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Main melodic theme with transpositions."
+    }
+  ]
+}

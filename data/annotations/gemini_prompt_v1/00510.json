@@ -1,0 +1,106 @@
+{
+  "Tile": "Fichina",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro with marcato melody and sparse bass."
+    },
+    {
+      "BarRange": [
+        9,
+        72
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body with driving bass, ending with repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro with marcato melody and sparse accompaniment."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody introduced with a driving eighth note bassline."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Arpeggiated motif traded between treble voices."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody returns an octave higher."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Arpeggiated motif returns played identically."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Ascending sequences build up tension."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Lyrical melody with arpeggiated accompaniment."
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "New lyrical melody with continued arpeggiated accompaniment."
+    },
+    {
+      "BarRange": [
+        65,
+        72
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Return of the lyrical melody leading to the loop point."
+    }
+  ]
+}

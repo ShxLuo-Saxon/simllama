@@ -1,0 +1,43 @@
+{
+  "Tile": "Courtyard",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 12, marking the end of the first loop part."
+    },
+    {
+      "BarRange": [
+        13,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 26, indicating the end of the looping body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary upbeat melody (Theme A) that introduces the core motif."
+    },
+    {
+      "BarRange": [
+        13,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting melody with slower rhythms, followed by a non-thematic turnaround merged into this section."
+    }
+  ]
+}

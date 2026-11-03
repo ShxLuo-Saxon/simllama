@@ -1,0 +1,26 @@
+{
+  "Tile": "Koopa Kid Castle Clear",
+  "IsAdaptive": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "St",
+      "Inference": "Short 6-bar jingle ending with |], typical of a stinger."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers do not have thematic sections."
+    }
+  ],
+  "IsStinger": true
+}

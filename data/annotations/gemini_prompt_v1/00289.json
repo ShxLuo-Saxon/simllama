@@ -1,0 +1,95 @@
+{
+  "Tile": "Buoy Base Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the march rhythm, ending with a double barline at bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the main loop starting at Segno, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, concluding with D.S. and a double barline."
+    },
+    {
+      "BarRange": [
+        61,
+        61
+      ],
+      "Function": "Ou",
+      "Inference": "A single ending bar marked Fine."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory arpeggios and rhythmic motif."
+    },
+    {
+      "BarRange": [
+        13,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme and its octave repetition with fuller harmony."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New melodic idea introduced with a sudden mp dynamic."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Shift to ff dynamic with a driving bass texture and contrasting melody."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Staccato rhythmic theme that culminates and leads back to the loop start."
+    },
+    {
+      "BarRange": [
+        61,
+        61
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final staccato chords for the track's end."
+    }
+  ]
+}

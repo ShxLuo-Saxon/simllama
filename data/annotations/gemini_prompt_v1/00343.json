@@ -1,0 +1,78 @@
+{
+  "Tile": "Spin-Dig Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 25."
+    },
+    {
+      "BarRange": [
+        26,
+        45
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 45."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bar before the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A begins after a 4-bar accompaniment vamp."
+    },
+    {
+      "BarRange": [
+        16,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of Theme A with thicker instrumentation."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces Theme B in a new key (F major)."
+    },
+    {
+      "BarRange": [
+        34,
+        45
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repeat of Theme B with added counter-melody and extension."
+    }
+  ]
+}

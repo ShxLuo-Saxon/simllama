@@ -1,0 +1,60 @@
+{
+  "Tile": "Inside the Castle Walls",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body starting the track, ends with a double barline at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        37
+      ],
+      "Function": "Ln",
+      "Inference": "Second linear section with dolce marking, ends with a double barline at bar 37."
+    },
+    {
+      "BarRange": [
+        38,
+        54
+      ],
+      "Function": "Ln",
+      "Inference": "Third linear section, returning to the opening material, ends with |] at bar 54."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First main theme marked Tranquillo with a disjointed melody and sparse accompaniment."
+    },
+    {
+      "BarRange": [
+        18,
+        37
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting B theme marked dolce with continuous flowing accompaniment and lyrical melody."
+    },
+    {
+      "BarRange": [
+        38,
+        54
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the A theme, closing the track."
+    }
+  ]
+}

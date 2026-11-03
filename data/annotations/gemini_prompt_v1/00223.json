@@ -1,0 +1,78 @@
+{
+  "Tile": "Super Mario 64 Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bar 4 ends with a |: repeat start sign."
+    },
+    {
+      "BarRange": [
+        5,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with a || double barline at bar 52."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of the loop ending with a :| repeat sign at bar 68."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section setting up the rhythmic feel."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary main theme melody."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the primary main theme with melodic variations."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New contrasting theme with sustained, syncopated chordal structures."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Distinct groove/vamp section leading back to the loop start."
+    }
+  ]
+}

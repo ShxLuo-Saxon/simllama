@@ -1,0 +1,78 @@
+{
+  "Tile": "Pinna Park",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-8 serve as an intro, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        9,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the main loop, ending with a double barline at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        74
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, concluding with a D.C. instruction."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section establishing the groove, assigned X as per rules."
+    },
+    {
+      "BarRange": [
+        9,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary syncopated melody."
+    },
+    {
+      "BarRange": [
+        33,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B brings a contrasting melodic idea and progression."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic transitional passage with repeating sextuplets."
+    },
+    {
+      "BarRange": [
+        59,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to Theme A's primary structural and melodic motifs."
+    }
+  ]
+}

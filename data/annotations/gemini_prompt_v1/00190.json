@@ -1,0 +1,70 @@
+{
+  "Tile": "Switch Scramble Circus",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Inference": "Intro section with animated chords and vamping accompaniment."
+    },
+    {
+      "BarRange": [
+        10,
+        42
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body comprising multiple thematic segments."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First primary theme."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Second theme with a new melodic phrase."
+    },
+    {
+      "BarRange": [
+        26,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Third theme, building tension with a crescendo."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Final thematic section culminating in the track's end."
+    }
+  ]
+}

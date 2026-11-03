@@ -1,0 +1,44 @@
+{
+  "Tile": "Nighttime Crafts",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with a :| at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Sparse, ambient texture with a bass ostinato and occasional melodic hits."
+    },
+    {
+      "BarRange": [
+        16,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces clearer melodic fragments and distinct descending grace-note motifs."
+    },
+    {
+      "BarRange": [
+        28,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sudden dynamic shift with an arpeggio run, followed by a sparse fade-out."
+    }
+  ]
+}

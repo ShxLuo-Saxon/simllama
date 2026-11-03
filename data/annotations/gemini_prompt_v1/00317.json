@@ -1,0 +1,68 @@
+{
+  "Tile": "Starbit Festival",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Start of the loop body, ending with || at bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody of the loop, ending with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Continuation of the loop, ending with :| at bar 28."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled X as required."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged 4-bar prefix with the 8-bar main theme, forming Section A."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Variation of Section A with the same melodic and rhythmic core."
+    }
+  ]
+}

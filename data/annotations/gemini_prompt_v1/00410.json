@@ -1,0 +1,35 @@
+{
+  "Tile": "Let's Try",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track forms a single infinite loop ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme establishes the rhythmic motif and harmonic structure."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing triplet figures and higher melodic registers."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "Tile": "Spirit of the Night",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        72
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track repeats continuously back to bar 1."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Rhythmic intro setting the groove, lacking a thematic melody."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic theme introduced in the lower register."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting arpeggiated motif with a different rhythmic feel."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the A section played an octave higher."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repeat of the B section."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Sequenced transitional melody building tension."
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Lyrical and soaring new melody section."
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "Continuation of the lyrical melody with new phrasing."
+    },
+    {
+      "BarRange": [
+        65,
+        72
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Return of the D section ending with a loop turnaround."
+    }
+  ]
+}

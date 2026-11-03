@@ -1,0 +1,52 @@
+{
+  "Tile": "World Star",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-4 serve as an intro, ending with a repeat start sign |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body of the track, enclosed by repeat signs and ending with :| at bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase before the main loop."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The first 8 bars establish the primary melody and rhythmic texture."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Melody develops further with harmonic changes, leading to a climax and resolving back to loop."
+    }
+  ]
+}

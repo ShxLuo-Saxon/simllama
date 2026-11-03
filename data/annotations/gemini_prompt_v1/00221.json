@@ -1,0 +1,122 @@
+{
+  "Tile": "Staff Roll",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Introductory section establishing a tranquil mood and accompaniment pattern."
+    },
+    {
+      "BarRange": [
+        7,
+        70
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body presenting three distinct themes in C major."
+    },
+    {
+      "BarRange": [
+        71,
+        78
+      ],
+      "Function": "Ln",
+      "Inference": "Continuation of the linear body, modulating to Db major."
+    },
+    {
+      "BarRange": [
+        79,
+        86
+      ],
+      "Function": "Ou",
+      "Inference": "Outro section fading out with material similar to the intro."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro setting the rhythmic and harmonic foundation."
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A introduced over 16 bars in C major."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting Theme B, marked dolce, for 8 bars."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Theme C, marked poco grandioso, with a fuller texture."
+    },
+    {
+      "BarRange": [
+        39,
+        54
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of Theme A, played an octave higher."
+    },
+    {
+      "BarRange": [
+        55,
+        62
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Exact return of Theme B."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Exact return of Theme C, concluding with a double barline."
+    },
+    {
+      "BarRange": [
+        71,
+        78
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Theme C transposed to Db major, maintaining its grandioso feel."
+    },
+    {
+      "BarRange": [
+        79,
+        86
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro mimicking the intro, concluding with a ritardando and fermata."
+    }
+  ]
+}

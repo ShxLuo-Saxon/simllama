@@ -1,0 +1,69 @@
+{
+  "Tile": "Dodo's Coming!!",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory bass pattern and dynamic buildup to the main melody"
+    },
+    {
+      "BarRange": [
+        9,
+        32
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body containing the primary musical content"
+    },
+    {
+      "BarRange": [
+        33,
+        37
+      ],
+      "Function": "Ou",
+      "Inference": "Ending phrase with sustained chords, a treble run, and final hit"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bass pattern and dynamic buildup"
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main theme in C minor ending with an answering treble phrase"
+    },
+    {
+      "BarRange": [
+        21,
+        32
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme transposed to F minor, returning briefly to C minor"
+    },
+    {
+      "BarRange": [
+        33,
+        37
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Ending chords, treble run, and final staccato hit"
+    }
+  ]
+}

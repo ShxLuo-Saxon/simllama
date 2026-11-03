@@ -1,0 +1,61 @@
+{
+  "Tile": "Overworld (Vs. Mode)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with a start repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with an end repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A consisting of two 8-bar periods."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section B combining multiple thematic sub-motifs."
+    },
+    {
+      "BarRange": [
+        37,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of theme A, concluding with a whistle outro."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "Tile": "Gusty Garden Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        74
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body of the track, ending with a :| repeat sign at bar 74."
+    },
+    {
+      "BarRange": [
+        75,
+        76
+      ],
+      "Function": "Ou",
+      "Inference": "Outro tail section playing after exiting the loop, ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory passage building up to the main loop."
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First main theme establishing the primary melody and rhythmic structure."
+    },
+    {
+      "BarRange": [
+        23,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A repeated an octave higher with richer texture and harmonization."
+    },
+    {
+      "BarRange": [
+        39,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New contrasting thematic section featuring sustained chords and long notes."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Modulation to A major introducing a brand new melodic idea."
+    },
+    {
+      "BarRange": [
+        55,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Modulation back to Db major with a new lyrical string-like melody."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D repeated an octave higher leading into a climactic transition."
+    },
+    {
+      "BarRange": [
+        71,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic transitional bars sustaining chords to bridge back to the loop start."
+    },
+    {
+      "BarRange": [
+        75,
+        76
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Brief, non-thematic concluding outro."
+    }
+  ]
+}

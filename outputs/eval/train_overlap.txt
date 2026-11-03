@@ -1,0 +1,7 @@
+Training sections: 781; test contexts: 157
+Near-duplicate in training (shared run of 8+ notes): 39 contexts (24.8%) in 24 pieces
+Max Melody against training: median 0.066, share >= 0.5: 0.0%
+
+  all contexts                       n 157 (49 pieces)   Melody gap 0.0080 [0.0045, 0.0121]
+  without a near-duplicate           n 118 (45 pieces)   Melody gap 0.0078 [0.0038, 0.0122]
+  with a near-duplicate              n  39 (24 pieces)   Melody gap 0.0087 [0.0004, 0.0177]

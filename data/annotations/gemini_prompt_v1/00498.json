@@ -1,0 +1,97 @@
+{
+  "Tile": "The Big Board",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the groove. Ends with a double barline at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        70
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body. Ends with !D.S.! at bar 70, looping back to Segno at bar 15."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bass groove."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main melodic theme."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Variation of the main theme, ending with an upward run."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with a more sustained melody."
+    },
+    {
+      "BarRange": [
+        39,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme A."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic breakdown with only bass groove."
+    },
+    {
+      "BarRange": [
+        55,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New syncopated melodic motif is introduced."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Harmonized version of the previous motif, building up to D.S."
+    }
+  ]
+}

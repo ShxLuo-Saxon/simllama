@@ -1,0 +1,14 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+1,2,a,it,a,it,a,pr,,,,,16-bar grid
+3,4,b,it,b,it,b,it,,,,,
+7,4,c,en,,,,,,,,,
+11,4,b,it,b,en,,,,,,,
+15,4,c,en,,,,,,,,,
+19,4,b,it,b,it,b,mi,,,,,
+23,4,d,en,,,,,,,,,
+27,4,e,it,c,en,,,,,,,
+31,4,f,en,,,,,,,,,
+35,4,g,it,d,it,c,en,,,,,
+39,4,g,en,,,,,,,,,
+43,4,g,it,d,en,,,,,,,
+47,4,h,en,,,,,,,,,

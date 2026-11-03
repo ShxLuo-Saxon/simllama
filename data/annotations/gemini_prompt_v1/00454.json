@@ -1,0 +1,26 @@
+{
+  "Tile": "MAP 2 (Overworld)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop body ending with a :| at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar thematic section representing the main overworld loop."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Tile": "Hard Times",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 ends with a |: repeat sign, serving as a short intro."
+    },
+    {
+      "BarRange": [
+        2,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping section ending with a :| repeat sign at bar 10."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, designated as X."
+    },
+    {
+      "BarRange": [
+        2,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic and rhythmic material of the loop."
+    }
+  ]
+}

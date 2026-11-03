@@ -1,0 +1,26 @@
+{
+  "Tile": "Hurry Up!",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "St",
+      "Inference": "A short 5-bar musical cue ending with a fermata and |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger track, non-thematic section labeled as X."
+    }
+  ]
+}

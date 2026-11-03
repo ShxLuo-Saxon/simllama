@@ -1,0 +1,26 @@
+{
+  "Tile": "Fortress Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The track ends with :| at bar 8, forming a complete infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The entire 8-bar loop constitutes the single main theme A."
+    }
+  ]
+}

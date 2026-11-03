@@ -1,0 +1,61 @@
+{
+  "Tile": "Title Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        54
+      ],
+      "Function": "In",
+      "Inference": "A long intro presenting the full theme without bass accompaniment, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        55,
+        112
+      ],
+      "Function": "Lp",
+      "Inference": "The loop body starts at the Segno with bass entry, looping back at the D.S. mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        54
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section playing through the primary themes as a piano solo."
+    },
+    {
+      "BarRange": [
+        55,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Starts with a 4-bar bass groove followed by the first statement of the main theme."
+    },
+    {
+      "BarRange": [
+        75,
+        90
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Shares the initial rhythmic and melodic motif of the previous section, functioning as a variation."
+    },
+    {
+      "BarRange": [
+        91,
+        112
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new ascending motif and contrasting harmony, concluding the loop."
+    }
+  ]
+}

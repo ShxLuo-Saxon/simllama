@@ -1,0 +1,52 @@
+{
+  "Tile": "Title",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro ends with a |: repeat sign at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by the repeat signs, ending at bar 22 with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, designated as X."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 8-bar phrase of the main theme introducing the primary melodic motif."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Parallel phrase to the first, merging a short 4-bar concluding vamp into the section."
+    }
+  ]
+}

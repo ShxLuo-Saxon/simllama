@@ -1,0 +1,52 @@
+{
+  "Tile": "Vim Factory",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-2 set up the groove before the Segno at bar 3."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop ending with a D.S. back to bar 3."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the initial rhythmic ostinato."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes the core groove and active bassline pattern."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a lyrical melody over the groove, concluding the loop."
+    }
+  ]
+}

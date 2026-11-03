@@ -1,0 +1,26 @@
+{
+  "Tile": "Special World 7",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is an 8-bar loop enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only musical idea of the loop."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "Tile": "Breezy Mushrise Park",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Part of the loop body. A || mark is present at the end of bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body. A || mark is present at the end of bar 50."
+    },
+    {
+      "BarRange": [
+        51,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :| at bar 54, instructing an infinite loop back to the start."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary syncopated staccato rhythmic motif."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting flowing lyrical melody ending with ||."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats the primary rhythmic motif of A in the relative minor."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a new building pre-chorus musical idea."
+    },
+    {
+      "BarRange": [
+        33,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "The main chorus featuring a new soaring melody, ending with ||."
+    },
+    {
+      "BarRange": [
+        51,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "A short non-thematic arpeggiated chord acting as a transition."
+    }
+  ]
+}

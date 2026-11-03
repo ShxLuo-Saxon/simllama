@@ -1,0 +1,61 @@
+{
+  "Tile": "The Wind is Blowing at Cavi Cape",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory vamp establishing the rhythm, ends with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary and secondary themes, ends with a :| at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp establishing the groove."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody introduced over the accompaniment."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A short interlude followed by a direct repeat of the primary melody."
+    },
+    {
+      "BarRange": [
+        25,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B theme with a slower tempo, concluding with a return vamp."
+    }
+  ]
+}

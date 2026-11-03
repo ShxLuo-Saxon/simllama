@@ -1,0 +1,69 @@
+{
+  "Tile": "Desert Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro establishes the rhythmic bass and harmonic feel before the main melody."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body containing the primary thematic and contrasting melodies."
+    },
+    {
+      "BarRange": [
+        25,
+        26
+      ],
+      "Function": "Ou",
+      "Inference": "A short turnaround section ending with D.C. to loop back to the beginning."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section without main thematic material, marked as X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Section A introduces the primary melodic motif of the theme."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Section B introduces contrasting material before a short reprise of the A motif."
+    },
+    {
+      "BarRange": [
+        25,
+        26
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro turnaround transitioning back to the start, marked as X."
+    }
+  ]
+}

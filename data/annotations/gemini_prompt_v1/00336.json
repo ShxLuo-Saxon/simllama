@@ -1,0 +1,43 @@
+{
+  "Tile": "Pipe Room",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory vamp ending with a |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping section starting and ending with repeat barlines."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section is labeled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary cohesive looping section containing the main theme."
+    }
+  ]
+}

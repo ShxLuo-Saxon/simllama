@@ -1,0 +1,35 @@
+{
+  "Tile": "File Select",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with :| at bar 16."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 8-bar theme with main motif and I-IV harmony."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting 8-bar theme with new melody and iii-ii harmony."
+    }
+  ]
+}

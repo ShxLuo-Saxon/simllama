@@ -1,0 +1,26 @@
+{
+  "Tile": "World 5 (Sky Land)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-4 end with a repeat sign :|, forming the main loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only thematic section of this short looping track."
+    }
+  ]
+}

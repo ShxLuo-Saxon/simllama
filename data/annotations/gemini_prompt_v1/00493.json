@@ -1,0 +1,44 @@
+{
+  "Tile": "Tidal Coast/Sea Turtle Rocks/Beneath the Waves",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        29
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop body enclosed by repeat signs at bars 1 and 29."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody following a 1-bar accompaniment vamp."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section introducing fundamentally new harmonic progression and melodic ideas."
+    },
+    {
+      "BarRange": [
+        18,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the primary melody, merged with a 4-bar ascending arpeggiated transition to loop."
+    }
+  ]
+}

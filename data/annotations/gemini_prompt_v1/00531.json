@@ -1,0 +1,26 @@
+{
+  "Tile": "Versus Mode",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The track consists of a single 8-bar loop ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single thematic idea repeated throughout the 8-bar loop."
+    }
+  ]
+}

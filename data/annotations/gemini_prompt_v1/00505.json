@@ -1,0 +1,94 @@
+{
+  "Tile": "Ropey Jungle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Inference": "Starts from the beginning, ends with || at bar 11."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with || at bar 19."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with || at bar 27."
+    },
+    {
+      "BarRange": [
+        28,
+        35
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with || at bar 35."
+    },
+    {
+      "BarRange": [
+        36,
+        43
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with |] and D.C. at bar 43."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main melody and rhythmic accompaniment."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces contrasting rhythmic block chords."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Softer section with new harmony and texture."
+    },
+    {
+      "BarRange": [
+        28,
+        35
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Introduces a new driving rhythmic melody."
+    },
+    {
+      "BarRange": [
+        36,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Direct repeat of the previous melody an octave higher."
+    }
+  ]
+}

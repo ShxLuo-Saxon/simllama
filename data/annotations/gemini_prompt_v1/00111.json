@@ -1,0 +1,52 @@
+{
+  "Tile": "Bowser Jr. Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A 1-bar intro in 5/4 meter ending with |:."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "The main looped body in 4/4 meter ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introductory bar setting a mischievous mood."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary rhythmic theme over a prominent bass ostinato."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme featuring descending chords and fast melodic runs."
+    }
+  ]
+}

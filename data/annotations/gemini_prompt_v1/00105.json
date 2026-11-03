@@ -1,0 +1,94 @@
+{
+  "Tile": "Junior Class Match",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The track begins with the loop body. A || appears at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "A new segment within the loop. A || appears at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "A key change to F major marks this segment. Ends with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "A key change to G major marks this segment. Ends with || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "The final segment of the loop body. A :| at bar 41 repeats the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic and melodic motif over an ostinato pedal bass."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new sweeping melody in D minor with a contrasting bass texture."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Features syncopated chordal stabs in F major, contrasting heavily with previous sections."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A lyrical, slower-moving melody is introduced in G major over a steady bass."
+    },
+    {
+      "BarRange": [
+        33,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "A concluding melodic idea with arpeggiated bass leads smoothly back to the start."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Tile": "Dormitory",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track consists of a single loop body ending with :| at bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme with block chord accompaniment."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting middle section introducing a new melody."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the first theme with an arpeggiated bass line."
+    }
+  ]
+}

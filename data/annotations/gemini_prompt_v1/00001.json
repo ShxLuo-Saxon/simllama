@@ -1,0 +1,52 @@
+{
+  "Tile": "Retro Ramp-Up",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Inference": "Introductory build-up ending with |: at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the primary themes and ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building up to the main loop."
+    },
+    {
+      "BarRange": [
+        11,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme and its repetition, establishing the main groove."
+    },
+    {
+      "BarRange": [
+        29,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting ascending progression building tension to loop back."
+    }
+  ]
+}

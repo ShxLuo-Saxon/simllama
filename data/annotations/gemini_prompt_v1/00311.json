@@ -1,0 +1,43 @@
+{
+  "Tile": "Prologue",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Inference": "Ends with a double barline at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        17
+      ],
+      "Function": "Ln",
+      "Inference": "Ends with a final barline at bar 17."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First presentation of the main theme with sparse accompaniment."
+    },
+    {
+      "BarRange": [
+        9,
+        17
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Repetition of the main theme with more active accompaniment."
+    }
+  ]
+}

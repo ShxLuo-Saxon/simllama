@@ -1,0 +1,78 @@
+{
+  "Tile": "Bowser's Lava Lake Keep",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Bar 2 ends with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping section ending with a :| repeat sign."
+    },
+    {
+      "BarRange": [
+        31,
+        31
+      ],
+      "Function": "Ou",
+      "Inference": "Final bar ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory accelerando and trill."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme with a rhythmic bass and F minor melody."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with rising parallel chords."
+    },
+    {
+      "BarRange": [
+        21,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Climactic section building up to the loop point."
+    },
+    {
+      "BarRange": [
+        31,
+        31
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "A single final chord to conclude."
+    }
+  ]
+}

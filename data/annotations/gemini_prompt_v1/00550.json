@@ -1,0 +1,61 @@
+{
+  "Tile": "Yoshi's Song",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with || at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        39
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body ending with :| at bar 39."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the backing groove."
+    },
+    {
+      "BarRange": [
+        5,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme presented twice, ending with a 5/4 break."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with new melody and descending harmony."
+    },
+    {
+      "BarRange": [
+        28,
+        39
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme leading back to the loop."
+    }
+  ]
+}

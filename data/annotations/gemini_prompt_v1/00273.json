@@ -1,0 +1,26 @@
+{
+  "Tile": "World 1 (Grass Land)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a repeat sign :| at bar 12, indicating a full loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A continuous 12-bar theme that loops without a distinct intro."
+    }
+  ]
+}

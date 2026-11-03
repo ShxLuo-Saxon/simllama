@@ -1,0 +1,26 @@
+{
+  "Tile": "Race Fanfare",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "Short 2-bar fanfare ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger section gets placeholder label X"
+    }
+  ]
+}

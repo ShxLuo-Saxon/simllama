@@ -1,0 +1,26 @@
+{
+  "Tile": "Graveyard",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with a :| at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Unified atmospheric theme; the contrasting rhythmic shift at bar 13 is merged due to the 8-bar rule."
+    }
+  ]
+}

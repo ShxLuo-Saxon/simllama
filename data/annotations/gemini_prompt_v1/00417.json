@@ -1,0 +1,43 @@
+{
+  "Tile": "Sad Song",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A single beat pickup measure acting as an intro, ending with a |:"
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Inference": "The main melodic loop body enclosed by |: and :| at the end of bar 13"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup bar."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme of the track that loops continuously."
+    }
+  ]
+}

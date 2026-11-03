@@ -1,0 +1,94 @@
+{
+  "Tile": "Staff Roll (Main Theme)",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a double barline at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Ln",
+      "Inference": "Linear section presenting the main theme, ending at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting linear section, ending with a double barline at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        62
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the main theme, extended and ending at bar 62."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Ou",
+      "Inference": "Outro section ending with a final chord at bar 70."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, placeholder X."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary theme, labeled A."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting theme, labeled B."
+    },
+    {
+      "BarRange": [
+        41,
+        62
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the primary theme, extended."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section, placeholder X."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Tile": "Mario Bros. Classic",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory chords setting the mood."
+    },
+    {
+      "BarRange": [
+        3,
+        8
+      ],
+      "Function": "Ln",
+      "Inference": "Main melodic progression."
+    },
+    {
+      "BarRange": [
+        9,
+        10
+      ],
+      "Function": "Ou",
+      "Inference": "Climactic ending and final chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chords."
+    },
+    {
+      "BarRange": [
+        3,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary theme."
+    },
+    {
+      "BarRange": [
+        9,
+        10
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Ending sequence."
+    }
+  ]
+}

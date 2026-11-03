@@ -1,0 +1,26 @@
+{
+  "Tile": "World 1 (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop enclosed by repeat marks."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main rhythmic and melodic core of the loop."
+    }
+  ]
+}

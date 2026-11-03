@@ -1,0 +1,61 @@
+{
+  "Tile": "Battle With The Bowsers!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section leading up to the Segno mark at bar 9."
+    },
+    {
+      "BarRange": [
+        9,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body from Segno to the D.S. loop instruction."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the tonality and building tension."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main ostinato pattern and rhythmic groove."
+    },
+    {
+      "BarRange": [
+        17,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New melodic theme that shifts harmonically, ending with a brief transition."
+    },
+    {
+      "BarRange": [
+        27,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the initial ostinato and textures, leading back to the loop start."
+    }
+  ]
+}

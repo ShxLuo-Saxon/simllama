@@ -1,0 +1,70 @@
+{
+  "Tile": "Koopa's Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section ends with |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        35
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with :| at bar 35."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Short introductory rhythmic pattern."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Initial 8-bar rhythmic vamp section."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The primary melody is introduced over the bass pattern."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Secondary melodic idea with mf dynamics and slight bass variation."
+    },
+    {
+      "BarRange": [
+        28,
+        35
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Short return to B melody followed by a heavy 4-bar ff rhythmic vamp."
+    }
+  ]
+}

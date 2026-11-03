@@ -1,0 +1,111 @@
+{
+  "Tile": "Tostarena Ruins",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro, establishes the rhythmic vamp, ends with ||"
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Starts at Segno, forms the first loop part, ends at ||"
+    },
+    {
+      "BarRange": [
+        23,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ends at ||"
+    },
+    {
+      "BarRange": [
+        35,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ends at ||"
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ends at ||"
+    },
+    {
+      "BarRange": [
+        55,
+        62
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with D.S. marker, loops back to Bar 7"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, non-thematic"
+    },
+    {
+      "BarRange": [
+        7,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A, syncopated primary melody in F#m"
+    },
+    {
+      "BarRange": [
+        23,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B, shifts to a lower register melody"
+    },
+    {
+      "BarRange": [
+        35,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, lyrical and higher register melody"
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D, loud and dramatic chordal progression"
+    },
+    {
+      "BarRange": [
+        55,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic turnaround, returns to the intro vamp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "Game Over",
+  "IsAdaptive": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "A short 2-bar event section for game over."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections do not have internal thematic structure."
+    }
+  ],
+  "IsStinger": true
+}

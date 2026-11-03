@@ -1,0 +1,34 @@
+{
+  "Tile": "On the March",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a || double barline at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :| repeat sign at bar 12."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged short sections to form a single continuous theme A."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "Tile": "Snow Mountain",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with a || double barline at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body starting at Segno, ends with || at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ends with || at bar 34."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Third part of the loop body, ends with || at bar 42."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Fourth part of the loop body, ends with || at bar 50."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Lp",
+      "Inference": "Final loop section ending with |] and a D.S. instruction to repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section acts as a placeholder X."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary melodic and harmonic ideas."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats Theme A with subtle variations in the arrangement."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a contrasting, rhythmic new melody."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Repeats Theme B with a staccato, senza pedale accompaniment."
+    },
+    {
+      "BarRange": [
+        51,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C provides a final distinct musical idea before looping."
+    }
+  ]
+}

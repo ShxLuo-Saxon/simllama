@@ -1,0 +1,52 @@
+{
+  "Tile": "Power-Up",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-4 serve as an intro, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        5,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 5-24 contain the main loop body, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the initial mood before the loop."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody section, merging an initial 4-bar idea with an 8-bar continuation."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring a sparse melody and staccato rhythmic hits."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Chai Kingdom",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section ending with :| at bar 25."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bar before the loop begins."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First presentation of the main 8-bar melody."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the previous A section."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting 8-bar section with new melody and rhythm."
+    }
+  ]
+}

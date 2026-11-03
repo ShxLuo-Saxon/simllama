@@ -1,0 +1,61 @@
+{
+  "Tile": "Koopa Troopa Beach",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "A 4-bar intro establishing the tempo, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        5,
+        56
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, starting with a Segno and ending with a D.S. loop instruction."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase establishing the surf rock rhythm and mood."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody introduced with a relatively light accompaniment."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the main melody featuring fuller instrumentation and thicker chords."
+    },
+    {
+      "BarRange": [
+        37,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with a new melody, building tension towards the D.S. loop point."
+    }
+  ]
+}

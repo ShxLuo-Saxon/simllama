@@ -1,0 +1,87 @@
+{
+  "Tile": "Buoy Base Galaxy - Undersea",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Introductory section building up to the main melody, ends with ||."
+    },
+    {
+      "BarRange": [
+        13,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body containing multiple themes, ends with D.S."
+    },
+    {
+      "BarRange": [
+        61,
+        61
+      ],
+      "Function": "Ou",
+      "Inference": "A single final bar marked Fine for the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory arpeggios and rhythmic motifs."
+    },
+    {
+      "BarRange": [
+        13,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme featuring a lyrical phrase over 16 bars."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting lyrical theme accompanied by pedal bass notes."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Chordal buildup section introducing a new texture, ends with ||."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Staccato rhythmic motif that develops and transitions back to start."
+    },
+    {
+      "BarRange": [
+        61,
+        61
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final outro stinger bar resolving the track."
+    }
+  ]
+}

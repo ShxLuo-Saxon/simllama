@@ -1,0 +1,52 @@
+{
+  "Tile": "Rookie & Popple",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a repeat sign :|"
+    },
+    {
+      "BarRange": [
+        9,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a D.C. loop instruction"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary energetic and syncopated rhythmic motif"
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring sustained whole and half notes"
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of Theme A, merged with a 4-bar turnaround phrase"
+    }
+  ]
+}

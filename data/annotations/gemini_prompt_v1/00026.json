@@ -1,0 +1,51 @@
+{
+  "Tile": "Gloomy Manor",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 22."
+    },
+    {
+      "BarRange": [
+        23,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 28."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic section of the loop."
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Merged short contrasting sections forming theme B."
+    }
+  ]
+}

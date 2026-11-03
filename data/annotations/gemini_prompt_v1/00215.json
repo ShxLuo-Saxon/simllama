@@ -1,0 +1,43 @@
+{
+  "Tile": "Powerful Mario",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section, establishes the accompaniment pattern, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop section enclosed by repeat signs, ending with :| at bar 14."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        5,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme of the loop, featuring long sustained notes."
+    }
+  ]
+}

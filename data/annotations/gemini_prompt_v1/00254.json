@@ -1,0 +1,111 @@
+{
+  "Tile": "Fanfares",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Inference": "Bonus Stage fanfare, ends with |]"
+    },
+    {
+      "BarRange": [
+        2,
+        2
+      ],
+      "Function": "St",
+      "Inference": "Failure fanfare, ends with |]"
+    },
+    {
+      "BarRange": [
+        3,
+        3
+      ],
+      "Function": "St",
+      "Inference": "Success fanfare, ends with |]"
+    },
+    {
+      "BarRange": [
+        4,
+        6
+      ],
+      "Function": "St",
+      "Inference": "Stage Clear fanfare, ends with |]"
+    },
+    {
+      "BarRange": [
+        7,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Invincible loop, ends with :|"
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "St",
+      "Inference": "Game Over fanfare, ends with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are placeholders assigned X"
+    },
+    {
+      "BarRange": [
+        2,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are placeholders assigned X"
+    },
+    {
+      "BarRange": [
+        3,
+        3
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are placeholders assigned X"
+    },
+    {
+      "BarRange": [
+        4,
+        6
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are placeholders assigned X"
+    },
+    {
+      "BarRange": [
+        7,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Thematic ostinato loop for Invincible state"
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are placeholders assigned X"
+    }
+  ]
+}

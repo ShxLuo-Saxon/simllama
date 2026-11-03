@@ -1,0 +1,70 @@
+{
+  "Tile": "Title",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bassline ending with a |: sign at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with a :| sign at bar 42."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bassline establishing the groove."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring a syncopated staccato melody."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second theme with new melodic material and similar rhythm."
+    },
+    {
+      "BarRange": [
+        19,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Legato contrasting section, concluding with short motif returns."
+    },
+    {
+      "BarRange": [
+        31,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Bass solo section with the main melody resting."
+    }
+  ]
+}

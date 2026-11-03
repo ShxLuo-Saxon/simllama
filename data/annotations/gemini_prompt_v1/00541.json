@@ -1,0 +1,35 @@
+{
+  "Tile": "Baby Bowser's Lullaby",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop, ending with a repeat sign at bar 31."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces and repeats the main lullaby motif."
+    },
+    {
+      "BarRange": [
+        17,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A dramatic contrasting phrase followed by a sustained sequence."
+    }
+  ]
+}

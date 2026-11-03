@@ -1,0 +1,26 @@
+{
+  "Tile": "World 2 (Desert Land)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Contains repeat sign at the end of bar 4, indicating an infinite loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main and only looped section of the track."
+    }
+  ]
+}

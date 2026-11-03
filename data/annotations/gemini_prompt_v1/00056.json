@@ -1,0 +1,69 @@
+{
+  "Tile": "Elder Princess Shroob Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A short 1-bar intro ending with |: mark."
+    },
+    {
+      "BarRange": [
+        2,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "The first part of the loop body ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "The second part of the loop body ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup note."
+    },
+    {
+      "BarRange": [
+        2,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody leading into an arpeggio sequence."
+    },
+    {
+      "BarRange": [
+        14,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Restatement of the A theme with a varied, sustained chord ending."
+    },
+    {
+      "BarRange": [
+        26,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting, slower, and quieter piano solo section."
+    }
+  ]
+}

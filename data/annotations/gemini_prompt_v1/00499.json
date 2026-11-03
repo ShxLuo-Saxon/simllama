@@ -1,0 +1,77 @@
+{
+  "Tile": "Toy Block Tower",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Ends with a || mark at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Ends with a |: mark at bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a || mark at bar 30."
+    },
+    {
+      "BarRange": [
+        31,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :| mark at bar 46."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "First part of the introductory section."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Second part of the introductory section."
+    },
+    {
+      "BarRange": [
+        13,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme of the loop."
+    },
+    {
+      "BarRange": [
+        31,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting musical theme before the repeat."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Title Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro establishing rhythmic motif, ends with |:."
+    },
+    {
+      "BarRange": [
+        9,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body, ends with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section with rhythmic motif."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melodic theme over F pedal."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody and harmony."
+    },
+    {
+      "BarRange": [
+        25,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of A theme, merged with 6-bar turnaround."
+    }
+  ]
+}

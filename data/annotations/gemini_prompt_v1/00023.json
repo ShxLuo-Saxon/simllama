@@ -1,0 +1,26 @@
+{
+  "Tile": "The Great Stage - Track 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track loops from bar 1 to 11 as indicated by the :| at bar 11."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single looping thematic section, starting with a 2-bar vamp followed by the main melody."
+    }
+  ]
+}

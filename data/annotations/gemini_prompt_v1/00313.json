@@ -1,0 +1,60 @@
+{
+  "Tile": "Rainbow Star Theme",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Establishes accompaniment pattern with a melodic pickup in bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Ln",
+      "Inference": "Main 8-bar melodic section with increasing tempo in its second half."
+    },
+    {
+      "BarRange": [
+        13,
+        14
+      ],
+      "Function": "Ou",
+      "Inference": "A high-speed climax run followed by abrupt slower final hits."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory non-thematic section."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "The primary linear melodic theme."
+    },
+    {
+      "BarRange": [
+        13,
+        14
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro sequence concluding the track."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Tile": "Catching Ghosts 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "The section ends with a :| at bar 14, indicating a continuous loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single cohesive musical idea that develops and condenses before looping back."
+    }
+  ]
+}

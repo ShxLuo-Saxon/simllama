@@ -1,0 +1,26 @@
+{
+  "Tile": "Music B",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track consists of 14 bars that loop back to the beginning, indicated by :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Continuous thematic ideas are merged into a single 14-bar section due to individual phrases being under 8 bars."
+    }
+  ]
+}

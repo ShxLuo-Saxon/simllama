@@ -1,0 +1,94 @@
+{
+  "Tile": "The Grand Finale",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro building up to the main loop, ends with |: at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ends with || at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ends with || at bar 34."
+    },
+    {
+      "BarRange": [
+        35,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "Third part of the loop body, ends with || at bar 50."
+    },
+    {
+      "BarRange": [
+        51,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop body, ends with :| at bar 60."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introduction establishing the key and building up to the main theme."
+    },
+    {
+      "BarRange": [
+        7,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A introduced, featuring grand chords and a steady bassline."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A return of theme A with a new extended melodic continuation."
+    },
+    {
+      "BarRange": [
+        35,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B with ascending melodic lines and different harmonic progression."
+    },
+    {
+      "BarRange": [
+        51,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C with driving eighth-note rhythms, leading back to the loop start."
+    }
+  ]
+}

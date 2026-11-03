@@ -1,0 +1,26 @@
+{
+  "Tile": "Library",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The section ends with a :| at bar 8 indicating an infinite loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single primary thematic loop of the track."
+    }
+  ]
+}

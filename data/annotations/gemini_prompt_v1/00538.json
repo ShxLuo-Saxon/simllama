@@ -1,0 +1,78 @@
+{
+  "Tile": "Staff Credits",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A brief 2-bar soft intro establishing the accompaniment."
+    },
+    {
+      "BarRange": [
+        3,
+        39
+      ],
+      "Function": "Ln",
+      "Inference": "The main linear body containing the primary musical themes."
+    },
+    {
+      "BarRange": [
+        40,
+        45
+      ],
+      "Function": "Ou",
+      "Inference": "Outro fading out with a ritardando and ending on a fermata."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A brief 2-bar soft intro establishing the accompaniment."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A and its varied repeat presenting the main melody."
+    },
+    {
+      "BarRange": [
+        19,
+        28
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting Theme B ending with a ritardando and fermata."
+    },
+    {
+      "BarRange": [
+        29,
+        39
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of Theme A played a tempo with fuller chords."
+    },
+    {
+      "BarRange": [
+        40,
+        45
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro fading out ending softly on the tonic."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Dozing Sands Secret",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section, ends with |:"
+    },
+    {
+      "BarRange": [
+        5,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase establishing the motif"
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme consisting of two 8-bar phrases"
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture with triplet motifs"
+    },
+    {
+      "BarRange": [
+        29,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic turnaround reusing the intro motif"
+    }
+  ]
+}

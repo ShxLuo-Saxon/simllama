@@ -1,0 +1,60 @@
+{
+  "Tile": "Lava Path",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting in D minor, ending with || at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Br",
+      "Inference": "Bridge section modulating to Bb minor, ending with || at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Climactic loop section in C# minor, ending with :| at bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme introducing the main motif in D minor."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge section connecting the main themes; placeholder X used."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme with thicker chords and a new rhythm."
+    }
+  ]
+}

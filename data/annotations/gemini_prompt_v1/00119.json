@@ -1,0 +1,51 @@
+{
+  "Tile": "Underground",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :| repeat sign."
+    },
+    {
+      "BarRange": [
+        7,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :| and D.C. instructions."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Percussion and bassline establish the groove."
+    },
+    {
+      "BarRange": [
+        12,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Main melody enters over the established bassline."
+    }
+  ]
+}

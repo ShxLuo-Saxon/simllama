@@ -1,0 +1,51 @@
+{
+  "Tile": "Acorn Plains",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        13,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        5,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main loop theme; the subsequent 4-bar section is merged due to length rules."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Tile": "Overworld",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A one-bar intro phrase leading into the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        23
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bar placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main primary theme introduced after a two-bar rhythmic vamp."
+    },
+    {
+      "BarRange": [
+        12,
+        23
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melodic development leading into a closing transitional phrase."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Tile": "Poolside Rest",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory vamp establishing the swing groove."
+    },
+    {
+      "BarRange": [
+        5,
+        88
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body, ending with a D.C. instruction to repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory vamp."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme introduced with a playful melody."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting B section with a new rhythmic motif."
+    },
+    {
+      "BarRange": [
+        37,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A 12-bar transitional C section introducing a new thematic idea."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to the primary A section theme."
+    },
+    {
+      "BarRange": [
+        65,
+        80
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Return to the B section, played an octave higher."
+    },
+    {
+      "BarRange": [
+        81,
+        88
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A shortened return to the C section, concluding the loop."
+    }
+  ]
+}

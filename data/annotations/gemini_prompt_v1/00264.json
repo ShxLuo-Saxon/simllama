@@ -1,0 +1,87 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "In",
+      "Inference": "An Intro section ending with || at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        19
+      ],
+      "Function": "Br",
+      "Inference": "A short bridge with a tempo change ending with |: at bar 19."
+    },
+    {
+      "BarRange": [
+        20,
+        51
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section ending with :| at bar 51."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material; marked as X."
+    },
+    {
+      "BarRange": [
+        18,
+        19
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Brief connector into the loop; marked as X."
+    },
+    {
+      "BarRange": [
+        20,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic motif and chord progression."
+    },
+    {
+      "BarRange": [
+        28,
+        35
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody introducing accidental variations and a buildup."
+    },
+    {
+      "BarRange": [
+        36,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A sweeping, lyrical sustained melody with a descending bassline."
+    },
+    {
+      "BarRange": [
+        44,
+        51
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A repeat of the lyrical melody section leading back to the loop start."
+    }
+  ]
+}

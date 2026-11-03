@@ -1,0 +1,70 @@
+{
+  "Tile": "Walking the Plains",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A 2-bar intro setting up the track, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        3,
+        70
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping section containing multiple distinct thematic variations over a shared chord progression."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory 2 bars establishing the initial rhythm."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "An 8-bar vamp section introducing a rhythmic ostinato motif."
+    },
+    {
+      "BarRange": [
+        11,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A 20-bar theme featuring an active and rhythmic 8th-note melody."
+    },
+    {
+      "BarRange": [
+        31,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A 20-bar contrasting section with a lyrical, sustained melody."
+    },
+    {
+      "BarRange": [
+        51,
+        70
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A 20-bar section introducing a highly syncopated and bouncy melody, ending with :|."
+    }
+  ]
+}

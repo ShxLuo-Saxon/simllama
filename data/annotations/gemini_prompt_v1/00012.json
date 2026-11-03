@@ -1,0 +1,35 @@
+{
+  "Tile": "Game Boy Horror",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop, as indicated by the :| repeat sign at bar 18."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes a syncopated bass groove, joined by a staccato piano layer in bars 5-8."
+    },
+    {
+      "BarRange": [
+        9,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces contrasting sparse bass notes, transitioning into a dense 16th-note ostinato pattern."
+    }
+  ]
+}

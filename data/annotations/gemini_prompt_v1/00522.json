@@ -1,0 +1,43 @@
+{
+  "Tile": "Versus",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending at the || mark."
+    },
+    {
+      "BarRange": [
+        13,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ending with :| to repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Staccato chords over walking bass, ending with a 4-bar chordal build-up."
+    },
+    {
+      "BarRange": [
+        13,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulates to D major, introducing a distinct new melodic theme."
+    }
+  ]
+}

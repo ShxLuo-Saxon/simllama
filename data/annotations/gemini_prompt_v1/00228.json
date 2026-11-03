@@ -1,0 +1,52 @@
+{
+  "Tile": "Luigi's Casino",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-2 serve as an intro, ending with a repeat sign |: at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 3-34 form the main loop body of the track, ending with a :| to repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A short 2-bar intro setting up the swing feel."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main 16-bar theme featuring syncopated piano comping over an Eb blues-like progression, ending with a break."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting 16-bar section consisting of an 8-bar vamp repeated twice with added accents."
+    }
+  ]
+}

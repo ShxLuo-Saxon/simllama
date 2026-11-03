@@ -1,0 +1,26 @@
+{
+  "Tile": "Bouncy Wario",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "8-bar loop ending with a repeat sign :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single main thematic section of the loop."
+    }
+  ]
+}

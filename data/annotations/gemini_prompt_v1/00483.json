@@ -1,0 +1,94 @@
+{
+  "Tile": "Underground BGM",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bars ending with a start repeat sign |:."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Initial loop section establishing the main groove, ends with ||."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces a new melody, ending with ||."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to the primary groove with a transition, ends ||."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Inference": "New treble melody section, ends with the repeat sign :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro sections always receive placeholder label X."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary groove establishing the first musical idea."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting musical section introducing a distinct melody."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Shares the same primary rhythmic and melodic core as A."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a fundamentally new treble melody and texture."
+    }
+  ]
+}

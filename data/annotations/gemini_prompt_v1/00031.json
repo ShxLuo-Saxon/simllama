@@ -1,0 +1,88 @@
+{
+  "Tile": "Bumpsy Plains",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Four bars of introductory buildup ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        76
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body bounded by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory buildup."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme featuring syncopated rhythm."
+    },
+    {
+      "BarRange": [
+        13,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting lyrical, sustained theme."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the first theme with richer chords."
+    },
+    {
+      "BarRange": [
+        37,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Transposed version of the lyrical theme in Db major."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New rhythmic theme with sequential phrasing."
+    },
+    {
+      "BarRange": [
+        69,
+        76
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic rhythmic turnaround leading back to the start."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Player Select",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory rhythmic hits leading to a |: at the end of bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with a :| at bar 36."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the rhythmic groove."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary bouncy melody with a syncopated rhythmic structure."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new harmonic progression and melodic idea."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting texture featuring continuous 16th-note runs."
+    }
+  ]
+}

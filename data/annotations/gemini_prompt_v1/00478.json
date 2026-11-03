@@ -1,0 +1,60 @@
+{
+  "Tile": "Powerful Infant",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Second part of the intro ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X."
+    },
+    {
+      "BarRange": [
+        5,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Continuation of the intro, labeled as X."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary looped melodic theme."
+    }
+  ]
+}

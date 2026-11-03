@@ -1,0 +1,26 @@
+{
+  "Tile": "Invincible",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a short loop ending with a repeat sign at bar 2."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single, brief looped musical phrase."
+    }
+  ]
+}

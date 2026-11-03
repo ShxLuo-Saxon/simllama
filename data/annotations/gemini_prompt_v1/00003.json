@@ -1,0 +1,111 @@
+{
+  "Tile": "Endings",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro for the first piece, ending with a repeat start mark."
+    },
+    {
+      "BarRange": [
+        4,
+        7
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body for the first piece, ending with a repeat end mark."
+    },
+    {
+      "BarRange": [
+        8,
+        10
+      ],
+      "Function": "In",
+      "Inference": "Intro for the second piece, ending with a repeat start mark."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Ln",
+      "Inference": "First iteration of the main linear body, ending with double barlines."
+    },
+    {
+      "BarRange": [
+        23,
+        34
+      ],
+      "Function": "Ln",
+      "Inference": "Second iteration of the main linear body, ending with a repeat start."
+    },
+    {
+      "BarRange": [
+        35,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body for the second piece, ending with a repeat end mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase, setting the initial mood."
+    },
+    {
+      "BarRange": [
+        4,
+        7
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A, a short repeating rhythmic motif."
+    },
+    {
+      "BarRange": [
+        8,
+        10
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Second intro, transitioning to the main melody."
+    },
+    {
+      "BarRange": [
+        11,
+        22
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Theme B, introducing the primary melodic idea."
+    },
+    {
+      "BarRange": [
+        23,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Theme B repeated with minor variations."
+    },
+    {
+      "BarRange": [
+        35,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B looping segment for continuous playback."
+    }
+  ]
+}

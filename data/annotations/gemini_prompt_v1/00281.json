@@ -1,0 +1,77 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Upbeat intro ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Ln",
+      "Inference": "Main melodic body in C major, ending with |: at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        32
+      ],
+      "Function": "Ln",
+      "Inference": "Main melody modulated to F major."
+    },
+    {
+      "BarRange": [
+        33,
+        34
+      ],
+      "Function": "Ou",
+      "Inference": "Concluding chords acting as an outro, ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory upbeat."
+    },
+    {
+      "BarRange": [
+        2,
+        17
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary theme in C major."
+    },
+    {
+      "BarRange": [
+        18,
+        32
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary theme modulated to F major."
+    },
+    {
+      "BarRange": [
+        33,
+        34
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final resolving chords."
+    }
+  ]
+}

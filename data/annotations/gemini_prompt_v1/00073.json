@@ -1,0 +1,44 @@
+{
+  "Tile": "Chucklehuck Woods",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop repeating from bar 1 to the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the main theme with a rhythmic vamp, repeating later with varied accompaniment."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring a repeated 4-bar melodic phrase over new harmony."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new motif that incorporates the staccato rhythmic elements from Section A before looping."
+    }
+  ]
+}

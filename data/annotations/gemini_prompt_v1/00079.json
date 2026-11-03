@@ -1,0 +1,26 @@
+{
+  "Tile": "His Name is Fawful",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 8-bar track is a continuous loop ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "An 8-bar section comprising a 4-bar melodic idea and its transposed sequence."
+    }
+  ]
+}

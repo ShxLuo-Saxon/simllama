@@ -1,0 +1,26 @@
+{
+  "Tile": "Coin",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Inference": "A 1-bar stinger triggered for a coin collection event."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are labeled as X."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "Tile": "Trailer Theme",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro setting the mood with strong chords, building up to the main melody."
+    },
+    {
+      "BarRange": [
+        9,
+        46
+      ],
+      "Function": "Ln",
+      "Inference": "Main body containing primary themes in Eb. Ends with a || double barline."
+    },
+    {
+      "BarRange": [
+        47,
+        62
+      ],
+      "Function": "Ln",
+      "Inference": "New main section after a key change to Bb, introducing a majestic theme."
+    },
+    {
+      "BarRange": [
+        63,
+        68
+      ],
+      "Function": "Ou",
+      "Inference": "Outro concluding the piece with grand, heavy chords and a final hit."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro sequence building tension."
+    },
+    {
+      "BarRange": [
+        9,
+        27
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary main theme, repeated at bar 17 with fuller instrumentation and leading into a transition."
+    },
+    {
+      "BarRange": [
+        28,
+        36
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "A contrasting, lyrical melody with softer dynamics."
+    },
+    {
+      "BarRange": [
+        37,
+        46
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Dramatic, soaring melody serving as a climactic build-up before the key change."
+    },
+    {
+      "BarRange": [
+        47,
+        62
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Majestic new theme in Bb, played twice with the second iteration increasing in intensity."
+    },
+    {
+      "BarRange": [
+        63,
+        68
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Grand chordal finale to end the track."
+    }
+  ]
+}

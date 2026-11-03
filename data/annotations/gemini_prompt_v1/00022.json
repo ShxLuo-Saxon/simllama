@@ -1,0 +1,77 @@
+{
+  "Tile": "Main Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with the main waltz melody, ends with a || double barline at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces a contrasting section with a new accompaniment pattern."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "Key changes to D# minor, restating the first melody, ending with ||."
+    },
+    {
+      "BarRange": [
+        49,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "A short transitional phrase with changing time signatures, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main waltz melody in C# minor."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section with new melodic ideas and textures."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Transposed repetition of Section A in D# minor."
+    },
+    {
+      "BarRange": [
+        49,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic transitional bars leading back to the beginning."
+    }
+  ]
+}

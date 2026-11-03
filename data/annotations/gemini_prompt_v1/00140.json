@@ -1,0 +1,61 @@
+{
+  "Tile": "Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro marked with 'Intro' ending with a double barline || at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body in 6/4 meter ending with a repeat sign :| at bar 30."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "A fast accelerating run followed by a dramatic cut off and pause."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Ominous primary theme built on an E minor ostinato bass pattern."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting tension-building section with ascending chord progressions."
+    },
+    {
+      "BarRange": [
+        21,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Dramatic forte climax section that resolves into a dominant turnaround to loop."
+    }
+  ]
+}

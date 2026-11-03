@@ -1,0 +1,86 @@
+{
+  "Tile": "Sub Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A || appears at the end of bar 1"
+    },
+    {
+      "BarRange": [
+        2,
+        23
+      ],
+      "Function": "In",
+      "Inference": "A || appears at the end of bar 23"
+    },
+    {
+      "BarRange": [
+        24,
+        31
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 31"
+    },
+    {
+      "BarRange": [
+        32,
+        55
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 55"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory run, ends with ||"
+    },
+    {
+      "BarRange": [
+        2,
+        23
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Ghostly piano intro, ends with ||"
+    },
+    {
+      "BarRange": [
+        24,
+        31
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Arpeggio build-up, ends with |:"
+    },
+    {
+      "BarRange": [
+        32,
+        43
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme with long notes and an arpeggio interlude"
+    },
+    {
+      "BarRange": [
+        44,
+        55
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New jazzy melodic development and arpeggio closing"
+    }
+  ]
+}

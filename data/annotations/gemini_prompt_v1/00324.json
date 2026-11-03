@@ -1,0 +1,61 @@
+{
+  "Tile": "Waltz of the Boos",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-4 establish the misterioso ostinato before the repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        58
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 5-58 contain the main waltz loop, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory ostinato pattern setting the harmonic foundation."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main waltz theme over the pedal."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Variation of the main theme with thicker texture and counter-melody."
+    },
+    {
+      "BarRange": [
+        37,
+        58
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with staccato bass, building tension before resolving to loop."
+    }
+  ]
+}

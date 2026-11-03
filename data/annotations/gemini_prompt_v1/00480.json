@@ -1,0 +1,60 @@
+{
+  "Tile": "Story Music Box",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro section with slower tempo, ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Lp",
+      "Inference": "First loop body section, ending with a repeat sign."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop body section, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled X as required."
+    },
+    {
+      "BarRange": [
+        4,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A with an upbeat rhythmic melody."
+    },
+    {
+      "BarRange": [
+        12,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introducing contrasting melodies and arpeggios."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Tile": "Ice Mountain",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body in 12/8, ends with a || mark."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop, ends with || at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        18
+      ],
+      "Function": "Br",
+      "Inference": "Short 2-bar transition in C# minor ending with ||."
+    },
+    {
+      "BarRange": [
+        19,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Meter changes to 4/4; section ends with a :| mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First main theme with continuous piano arpeggios."
+    },
+    {
+      "BarRange": [
+        11,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second theme featuring new chords and melodic shifts."
+    },
+    {
+      "BarRange": [
+        17,
+        18
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Non-thematic transitional bridge section."
+    },
+    {
+      "BarRange": [
+        19,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting third theme in 4/4 meter."
+    }
+  ]
+}

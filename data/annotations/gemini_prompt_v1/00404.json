@@ -1,0 +1,26 @@
+{
+  "Tile": "Hinopio's Shop",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Ln",
+      "Inference": "The track contains 16 bars without repeat signs, ending with a |] barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "A single coherent section developing a recurring rhythmic motif and a brief bassline riff."
+    }
+  ]
+}

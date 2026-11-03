@@ -1,0 +1,35 @@
+{
+  "Tile": "Sweet Mystery Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "The track loops from bar 1 to 22, indicated by the :| at the end of bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "An ostinato pattern builds up textural layers before the main melody."
+    },
+    {
+      "BarRange": [
+        9,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The main melody introduces a new thematic idea, culminating in a cadence that loops back."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "Tile": "Rosalina's Comet Observatory 1, 2 & 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        72
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section of the track, enclosed by |: and :: marks."
+    },
+    {
+      "BarRange": [
+        73,
+        144
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop section of the track, bounded by :: marks."
+    },
+    {
+      "BarRange": [
+        145,
+        216
+      ],
+      "Function": "Lp",
+      "Inference": "Third loop section of the track, bounded by :: and :| marks."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic 8-bar intro to the first loop."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First presentation of the main Theme A."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of Theme A."
+    },
+    {
+      "BarRange": [
+        41,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting middle section introducing Theme B."
+    },
+    {
+      "BarRange": [
+        57,
+        72
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to Theme A to close the first loop."
+    },
+    {
+      "BarRange": [
+        73,
+        80
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic 8-bar intro to the second loop."
+    },
+    {
+      "BarRange": [
+        81,
+        96
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A with an expanded arrangement."
+    },
+    {
+      "BarRange": [
+        97,
+        112
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of Theme A in the second loop."
+    },
+    {
+      "BarRange": [
+        113,
+        128
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B with an expanded arrangement."
+    },
+    {
+      "BarRange": [
+        129,
+        144
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to Theme A to close the second loop."
+    },
+    {
+      "BarRange": [
+        145,
+        152
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic 8-bar intro to the third loop."
+    },
+    {
+      "BarRange": [
+        153,
+        168
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A with the grandest arrangement."
+    },
+    {
+      "BarRange": [
+        169,
+        184
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of Theme A in the third loop."
+    },
+    {
+      "BarRange": [
+        185,
+        200
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B with the grandest arrangement."
+    },
+    {
+      "BarRange": [
+        201,
+        216
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to Theme A to close the final loop."
+    }
+  ]
+}

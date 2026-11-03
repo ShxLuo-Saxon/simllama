@@ -1,0 +1,61 @@
+{
+  "Tile": "Seabed",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory accompaniment, ends with |:"
+    },
+    {
+      "BarRange": [
+        5,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Main looped body, ends with :| at bar 28"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Placeholder X for Intro"
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary melody"
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A repeats with modified articulation"
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a contrasting, chromatic motif"
+    }
+  ]
+}

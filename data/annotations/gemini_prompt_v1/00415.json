@@ -1,0 +1,162 @@
+{
+  "Tile": "Opening",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Introductory ostinato pattern establishing the mood, ending with a double barline at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Inference": "First statement of the main theme, ending with a double barline at bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        42
+      ],
+      "Function": "Ln",
+      "Inference": "Restatement of the theme with a new extended ending, leading to a key change."
+    },
+    {
+      "BarRange": [
+        43,
+        64
+      ],
+      "Function": "Ln",
+      "Inference": "Contrasting section in Db major, ending with a fermata and double barline."
+    },
+    {
+      "BarRange": [
+        65,
+        67
+      ],
+      "Function": "Br",
+      "Inference": "Brief bridge returning to the intro material to transition back to the main theme."
+    },
+    {
+      "BarRange": [
+        68,
+        83
+      ],
+      "Function": "Ln",
+      "Inference": "Exact repeat of the initial theme section, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        84,
+        104
+      ],
+      "Function": "Ln",
+      "Inference": "Exact repeat of the extended theme section, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        105,
+        114
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the contrasting theme, truncated and leading into the final ending section."
+    },
+    {
+      "BarRange": [
+        115,
+        118
+      ],
+      "Function": "Ou",
+      "Inference": "Outro featuring a key and tempo change, concluding the piece with sustained chords."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory ostinato pattern establishing the mood, ending with a double barline at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        21
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First statement of the main theme A, ending with a double barline at bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        42
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Restatement of theme A with an extended ending, leading to a key change."
+    },
+    {
+      "BarRange": [
+        43,
+        64
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Contrasting theme B in Db major, ending with a fermata and double barline."
+    },
+    {
+      "BarRange": [
+        65,
+        67
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Brief bridge returning to the intro material to transition back to the main theme."
+    },
+    {
+      "BarRange": [
+        68,
+        83
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Exact repeat of the initial theme A section, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        84,
+        104
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Exact repeat of the extended theme A section, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        105,
+        114
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Return of theme B, truncated and leading into the final ending section."
+    },
+    {
+      "BarRange": [
+        115,
+        118
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro featuring a key and tempo change, concluding the piece with sustained chords."
+    }
+  ]
+}

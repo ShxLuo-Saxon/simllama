@@ -1,0 +1,78 @@
+{
+  "Tile": "Athletic",
+  "IsAdaptive": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        50
+      ],
+      "Function": "Lp",
+      "Inference": "A :| appears at the end of bar 50."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase before the main loop begins."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First main theme featuring a ragtime rhythm."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A new distinct melodic core is introduced."
+    },
+    {
+      "BarRange": [
+        35,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting section with off-beat syncopated melody."
+    },
+    {
+      "BarRange": [
+        43,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Return of the B theme with a closing cadence."
+    }
+  ],
+  "IsStinger": false
+}

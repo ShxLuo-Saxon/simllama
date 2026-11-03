@@ -1,0 +1,26 @@
+{
+  "Tile": "Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 8-bar track is a continuous loop marked by D.C. at the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous musical idea serving as the boss loop."
+    }
+  ]
+}

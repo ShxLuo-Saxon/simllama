@@ -1,0 +1,61 @@
+{
+  "Tile": "The Galaxy Reactor",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a repeat start sign at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by repeat signs, concluding at bar 40."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory passage building up to the main loop."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic material presenting the main melody in 4/4 time."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section shifting to 5/4 time with heavy rhythmic chords."
+    },
+    {
+      "BarRange": [
+        29,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A soaring 6/4 melody that resolves into a calmer 4/4 concluding phrase."
+    }
+  ]
+}

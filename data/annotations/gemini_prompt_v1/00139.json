@@ -1,0 +1,69 @@
+{
+  "Tile": "World 8",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Inference": "Intro phrase ending with |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body containing the main content, ending with :| at bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        22
+      ],
+      "Function": "Ou",
+      "Inference": "Empty bar for track ending."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        3
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro phrase ending with |: at bar 3."
+    },
+    {
+      "BarRange": [
+        4,
+        13
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme played twice with a short interlude in between."
+    },
+    {
+      "BarRange": [
+        14,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Crescendo into contrasting 16th note arpeggios, ending with :|."
+    },
+    {
+      "BarRange": [
+        22,
+        22
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Empty bar for track ending."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Tile": "Family",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory piano chords setting a peaceful tone."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body containing the primary theme and its variation."
+    },
+    {
+      "BarRange": [
+        35,
+        37
+      ],
+      "Function": "Ou",
+      "Inference": "Outro with ritardando ending on a fermata chord."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Two-bar introduction."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary 16-bar theme presented with a light, simple accompaniment."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Full repeat of the primary theme with a denser, more expressive arrangement."
+    },
+    {
+      "BarRange": [
+        35,
+        37
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Brief concluding chords fading out."
+    }
+  ]
+}

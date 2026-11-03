@@ -1,0 +1,12 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+1,4,a,pr,a,pr,,,,,,,"29-37 different in interval but rhythm pattern similar so i mark them as similar pattern d, i decided section from most salient part, like all large block, and i incline let each section roughly same length if possible, and i incline put transition phrase into former section"
+5,4,b,it,,,,,,,,,
+9,2,c,en,,,,,,,,,
+11,4,d,it,b,it,,,,,,,
+15,4,d,en,,,,,,,,,
+19,2,e,tr,,,,,,,,,
+21,4,d,it,b,mi,,,,,,,
+25,4,d,en,,,,,,,,,
+29,4,f,it,c,en,,,,,,,
+33,5,f,en,,,,,,,,,
+38,2,g,tr,,,,,,,,,

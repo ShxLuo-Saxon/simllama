@@ -1,0 +1,52 @@
+{
+  "Tile": "Weapons Factory",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a double barline."
+    },
+    {
+      "BarRange": [
+        5,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop starting at Segno and ending with D.S."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro establishing the ostinato and 13/8 meter."
+    },
+    {
+      "BarRange": [
+        5,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main ostinato theme modulating through keys with a brief motif."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Dramatic build-up followed by a short return of the ostinato."
+    }
+  ]
+}

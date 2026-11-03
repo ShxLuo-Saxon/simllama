@@ -1,0 +1,26 @@
+{
+  "Tile": "World 2",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Track loops continuously from bar 1 to 8 as indicated by |: and :| marks."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single continuous theme of this looping track."
+    }
+  ]
+}

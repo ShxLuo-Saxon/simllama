@@ -1,0 +1,111 @@
+{
+  "Tile": "Fury Volcano 2",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A |: appears at the end of bar 1."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 9."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 33."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Inference": "A || appears at the end of bar 41."
+    },
+    {
+      "BarRange": [
+        42,
+        49
+      ],
+      "Function": "Lp",
+      "Inference": "A |] appears at the end of bar 49 with D.S."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section before the main loop."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody and rhythmic motif."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Continues the primary melody with a different ending."
+    },
+    {
+      "BarRange": [
+        18,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 16-bar repeat of the previous primary melody."
+    },
+    {
+      "BarRange": [
+        34,
+        41
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a fundamentally new contrasting musical idea."
+    },
+    {
+      "BarRange": [
+        42,
+        49
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Continues the new idea, concluding the loop with D.S."
+    }
+  ]
+}

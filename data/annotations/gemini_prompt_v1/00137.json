@@ -1,0 +1,43 @@
+{
+  "Tile": "World 4: Water Land",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory sustained chords; a |: repeat sign appears at the end of bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body of the track, ending with a :| repeat sign at bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Non-thematic introductory section."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single primary theme section of the track, containing a main phrase and its extended variation."
+    }
+  ]
+}

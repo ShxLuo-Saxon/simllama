@@ -1,0 +1,60 @@
+{
+  "Tile": "Main Menu/Map",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Inference": "Introduces the first theme in F major, ending with a double barline at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Ln",
+      "Inference": "Key changes to Bb major for a contrasting section, ending at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        25
+      ],
+      "Function": "Ln",
+      "Inference": "Key changes to Eb major, presenting the final section and ending the track."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First melodic theme in F major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Second melodic theme in Bb major, contrasting with the first."
+    },
+    {
+      "BarRange": [
+        17,
+        25
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Third melodic theme in Eb major, concluding the linear track."
+    }
+  ]
+}

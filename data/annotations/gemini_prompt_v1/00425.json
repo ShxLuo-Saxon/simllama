@@ -1,0 +1,43 @@
+{
+  "Tile": "The Sword Descends and the Stars Scatter",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-8 serve as the intro, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 9-12 form the looped body, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section, labeled as X as per rules."
+    },
+    {
+      "BarRange": [
+        9,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The core looping thematic section, introducing the primary motif."
+    }
+  ]
+}

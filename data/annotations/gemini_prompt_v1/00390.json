@@ -1,0 +1,53 @@
+{
+  "Tile": "Beware the Forest's Mushrooms",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a continuous loop returning to the start, marked by :| at bar 44."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme in C# minor, introduced then repeated with thicker octave chords."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic arpeggiated section acting as a transition to F# minor."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the main theme, transposed perfectly to F# minor."
+    },
+    {
+      "BarRange": [
+        33,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting descending melodic sequence merged with a 4-bar loop tail."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Tile": "Staff Roll",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Inference": "Slow introduction ending with a tempo change and |: at bar 10."
+    },
+    {
+      "BarRange": [
+        11,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body that repeats back to bar 11, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        10
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section; acts as a slow exposition of the theme."
+    },
+    {
+      "BarRange": [
+        11,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme featuring a syncopated melody over steady bass."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats the melodic core of the previous section with a varied ending."
+    },
+    {
+      "BarRange": [
+        27,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with chromatic descent and held notes."
+    }
+  ]
+}

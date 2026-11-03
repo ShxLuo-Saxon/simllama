@@ -1,0 +1,61 @@
+{
+  "Tile": "The Koopaseum",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Bar 1 acts as a brief intro, ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        2,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping background music, ending with a :| sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory bar establishing the ostinato."
+    },
+    {
+      "BarRange": [
+        2,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic and staccato chordal motifs."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new lyrical melody over the marching bass."
+    },
+    {
+      "BarRange": [
+        17,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Features returning chordal motifs followed by a distinctive bass solo."
+    }
+  ]
+}

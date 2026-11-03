@@ -1,0 +1,61 @@
+{
+  "Tile": "Castle & Fortress",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Starts with a cadenza in bar 1, followed by a rhythmic accompaniment vamp."
+    },
+    {
+      "BarRange": [
+        9,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body enclosed by |: and :|, featuring multiple thematic ideas."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory cadenza and vamp before the main loop begins."
+    },
+    {
+      "BarRange": [
+        9,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme A, played twice with a slight variation at the end."
+    },
+    {
+      "BarRange": [
+        26,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B, followed by a merged 5-bar rundown transition."
+    },
+    {
+      "BarRange": [
+        39,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C, starting with an 8-bar vamp followed by an 8-bar melody."
+    }
+  ]
+}

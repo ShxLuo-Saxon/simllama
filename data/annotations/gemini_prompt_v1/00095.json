@@ -1,0 +1,26 @@
+{
+  "Tile": "Title",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-9 form a single looping section ending with :| at bar 9."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single musical theme."
+    }
+  ]
+}

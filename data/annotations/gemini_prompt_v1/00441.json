@@ -1,0 +1,52 @@
+{
+  "Tile": "Sand Bird",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        26
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body that plays the main musical content, ending with a :| repeat sign."
+    },
+    {
+      "BarRange": [
+        27,
+        29
+      ],
+      "Function": "Ou",
+      "Inference": "Outro segment ending the track completely with a |] barline."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary musical theme composed of an A-B-A phrase structure with its accompaniment."
+    },
+    {
+      "BarRange": [
+        15,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting lyrical melody that follows a 4-bar rhythmic chord progression."
+    },
+    {
+      "BarRange": [
+        27,
+        29
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "A brief, fading conclusion derived from the main motif."
+    }
+  ]
+}

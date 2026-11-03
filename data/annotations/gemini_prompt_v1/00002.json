@@ -1,0 +1,128 @@
+{
+  "Tile": "Chill",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory chords, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Primary groove, ends with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        24
+      ],
+      "Function": "Br",
+      "Inference": "Short transitional section, ends with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "New high-register texture, ends with || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to primary groove, ends with || at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        52
+      ],
+      "Function": "Lp",
+      "Inference": "16th-note melody section, ends with || at bar 52."
+    },
+    {
+      "BarRange": [
+        53,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "Bass-focused rhythmic section, ends with :| at bar 64."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chords, ends with |: at bar 4."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary groove, ends with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        24
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Short transitional section, ends with || at bar 24."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New high-register texture, ends with || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to primary groove, ends with || at bar 40."
+    },
+    {
+      "BarRange": [
+        41,
+        52
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "16th-note melody section, ends with || at bar 52."
+    },
+    {
+      "BarRange": [
+        53,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Bass-focused rhythmic section, ends with :| at bar 64."
+    }
+  ]
+}

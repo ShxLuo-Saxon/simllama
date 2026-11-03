@@ -1,0 +1,79 @@
+{
+  "Tile": "The Grand Finale",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-6 serve as an intro, ending with a repeat sign at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 7-60 form the main infinite loop body, ending with a repeat sign at bar 60."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section establishing key and tempo."
+    },
+    {
+      "BarRange": [
+        7,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 12-bar theme containing an 8-bar vamp and a 4-bar piano run, ending with ||."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A return of the 8-bar vamp from the first theme."
+    },
+    {
+      "BarRange": [
+        27,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A distinct 8-bar lyrical theme with a sweeping melody, ending with a double barline."
+    },
+    {
+      "BarRange": [
+        35,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A 16-bar theme featuring dramatic chords, forming a repeated 8-bar phrase, ending with ||."
+    },
+    {
+      "BarRange": [
+        51,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "An extended 10-bar section based on the piano run motif, closing the loop."
+    }
+  ]
+}

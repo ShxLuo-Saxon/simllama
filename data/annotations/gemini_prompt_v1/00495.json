@@ -1,0 +1,70 @@
+{
+  "Tile": "Hall of Hieroglyphs",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bars preceding the loop start at bar 3."
+    },
+    {
+      "BarRange": [
+        3,
+        57
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body enclosed by |: and :| marks."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory 2 bars establishing the groove before the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Quiet buildup with sparse melody, ending with a 5/4 transition bar."
+    },
+    {
+      "BarRange": [
+        22,
+        29
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Loud, syncopated, rhythmic chordal theme."
+    },
+    {
+      "BarRange": [
+        30,
+        47
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of the quiet buildup with melodic variations, ending in 5/4."
+    },
+    {
+      "BarRange": [
+        48,
+        57
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Return of the chordal theme with turnaround bars to loop."
+    }
+  ]
+}

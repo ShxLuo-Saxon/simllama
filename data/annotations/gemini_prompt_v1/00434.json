@@ -1,0 +1,145 @@
+{
+  "Tile": "Delfino Plaza",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Rubato intro ending with |:"
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro groove ending with ::"
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Ln",
+      "Inference": "Main melody A ending with ||"
+    },
+    {
+      "BarRange": [
+        15,
+        38
+      ],
+      "Function": "Ln",
+      "Inference": "Starts with A, introduces B, ends with ||"
+    },
+    {
+      "BarRange": [
+        39,
+        70
+      ],
+      "Function": "Ln",
+      "Inference": "Starts with A, introduces C, ends with ||"
+    },
+    {
+      "BarRange": [
+        71,
+        100
+      ],
+      "Function": "Ln",
+      "Inference": "Starts with A, introduces D, ends with |]"
+    },
+    {
+      "BarRange": [
+        101,
+        108
+      ],
+      "Function": "Ou",
+      "Inference": "Coda begins, repeats A, ends with ||"
+    },
+    {
+      "BarRange": [
+        109,
+        120
+      ],
+      "Function": "Ou",
+      "Inference": "Final phrase with ritardando and fermata"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Rubato intro ending with |:"
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro groove ending with ::"
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Main melody A ending with ||"
+    },
+    {
+      "BarRange": [
+        15,
+        38
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Starts with A, introduces B, ends with ||"
+    },
+    {
+      "BarRange": [
+        39,
+        70
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Starts with A, introduces C, ends with ||"
+    },
+    {
+      "BarRange": [
+        71,
+        100
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Starts with A, introduces D, ends with |]"
+    },
+    {
+      "BarRange": [
+        101,
+        108
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Coda begins, repeats A, ends with ||"
+    },
+    {
+      "BarRange": [
+        109,
+        120
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final phrase with ritardando and fermata"
+    }
+  ]
+}

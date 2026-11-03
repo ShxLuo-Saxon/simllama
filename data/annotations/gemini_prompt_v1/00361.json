@@ -1,0 +1,35 @@
+{
+  "Tile": "File Select",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop ending with a repeat sign at bar 24."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme played exclusively in the treble voice."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture where the melody rests and a bass groove takes over."
+    }
+  ]
+}

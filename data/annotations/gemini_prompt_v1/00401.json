@@ -1,0 +1,26 @@
+{
+  "Tile": "Grate Guy's Casino",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1 to 6 form a single infinite loop ending with a repeat sign"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single repeating rhythmic motif serves as the main Theme A"
+    }
+  ]
+}

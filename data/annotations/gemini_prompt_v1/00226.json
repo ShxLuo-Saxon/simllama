@@ -1,0 +1,26 @@
+{
+  "Tile": "Ultimate Koopa Clear",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "St",
+      "Inference": "A single continuous victory fanfare acting as a stinger."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        20
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers do not require thematic labeling, marked as X."
+    }
+  ]
+}

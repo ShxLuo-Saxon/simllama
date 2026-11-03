@@ -1,0 +1,77 @@
+{
+  "Tile": "Bowser Music",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory chords establishing the tone"
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Ln",
+      "Inference": "Main melodic body with repeating accompaniment"
+    },
+    {
+      "BarRange": [
+        13,
+        15
+      ],
+      "Function": "Br",
+      "Inference": "Short rhythmic transition section"
+    },
+    {
+      "BarRange": [
+        16,
+        25
+      ],
+      "Function": "Ln",
+      "Inference": "Return of the main melody to conclude"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Placeholder for the intro section"
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First occurrence of the primary theme"
+    },
+    {
+      "BarRange": [
+        13,
+        15
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Placeholder for the bridge section"
+    },
+    {
+      "BarRange": [
+        16,
+        25
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Exact repetition of the primary theme"
+    }
+  ]
+}

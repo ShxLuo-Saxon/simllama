@@ -1,0 +1,61 @@
+{
+  "Tile": "Cackletta's Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "A 1-bar pickup phrase ending with |: to begin the loop."
+    },
+    {
+      "BarRange": [
+        2,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "The main looping body, returning to the start via :| at bar 21."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro pickup phrase."
+    },
+    {
+      "BarRange": [
+        2,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Fugue-like subject in Ab ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Modulation to E major introducing continuous 16th-note running lines."
+    },
+    {
+      "BarRange": [
+        17,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic ritardando cadence and the pickup note for the repeat."
+    }
+  ]
+}

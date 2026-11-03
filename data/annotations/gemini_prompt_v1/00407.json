@@ -1,0 +1,52 @@
+{
+  "Tile": "Let's Go Down the Wine River",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "8-bar intro establishing the rhythmic and harmonic accompaniment."
+    },
+    {
+      "BarRange": [
+        9,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the primary melodies, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory accompaniment pattern."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Playful first theme with staccato articulation and grace notes."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Lyrical second theme in a 16-bar period, resolving to a repeat."
+    }
+  ]
+}

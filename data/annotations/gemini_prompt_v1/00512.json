@@ -1,0 +1,60 @@
+{
+  "Tile": "Greenhorn Forest",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: repeat sign at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        33
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ending with :| at bar 33."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, labeled as X."
+    },
+    {
+      "BarRange": [
+        9,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary melody and merges a 4-bar riff return."
+    },
+    {
+      "BarRange": [
+        21,
+        33
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a contrasting, sustained melodic and rhythmic texture."
+    }
+  ]
+}

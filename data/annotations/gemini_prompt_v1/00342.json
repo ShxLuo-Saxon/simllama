@@ -1,0 +1,44 @@
+{
+  "Tile": "Space Storm Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        31
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a continuous loop, indicated by the repeat sign at the end of bar 31."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 4-bar non-thematic groove merged with the 8-bar primary melodic theme."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary theme repeats with an added counter-melody in the higher register."
+    },
+    {
+      "BarRange": [
+        21,
+        31
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section featuring descending arpeggios and thick chords, cadencing back to the start."
+    }
+  ]
+}

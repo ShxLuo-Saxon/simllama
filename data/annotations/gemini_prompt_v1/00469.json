@@ -1,0 +1,139 @@
+{
+  "Tile": "Big Boss BGM",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Short dramatic intro, ends with ||"
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "In",
+      "Inference": "A tempo, syncopated motif, ends with ||"
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "In",
+      "Inference": "Double time, rhythmic bass, ends with ||"
+    },
+    {
+      "BarRange": [
+        25,
+        72
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body from Segno to D.S."
+    },
+    {
+      "BarRange": [
+        73,
+        77
+      ],
+      "Function": "Ou",
+      "Inference": "Coda section, ends with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro part 1"
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro part 2"
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro part 3"
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "C pedal, rhythmic block chords"
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "G pedal, sustained melodic notes"
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "C pedal, rhythmic chords with trills"
+    },
+    {
+      "BarRange": [
+        49,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "G pedal, whole notes ascending"
+    },
+    {
+      "BarRange": [
+        57,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "E",
+      "Inference": "C pedal, continuous 8th note runs"
+    },
+    {
+      "BarRange": [
+        65,
+        72
+      ],
+      "Function": "Lp",
+      "Section": "F",
+      "Inference": "G pedal, whole notes and rhythmic motif"
+    },
+    {
+      "BarRange": [
+        73,
+        77
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Coda section, triplet arpeggios"
+    }
+  ]
+}

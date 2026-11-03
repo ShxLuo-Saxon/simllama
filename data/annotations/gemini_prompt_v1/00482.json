@@ -1,0 +1,26 @@
+{
+  "Tile": "Transformation - SMW 2",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "Track consists of only 2 bars ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are labeled as X in section analysis"
+    }
+  ]
+}

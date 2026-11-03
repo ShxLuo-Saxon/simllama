@@ -1,0 +1,171 @@
+{
+  "Tile": "Dire, Dire Docks",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Introductory pattern, ends with || at bar 12"
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody A begins, ends with || at bar 24"
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Melody B section, ends with || at bar 32"
+    },
+    {
+      "BarRange": [
+        33,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Return of melody A, ends with || at bar 44"
+    },
+    {
+      "BarRange": [
+        45,
+        50
+      ],
+      "Function": "Br",
+      "Inference": "Build-up transition, ends with || at bar 50"
+    },
+    {
+      "BarRange": [
+        51,
+        62
+      ],
+      "Function": "Lp",
+      "Inference": "Intro material returns as interlude, ends with ||"
+    },
+    {
+      "BarRange": [
+        63,
+        82
+      ],
+      "Function": "Lp",
+      "Inference": "Melodies A and B with arpeggiated bass, ends with ||"
+    },
+    {
+      "BarRange": [
+        83,
+        94
+      ],
+      "Function": "Lp",
+      "Inference": "Melody A returns with arpeggiated bass"
+    },
+    {
+      "BarRange": [
+        95,
+        100
+      ],
+      "Function": "Br",
+      "Inference": "Final build-up transition, ends with :| at bar 100"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section"
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody A"
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melody B"
+    },
+    {
+      "BarRange": [
+        33,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return of primary melody A"
+    },
+    {
+      "BarRange": [
+        45,
+        50
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Transitional build-up"
+    },
+    {
+      "BarRange": [
+        51,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Interlude based on intro material"
+    },
+    {
+      "BarRange": [
+        63,
+        74
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A with arpeggiated bass"
+    },
+    {
+      "BarRange": [
+        75,
+        82
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B with arpeggiated bass"
+    },
+    {
+      "BarRange": [
+        83,
+        94
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A returns with arpeggiated bass"
+    },
+    {
+      "BarRange": [
+        95,
+        100
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Final transitional build-up"
+    }
+  ]
+}

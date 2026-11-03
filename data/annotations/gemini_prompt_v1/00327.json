@@ -1,0 +1,113 @@
+{
+  "Tile": "Bowser's Galaxy Generator",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Introductory section with fast motifs, setting high energy."
+    },
+    {
+      "BarRange": [
+        9,
+        57
+      ],
+      "Function": "Ln",
+      "Inference": "First main linear body with three themes. Ends at || in bar 57."
+    },
+    {
+      "BarRange": [
+        58,
+        104
+      ],
+      "Function": "Ln",
+      "Inference": "Second main linear body, repeating the first. Ends before Outro."
+    },
+    {
+      "BarRange": [
+        105,
+        105
+      ],
+      "Function": "Ou",
+      "Inference": "A final definitive chord marking the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory fast arpeggios."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First theme introduced with sweeping melodies."
+    },
+    {
+      "BarRange": [
+        25,
+        36
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Build-up section leading into an energetic ostinato."
+    },
+    {
+      "BarRange": [
+        37,
+        57
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Climactic theme with dramatic progression, ending with a pickup."
+    },
+    {
+      "BarRange": [
+        58,
+        72
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Return of the first theme."
+    },
+    {
+      "BarRange": [
+        73,
+        84
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Exact repeat of the build-up section."
+    },
+    {
+      "BarRange": [
+        85,
+        104
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Exact repeat of climactic theme, leading to the final chord."
+    },
+    {
+      "BarRange": [
+        105,
+        105
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final resolution chord."
+    }
+  ]
+}

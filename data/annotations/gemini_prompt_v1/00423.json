@@ -1,0 +1,26 @@
+{
+  "Tile": "The End!",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track acts as a loop, indicated by the :| at bar 12."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single thematic block presenting the main motifs, kept together due to its short length."
+    }
+  ]
+}

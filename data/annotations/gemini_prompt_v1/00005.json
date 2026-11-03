@@ -1,0 +1,61 @@
+{
+  "Tile": "Title Screen",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a repeat sign |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro placeholder."
+    },
+    {
+      "BarRange": [
+        9,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melodic theme introduced and repeated with slight variations."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section introducing a fundamentally new musical idea."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Return to the primary melodic and rhythmic structure to close the loop."
+    }
+  ]
+}

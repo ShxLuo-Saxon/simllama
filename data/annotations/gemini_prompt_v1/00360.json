@@ -1,0 +1,52 @@
+{
+  "Tile": "Boss Battle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        15
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting after |: and ending with :| at bar 15."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, serving as a slow build-up."
+    },
+    {
+      "BarRange": [
+        3,
+        10
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary upbeat rhythmic motif and melody."
+    },
+    {
+      "BarRange": [
+        11,
+        15
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting texture and harmony, acting as a build-up to the loop point."
+    }
+  ]
+}

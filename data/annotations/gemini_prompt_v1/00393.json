@@ -1,0 +1,26 @@
+{
+  "Tile": "Conversation With Culex",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with a repeat sign at bar 12."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single continuous textural idea consisting of sweeping arpeggios."
+    }
+  ]
+}

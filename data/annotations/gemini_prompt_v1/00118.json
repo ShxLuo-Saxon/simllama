@@ -1,0 +1,85 @@
+{
+  "Tile": "Toad House",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with a |: mark."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body ending with a :: mark."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body ending with a :| mark."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Br",
+      "Inference": "Bridge section ending with a |: mark."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body ending with D.S. and :| mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Placeholder X for Intro section."
+    },
+    {
+      "BarRange": [
+        3,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Merged short 4-bar section; establishes Theme A."
+    },
+    {
+      "BarRange": [
+        15,
+        22
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Placeholder X for Bridge section."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces fundamentally new melodic idea Theme B."
+    }
+  ]
+}

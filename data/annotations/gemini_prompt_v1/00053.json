@@ -1,0 +1,52 @@
+{
+  "Tile": "Battle Clear Fanfare (Duet)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Short introduction ending with a repeat start mark at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body that repeats back to bar 3."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory stabs leading into the loop."
+    },
+    {
+      "BarRange": [
+        3,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First 16-bar harmonic progression and rhythm cycle."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct repeat of the previous 16-bar musical unit."
+    }
+  ]
+}

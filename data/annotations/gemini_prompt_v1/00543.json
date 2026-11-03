@@ -1,0 +1,128 @@
+{
+  "Tile": "Ending Story",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with || at bar 7."
+    },
+    {
+      "BarRange": [
+        8,
+        20
+      ],
+      "Function": "Ln",
+      "Inference": "Main melody begins, ending with || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        44
+      ],
+      "Function": "Ln",
+      "Inference": "Extended variation of the melody, ending with |: at bar 44."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Ln",
+      "Inference": "New melody with repeat signs, ending with :| at 52."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Ln",
+      "Inference": "Closing section of main part, ending with |] at 68."
+    },
+    {
+      "BarRange": [
+        69,
+        77
+      ],
+      "Function": "Ln",
+      "Inference": "New repeated section in A major, ending with :| at 77."
+    },
+    {
+      "BarRange": [
+        78,
+        85
+      ],
+      "Function": "Ou",
+      "Inference": "Ritardando section ending the track with |] at 85."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic."
+    },
+    {
+      "BarRange": [
+        8,
+        20
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A establishes the primary melodic core."
+    },
+    {
+      "BarRange": [
+        21,
+        44
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Theme A repeats and extends into a crescendo."
+    },
+    {
+      "BarRange": [
+        45,
+        52
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "Theme B introduces a syncopated rhythmic motif."
+    },
+    {
+      "BarRange": [
+        53,
+        68
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Theme C acts as a closing transition."
+    },
+    {
+      "BarRange": [
+        69,
+        77
+      ],
+      "Function": "Ln",
+      "Section": "D",
+      "Inference": "Theme D introduces a contrasting soft piano arpeggio."
+    },
+    {
+      "BarRange": [
+        78,
+        85
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section based on Theme D."
+    }
+  ]
+}

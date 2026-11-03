@@ -1,0 +1,111 @@
+{
+  "Tile": "Fluffy Bluff Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory bars leading into the main loop at the |: sign."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, establishing the main theme, ending with ||."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body with a repeated melody, ending with ||."
+    },
+    {
+      "BarRange": [
+        37,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "A contrasting middle section within the loop, ending with ||."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Inference": "Another distinct section in the loop body, ending with ||."
+    },
+    {
+      "BarRange": [
+        55,
+        66
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop, building to a climax and ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase, labeled X as it precedes the main functional themes."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A introduces the primary bouncy and light melodic core."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A repeats with identical melodic core but added 16th-note runs."
+    },
+    {
+      "BarRange": [
+        37,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B presents a new lyrical, sequential melodic idea."
+    },
+    {
+      "BarRange": [
+        47,
+        54
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C introduces a rising and falling motif."
+    },
+    {
+      "BarRange": [
+        55,
+        66
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C returns with a fuller texture and an extended turnaround."
+    }
+  ]
+}

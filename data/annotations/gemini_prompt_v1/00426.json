@@ -1,0 +1,26 @@
+{
+  "Tile": "Toadofsky",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "St",
+      "Inference": "Track is short (9 bars) and ends with |], indicating a stinger."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        9
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections are labeled as X."
+    }
+  ]
+}

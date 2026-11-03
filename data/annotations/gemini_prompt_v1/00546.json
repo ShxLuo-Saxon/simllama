@@ -1,0 +1,70 @@
+{
+  "Tile": "Love is in the Air",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Bars 1-8 establish the accompaniment groove and end with a |: repeat mark."
+    },
+    {
+      "BarRange": [
+        9,
+        70
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 9-70 contain the main loop body, ending with a :| repeat mark."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro establishes the rhythmic and harmonic foundation."
+    },
+    {
+      "BarRange": [
+        9,
+        27
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Section A presents the main thematic motif, which repeats after a rest."
+    },
+    {
+      "BarRange": [
+        28,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Section B introduces a fundamentally new, lyrical melody with sustained notes."
+    },
+    {
+      "BarRange": [
+        47,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Section C shifts texture to focus on a rhythmic ostinato motif."
+    },
+    {
+      "BarRange": [
+        63,
+        70
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Section D features ascending arpeggios that lead back to the loop start."
+    }
+  ]
+}

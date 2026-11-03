@@ -1,0 +1,26 @@
+{
+  "Tile": "Boss Room After Victory",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "An 8-bar loop ending with a repeat sign at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only thematic section of the loop."
+    }
+  ]
+}

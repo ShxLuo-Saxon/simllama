@@ -1,0 +1,43 @@
+{
+  "Tile": "\"World 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a forward repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        19
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop section enclosed by repeat signs."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory placeholder."
+    },
+    {
+      "BarRange": [
+        5,
+        19
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A 15-bar main theme containing the primary melody and continuation."
+    }
+  ]
+}

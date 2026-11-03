@@ -1,0 +1,26 @@
+{
+  "Tile": "Coin Heaven",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Bars 1-4 form a repeating loop ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only musical theme of the loop."
+    }
+  ]
+}

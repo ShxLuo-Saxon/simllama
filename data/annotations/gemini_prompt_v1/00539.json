@@ -1,0 +1,61 @@
+{
+  "Tile": "The Yoshi Clan",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body introducing the primary themes."
+    },
+    {
+      "BarRange": [
+        19,
+        21
+      ],
+      "Function": "Ou",
+      "Inference": "Outro featuring a repeating bass ostinato."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "First statement of the main theme with changing meters."
+    },
+    {
+      "BarRange": [
+        8,
+        14
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Restatement of the main theme with tempo variations."
+    },
+    {
+      "BarRange": [
+        15,
+        18
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "A new rhythmic motif with heavy repeated chords."
+    },
+    {
+      "BarRange": [
+        19,
+        21
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section with an ostinato and final piano tap."
+    }
+  ]
+}

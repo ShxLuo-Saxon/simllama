@@ -1,0 +1,26 @@
+{
+  "Tile": "Get New Ally",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Inference": "A single-bar short event ending with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers are labeled with X."
+    }
+  ]
+}

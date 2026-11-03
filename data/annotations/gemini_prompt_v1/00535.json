@@ -1,0 +1,60 @@
+{
+  "Tile": "Castle & Fortress",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces the main rhythmic motif, ending with a || at bar 16."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Introduces a new melody and bassline, ending with a || at bar 32."
+    },
+    {
+      "BarRange": [
+        33,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Returns to the initial motif, ending with a :| repeat sign at bar 42."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary rhythmic and melodic motif is established."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting walking bassline and a new melodic idea."
+    },
+    {
+      "BarRange": [
+        33,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Shares the primary rhythmic structure and texture of the first section."
+    }
+  ]
+}

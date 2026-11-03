@@ -1,0 +1,78 @@
+{
+  "Tile": "Forgotten Isle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Inference": "Ostinato loop begins, ending with || at bar 4"
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody section, ending with || at bar 20"
+    },
+    {
+      "BarRange": [
+        21,
+        49
+      ],
+      "Function": "Lp",
+      "Inference": "Development section, ends with |] and D.C."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Introductory ostinato without a lead melody"
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary melody introduced over the ostinato"
+    },
+    {
+      "BarRange": [
+        21,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "New rhythmic thematic motif introduced"
+    },
+    {
+      "BarRange": [
+        31,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Contrasting motif in a lower register"
+    },
+    {
+      "BarRange": [
+        41,
+        49
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "High register melody with a modified bassline"
+    }
+  ]
+}

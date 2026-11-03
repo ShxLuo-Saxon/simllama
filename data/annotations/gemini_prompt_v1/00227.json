@@ -1,0 +1,69 @@
+{
+  "Tile": "Ultimate Koopa",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "In",
+      "Inference": "Dramatic intro, ends with |: at bar 17."
+    },
+    {
+      "BarRange": [
+        18,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with :| at bar 60."
+    },
+    {
+      "BarRange": [
+        61,
+        62
+      ],
+      "Function": "Ou",
+      "Inference": "Short outro ending the track with |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        17
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory buildup with fermatas."
+    },
+    {
+      "BarRange": [
+        18,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Fast arpeggiated motifs and rubato sections."
+    },
+    {
+      "BarRange": [
+        41,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Ostinato figures over descending bass and crescendo."
+    },
+    {
+      "BarRange": [
+        61,
+        62
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final definitive chords concluding the piece."
+    }
+  ]
+}

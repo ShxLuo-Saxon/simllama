@@ -1,0 +1,26 @@
+{
+  "Tile": "\"World 3 (Water Land)\"",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with :| at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only thematic section of the loop."
+    }
+  ]
+}

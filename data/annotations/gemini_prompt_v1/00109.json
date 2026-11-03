@@ -1,0 +1,61 @@
+{
+  "Tile": "Athletic",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the upbeat, rhythmic feel."
+    },
+    {
+      "BarRange": [
+        9,
+        68
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body of the track ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section establishing the upbeat, rhythmic feel."
+    },
+    {
+      "BarRange": [
+        9,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main syncopated theme introduced over a simple accompaniment."
+    },
+    {
+      "BarRange": [
+        29,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of the main theme with a fuller, more active accompaniment."
+    },
+    {
+      "BarRange": [
+        49,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section with new melodic motifs and harmonic progression."
+    }
+  ]
+}

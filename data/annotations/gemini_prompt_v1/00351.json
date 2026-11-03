@@ -1,0 +1,78 @@
+{
+  "Tile": "Yoshi Star Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Atmospheric intro ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Rhythmic groove intro ending with a |: repeat start."
+    },
+    {
+      "BarRange": [
+        13,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body containing the primary themes, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Atmospheric chords establishing the harmonic setting."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Bass and rhythmic groove building momentum."
+    },
+    {
+      "BarRange": [
+        13,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme A presented over the established groove."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B introducing a thicker texture."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Interlude section combining the intro groove and new chords."
+    }
+  ]
+}

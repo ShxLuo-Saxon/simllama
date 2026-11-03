@@ -1,0 +1,26 @@
+{
+  "Tile": "A Tense Moment",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "The entire 8-bar track is a continuous loop, ending with :| at bar 8."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The entire track consists of a single thematic idea representing a tense loop."
+    }
+  ]
+}

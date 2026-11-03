@@ -1,0 +1,26 @@
+{
+  "Tile": "World 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed by repeat signs, functioning as an infinite loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A single 8-bar primary theme section."
+    }
+  ]
+}

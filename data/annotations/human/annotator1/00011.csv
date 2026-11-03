@@ -1,0 +1,4 @@
+start_bar,length,L1_letter,L1_function,L2_letter,L2_function,L3_letter,L3_function,L4_letter,L4_function,L5_letter,L5_function,comment
+1,2,a,pr,,,,,,,,,"the tricky part of this one is we can inteprete [5,a] in different angle, from perception, it is similar to [3,a], but from score layout and voice ownership, it might be valid to label it [5,b]."
+3,4,b,it,,,,,,,,,
+7,2,c,en,,,,,,,,,

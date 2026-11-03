@@ -1,0 +1,35 @@
+{
+  "Tile": "Hoohoo Village",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The track consists of a continuous 32-bar loop, ending with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melodic theme is introduced and repeated to form the A section."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting section featuring syncopated chordal motifs and a thicker musical texture."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+Mean valid draws per context: m1 high 5.92, m1 low 5.92, m1 mid 5.92, m2 none 11.97, m3 high 5.96, m3 low 5.96, m3 mid 5.96, m4 none 11.97, no_prototype high 1.00, no_prototype low 1.00, no_prototype mid 1.00
+
+M1 high above M4 | 157 contexts, 49 pieces
+  Melody     share 0.662 [0.584, 0.734]  gap +0.0106 [+0.0063, +0.0156]  p 0.0005  Holm 0.0025
+  Chroma     share 0.580 [0.485, 0.671]  gap +0.0105 [+0.0019, +0.0194]  p 0.0120  Holm 0.0240
+  Rhythm     share 0.690 [0.617, 0.764]  gap +0.0056 [+0.0034, +0.0079]  p 0.0005  Holm 0.0025
+  Duration   share 0.529 [0.438, 0.615]  gap +0.0095 [-0.0025, +0.0210]  p 0.0665  Holm 0.0665
+  CS (ours)  share 0.599 [0.521, 0.681]  gap +0.0165 [+0.0068, +0.0263]  p 0.0015  Holm 0.0045
+
+M4 above M1 low | 157 contexts, 49 pieces
+  Melody     share 0.487 [0.410, 0.566]  gap -0.0026 [-0.0064, +0.0010]  p 0.9230  Holm 1.0000
+  Chroma     share 0.535 [0.462, 0.610]  gap +0.0032 [-0.0037, +0.0104]  p 0.1844  Holm 0.9220
+  Rhythm     share 0.494 [0.405, 0.580]  gap -0.0006 [-0.0040, +0.0027]  p 0.6382  Holm 1.0000
+  Duration   share 0.541 [0.463, 0.624]  gap +0.0058 [-0.0084, +0.0220]  p 0.2309  Holm 0.9235
+  CS (ours)  share 0.439 [0.365, 0.510]  gap -0.0033 [-0.0135, +0.0063]  p 0.7571  Holm 1.0000
+
+M4 above M1 mid (two-sided) | 157 contexts, 49 pieces
+  Melody     share 0.536 [0.466, 0.606]  gap +0.0012 [-0.0014, +0.0041]  p 0.3308  Holm 0.9925
+  Chroma     share 0.592 [0.516, 0.669]  gap +0.0126 [+0.0040, +0.0210]  p 0.0040  Holm 0.0160
+  Rhythm     share 0.529 [0.458, 0.599]  gap +0.0010 [-0.0020, +0.0038]  p 0.4888  Holm 0.9925
+  Duration   share 0.650 [0.584, 0.716]  gap +0.0234 [+0.0127, +0.0340]  p 0.0010  Holm 0.0050
+  CS (ours)  share 0.490 [0.418, 0.558]  gap -0.0013 [-0.0107, +0.0073]  p 0.7646  Holm 0.9925
+
+M1 high above low | 157 contexts, 49 pieces
+  Melody     share 0.627 [0.558, 0.693]  gap +0.0080 [+0.0045, +0.0121]  p 0.0005  Holm 0.0025
+  Chroma     share 0.554 [0.476, 0.627]  gap +0.0137 [+0.0049, +0.0224]  p 0.0015  Holm 0.0045
+  Rhythm     share 0.627 [0.537, 0.717]  gap +0.0050 [+0.0020, +0.0083]  p 0.0010  Holm 0.0040
+  Duration   share 0.611 [0.521, 0.696]  gap +0.0154 [+0.0018, +0.0294]  p 0.0150  Holm 0.0150
+  CS (ours)  share 0.586 [0.503, 0.661]  gap +0.0132 [+0.0033, +0.0231]  p 0.0070  Holm 0.0140
+
+M3 high above low (two-sided) | 157 contexts, 49 pieces
+  Melody     share 0.355 [0.277, 0.433]  gap -0.0056 [-0.0090, -0.0022]  p 0.0040  Holm 0.0200
+  Chroma     share 0.446 [0.373, 0.521]  gap -0.0111 [-0.0193, -0.0030]  p 0.0110  Holm 0.0440
+  Rhythm     share 0.517 [0.434, 0.600]  gap +0.0011 [-0.0035, +0.0060]  p 0.6277  Holm 1.0000
+  Duration   share 0.455 [0.390, 0.534]  gap -0.0113 [-0.0230, +0.0014]  p 0.0770  Holm 0.2309
+  CS (ours)  share 0.503 [0.419, 0.593]  gap -0.0026 [-0.0132, +0.0077]  p 0.6257  Holm 1.0000
+
+M1 spread above M3 spread | 157 contexts, 49 pieces
+  Melody     share 0.695 [0.629, 0.755]  gap +0.0137 [+0.0094, +0.0183]  p 0.0005  Holm 0.0025
+  Chroma     share 0.631 [0.567, 0.699]  gap +0.0248 [+0.0134, +0.0364]  p 0.0005  Holm 0.0025
+  Rhythm     share 0.574 [0.490, 0.656]  gap +0.0039 [-0.0007, +0.0084]  p 0.0570  Holm 0.0570
+  Duration   share 0.605 [0.520, 0.680]  gap +0.0267 [+0.0093, +0.0432]  p 0.0010  Holm 0.0030
+  CS (ours)  share 0.592 [0.506, 0.677]  gap +0.0159 [+0.0004, +0.0301]  p 0.0230  Holm 0.0460
+
+M4 above M2 | 157 contexts, 49 pieces
+  Melody     share 0.571 [0.479, 0.662]  gap +0.0002 [-0.0052, +0.0054]  p 0.4533  Holm 0.4533
+  Chroma     share 0.675 [0.606, 0.747]  gap +0.0216 [+0.0142, +0.0296]  p 0.0005  Holm 0.0025
+  Rhythm     share 0.573 [0.503, 0.649]  gap +0.0026 [-0.0008, +0.0063]  p 0.0655  Holm 0.1964
+  Duration   share 0.618 [0.549, 0.686]  gap +0.0172 [+0.0051, +0.0302]  p 0.0025  Holm 0.0100
+  CS (ours)  share 0.503 [0.433, 0.576]  gap +0.0055 [-0.0034, +0.0140]  p 0.1069  Holm 0.2139
+
+Label only above M2 | 133 contexts, 48 pieces
+  Melody     share 0.238 [0.161, 0.320]  gap -0.0127 [-0.0195, -0.0068]  p 1.0000  Holm 1.0000
+  Chroma     share 0.256 [0.185, 0.331]  gap -0.0449 [-0.0580, -0.0318]  p 1.0000  Holm 1.0000
+  Rhythm     share 0.278 [0.197, 0.360]  gap -0.0272 [-0.0343, -0.0206]  p 1.0000  Holm 1.0000
+  Duration   share 0.248 [0.179, 0.322]  gap -0.1147 [-0.1396, -0.0885]  p 1.0000  Holm 1.0000
+  CS (ours)  share 0.241 [0.169, 0.315]  gap -0.0644 [-0.0826, -0.0468]  p 1.0000  Holm 1.0000
+
+M1 high above M4 best-of-12 | 157 contexts, 49 pieces
+  Melody     share 0.698 [0.624, 0.774]  gap +0.0008 [-0.0066, +0.0082]  p 0.4083  Holm 1.0000
+  Chroma     share 0.363 [0.289, 0.430]  gap -0.0198 [-0.0363, -0.0031]  p 0.9915  Holm 1.0000
+  Rhythm     share 0.440 [0.340, 0.532]  gap -0.0003 [-0.0058, +0.0050]  p 0.5407  Holm 1.0000
+  Duration   share 0.516 [0.437, 0.598]  gap +0.0156 [-0.0100, +0.0414]  p 0.1214  Holm 0.6072
+  CS (ours)  share 0.032 [0.007, 0.060]  gap -0.1785 [-0.1940, -0.1618]  p 1.0000  Holm 1.0000
+
+M4 worst-of-12 above M1 low | 157 contexts, 49 pieces
+  Melody     share 0.212 [0.149, 0.273]  gap -0.0126 [-0.0171, -0.0085]  p 1.0000  Holm 1.0000
+  Chroma     share 0.236 [0.173, 0.301]  gap -0.0709 [-0.0850, -0.0555]  p 1.0000  Holm 1.0000
+  Rhythm     share 0.455 [0.383, 0.524]  gap -0.0099 [-0.0148, -0.0050]  p 1.0000  Holm 1.0000
+  Duration   share 0.481 [0.408, 0.558]  gap -0.0302 [-0.0540, -0.0076]  p 0.9940  Holm 1.0000
+  CS (ours)  share 0.000 [0.000, 0.000]  gap -0.1342 [-0.1501, -0.1203]  p 1.0000  Holm 1.0000

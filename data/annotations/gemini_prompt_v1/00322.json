@@ -1,0 +1,43 @@
+{
+  "Tile": "The Toad Brigade - Super Mario Galaxy",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Plays once before the loop, ending with a |: repeat sign at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body enclosed by |: and :|, repeating indefinitely."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section that sets up the groove and introduces the melody."
+    },
+    {
+      "BarRange": [
+        9,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary looped theme containing the core musical idea."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Tile": "Starhill",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track acts as a continuous loop, indicated by the :| at the end of bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary ostinato motif is introduced and established in the key of Db."
+    },
+    {
+      "BarRange": [
+        9,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The section modulates to Bb, maintaining the exact melodic core while introducing new chordal textures."
+    }
+  ]
+}

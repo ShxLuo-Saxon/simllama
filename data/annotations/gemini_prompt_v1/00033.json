@@ -1,0 +1,70 @@
+{
+  "Tile": "Clash of the Titans",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Intro section ends with a |: repeat sign at bar 5."
+    },
+    {
+      "BarRange": [
+        6,
+        47
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body, ends with :| repeat sign at bar 47."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro ending with a ritardando and a repeat sign."
+    },
+    {
+      "BarRange": [
+        6,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme features alternating chords and subtle rhythmic variations."
+    },
+    {
+      "BarRange": [
+        21,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Second theme introduces a new contrasting harmonic progression."
+    },
+    {
+      "BarRange": [
+        29,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Third theme consists of a syncopated F major vamp."
+    },
+    {
+      "BarRange": [
+        37,
+        47
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Final build-up section with climbing arpeggios leading to loop."
+    }
+  ]
+}

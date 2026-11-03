@@ -1,0 +1,146 @@
+{
+  "Tile": "Super Mario Galaxy",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        13
+      ],
+      "Function": "In",
+      "Inference": "Fanfare intro that builds up to the main theme."
+    },
+    {
+      "BarRange": [
+        14,
+        45
+      ],
+      "Function": "Ln",
+      "Inference": "Main body containing primary and contrasting themes, ends at ||."
+    },
+    {
+      "BarRange": [
+        46,
+        57
+      ],
+      "Function": "Br",
+      "Inference": "Bridge section reminiscent of the intro, modulating to Ab major."
+    },
+    {
+      "BarRange": [
+        58,
+        73
+      ],
+      "Function": "Ln",
+      "Inference": "A slower, quieter meno mosso section presenting a new theme."
+    },
+    {
+      "BarRange": [
+        74,
+        81
+      ],
+      "Function": "Br",
+      "Inference": "An a tempo rhythmic build-up transitioning to the finale."
+    },
+    {
+      "BarRange": [
+        82,
+        117
+      ],
+      "Function": "Ln",
+      "Inference": "The triumphant return and repetition of the main theme."
+    },
+    {
+      "BarRange": [
+        118,
+        122
+      ],
+      "Function": "Ou",
+      "Inference": "Final cadential run ending with a grand fermata at |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        13
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Fanfare intro setting the key and tempo."
+    },
+    {
+      "BarRange": [
+        14,
+        29
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "The primary rhythmic and melodic theme A is introduced."
+    },
+    {
+      "BarRange": [
+        30,
+        45
+      ],
+      "Function": "Ln",
+      "Section": "B",
+      "Inference": "A flowing, contrasting lyrical theme B before the double barline."
+    },
+    {
+      "BarRange": [
+        46,
+        57
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Fanfare bridge modulating to a new key."
+    },
+    {
+      "BarRange": [
+        58,
+        73
+      ],
+      "Function": "Ln",
+      "Section": "C",
+      "Inference": "Slower, quieter meno mosso section presenting theme C."
+    },
+    {
+      "BarRange": [
+        74,
+        81
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Rhythmic ostinato building up tension."
+    },
+    {
+      "BarRange": [
+        82,
+        97
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Triumphant return of the main theme A."
+    },
+    {
+      "BarRange": [
+        98,
+        117
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "A fuller, extended repetition of theme A."
+    },
+    {
+      "BarRange": [
+        118,
+        122
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Cadential outro with a final fermata."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Tile": "Stage Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Intro section, ending with a |: repeat sign at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with a :| repeat sign at bar 40."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section building up to the main loop."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Vamp section establishing the primary rhythmic and harmonic groove."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "The main melody is introduced over the established accompaniment."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Introduces a new contrasting descending melodic phrase."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Harmonic shift to Eb major tonality before looping back."
+    }
+  ]
+}

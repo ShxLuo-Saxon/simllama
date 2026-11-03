@@ -1,0 +1,78 @@
+{
+  "Tile": "Volcanic Overworld Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section ending with || at bar 22."
+    },
+    {
+      "BarRange": [
+        23,
+        42
+      ],
+      "Function": "Lp",
+      "Inference": "Second loop section ending with :| at bar 42."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro motif with percussion and bass."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A with ostinato bass and syncopated melody."
+    },
+    {
+      "BarRange": [
+        13,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces triplet rhythms, ending with a break."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C features a walking bass and higher register melody."
+    },
+    {
+      "BarRange": [
+        31,
+        42
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D shifts to chordal accompaniment, leading to loop end."
+    }
+  ]
+}

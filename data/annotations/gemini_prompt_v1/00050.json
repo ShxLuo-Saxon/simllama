@@ -1,0 +1,162 @@
+{
+  "Tile": "The Law of Pajamaja",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory ostinato establishing rhythm and key, ending with a |:."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "First loop section presenting the main musical theme in Bb."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "Extended loop section modulating to C major, ending with ||."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "Forte section in Eb major ending with ||."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "F major section maintaining the forte texture, ending with ||."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "Soft, lyrical section in F major ending with ||."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Lp",
+      "Inference": "Longer melodic section in C major ending with ||."
+    },
+    {
+      "BarRange": [
+        65,
+        68
+      ],
+      "Function": "Br",
+      "Inference": "Transition stripping back to the intro ostinato in C major."
+    },
+    {
+      "BarRange": [
+        69,
+        72
+      ],
+      "Function": "Br",
+      "Inference": "Ostinato modulates to Bb major, connecting to the loop start."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, placeholder X."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic and melodic motif (Theme A)."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A transposed to C major and extended."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A returns in Eb major with loud, marcato chords."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Another transposition of Theme A, now in F major."
+    },
+    {
+      "BarRange": [
+        41,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting slow, lyrical melody introduces Theme B."
+    },
+    {
+      "BarRange": [
+        49,
+        64
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New soaring melody (Theme C) with oom-pah bass accompaniment."
+    },
+    {
+      "BarRange": [
+        65,
+        68
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge returning to the opening ostinato. Placeholder X."
+    },
+    {
+      "BarRange": [
+        69,
+        72
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge continuing the ostinato back to Bb. Placeholder X."
+    }
+  ]
+}

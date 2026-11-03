@@ -1,0 +1,70 @@
+{
+  "Tile": "Baby Bowser",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Inference": "Atmospheric intro with changing meters, establishing a bass vamp at bar 11. Ends with |:."
+    },
+    {
+      "BarRange": [
+        15,
+        46
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body consisting of four distinct thematic sections. Ends with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        14
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Atmospheric intro with changing meters, establishing a bass vamp at bar 11. Ends with |:."
+    },
+    {
+      "BarRange": [
+        15,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A features a sustained melody over a Dm vamp, moving to Gm."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a rhythmic melody and ends with a descending chromatic bass progression."
+    },
+    {
+      "BarRange": [
+        33,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C uses block chords in the melody over Dm and Gm bass vamps."
+    },
+    {
+      "BarRange": [
+        41,
+        46
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Climactic sequence over descending chromatic bass, leading to turnaround. Ends with :|."
+    }
+  ]
+}

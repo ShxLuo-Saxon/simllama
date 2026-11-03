@@ -1,0 +1,61 @@
+{
+  "Tile": "Just Plains",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Starts with percussion and piano swing tap, ending with a repeat sign at bar 6."
+    },
+    {
+      "BarRange": [
+        7,
+        62
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body featuring multiple melodic themes, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section setting the groove."
+    },
+    {
+      "BarRange": [
+        7,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First theme, starting with a 4-bar vamp followed by an A-A' phrase structure."
+    },
+    {
+      "BarRange": [
+        29,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting second theme introducing a new chord progression and rhythmic motif."
+    },
+    {
+      "BarRange": [
+        45,
+        62
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Third theme featuring a higher register melody, leading back to the loop start."
+    }
+  ]
+}

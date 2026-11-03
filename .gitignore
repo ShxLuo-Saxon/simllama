@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/eval/run_logs/
+outputs/generated/
+logs/
+*.pt
+data/ninsheetmusic/
+data/sections/*.npy

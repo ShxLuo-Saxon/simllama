@@ -1,0 +1,43 @@
+{
+  "Tile": "Opening",
+  "IsAdaptive": false,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Inference": "Introductory chords and rhythmic buildup."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear melody concluding with a ritardando and fermata."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        5
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Placeholder for the intro buildup."
+    },
+    {
+      "BarRange": [
+        6,
+        13
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary thematic melody of the opening."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "Tile": "Doubles Game 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        76
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track functions as an infinite loop, indicated by the D.C. at bar 76."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A four-bar introductory vamp leading into the primary melody with a rhythmic bassline."
+    },
+    {
+      "BarRange": [
+        13,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting flowing melody introduced over a new accompaniment texture."
+    },
+    {
+      "BarRange": [
+        23,
+        30
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct return to the primary melody."
+    },
+    {
+      "BarRange": [
+        31,
+        38
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A contrasting, syncopated chordal section."
+    },
+    {
+      "BarRange": [
+        39,
+        50
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Return of the introductory chords merging into an instrumental vamp lacking a main melody."
+    },
+    {
+      "BarRange": [
+        51,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "A sparse, new melodic idea played over the accompaniment texture from Theme B."
+    },
+    {
+      "BarRange": [
+        61,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Another direct return to the primary melody."
+    },
+    {
+      "BarRange": [
+        69,
+        76
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Return of the syncopated chordal section, ending with a D.C. to loop the track."
+    }
+  ]
+}

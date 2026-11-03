@@ -1,0 +1,53 @@
+{
+  "Tile": "Haunted House",
+  "IsAdaptive": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The track is a continuous 32-bar loop, indicated by the repeat sign at the end."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Establishes the ostinato melody accompanied by sustained bass notes."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a distinct active rhythmic bass pattern."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A transposed iteration sharing the same rhythmic structure and melodic core."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Another transposed variation that maintains the established B section texture."
+    }
+  ],
+  "IsStinger": false
+}

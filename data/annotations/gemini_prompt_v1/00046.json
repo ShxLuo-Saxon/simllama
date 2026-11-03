@@ -1,0 +1,69 @@
+{
+  "Tile": "Toad Town",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Introductory section ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop body, ending with a || double barline."
+    },
+    {
+      "BarRange": [
+        10,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop continues and concludes with a :| repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory measure, marked as X placeholder."
+    },
+    {
+      "BarRange": [
+        2,
+        9
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary 8-bar melody introducing the main musical theme."
+    },
+    {
+      "BarRange": [
+        10,
+        17
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting 8-bar section with new harmony and melodic progression."
+    },
+    {
+      "BarRange": [
+        18,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Third distinct musical idea, characterized by a rhythmic accented motif."
+    }
+  ]
+}

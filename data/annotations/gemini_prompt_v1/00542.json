@@ -1,0 +1,35 @@
+{
+  "Tile": "Duel with the Boss",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        25
+      ],
+      "Function": "Lp",
+      "Inference": "The track consists of a single loop body repeating from the start to bar 25."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        11
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Features descending chromatic runs and alternating rhythmic chordal vamps."
+    },
+    {
+      "BarRange": [
+        12,
+        25
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a distinct melody and concludes with a vamp, merged to meet minimum length rules."
+    }
+  ]
+}

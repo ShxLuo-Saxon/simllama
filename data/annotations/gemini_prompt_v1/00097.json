@@ -1,0 +1,60 @@
+{
+  "Tile": "Monkeys",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Starts with a |: repeat sign and ends with a || double barline at bar 21."
+    },
+    {
+      "BarRange": [
+        22,
+        37
+      ],
+      "Function": "Lp",
+      "Inference": "Continues the loop body, ending with a || at bar 37."
+    },
+    {
+      "BarRange": [
+        38,
+        47
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with a :| at bar 47, directing playback to loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A establishes the main melody and repeats it with a varied ending."
+    },
+    {
+      "BarRange": [
+        22,
+        37
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B introduces a contrasting rhythmic motif and a walking bassline."
+    },
+    {
+      "BarRange": [
+        38,
+        47
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C shifts to a smoother, syncopated melody leading back to the loop."
+    }
+  ]
+}

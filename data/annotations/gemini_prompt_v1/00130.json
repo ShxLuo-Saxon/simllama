@@ -1,0 +1,26 @@
+{
+  "Tile": "Multiplayer Miss",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Inference": "A very short track consisting of only 2 bars, indicating a stinger."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stinger sections use X as a placeholder."
+    }
+  ]
+}

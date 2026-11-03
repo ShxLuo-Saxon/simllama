@@ -1,0 +1,53 @@
+{
+  "Tile": "Wonderful World of Wool 6",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        40
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop ending with a repeat sign at bar 40."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "A non-thematic chordal vamp establishing the accompaniment groove."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary theme A is introduced with a syncopated motif."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting theme B builds up tension towards the chorus."
+    },
+    {
+      "BarRange": [
+        25,
+        40
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "The chorus, a 16-bar period featuring the most energetic theme."
+    }
+  ]
+}

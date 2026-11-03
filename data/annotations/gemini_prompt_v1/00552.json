@@ -1,0 +1,62 @@
+{
+  "Tile": "Yoshis in the Wind",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "Ends with :| without a prior |:, looping the entire track from the beginning."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Accompaniment only, establishing the harmonic rhythm."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the first sparse melodic motif."
+    },
+    {
+      "BarRange": [
+        13,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Melody rests, accompaniment slows down with a poco rit."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A tempo, introduces a lyrical continuous melody."
+    },
+    {
+      "BarRange": [
+        25,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "New syncopated rhythmic phrase leading to the loop point."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Tile": "Bouldergeist",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Intro builds tension with ascending bass, ending with |: repeat sign."
+    },
+    {
+      "BarRange": [
+        5,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body, ending with a :| repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory chords with a chromatically ascending bassline."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Rhythmic motif gradually builds up texture, ending with ||."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting melodic section with a key change to C#min."
+    }
+  ]
+}

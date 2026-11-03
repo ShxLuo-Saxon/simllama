@@ -1,0 +1,43 @@
+{
+  "Tile": "MAP 3 (Vanilla Dome)",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Intro section ending with |: at bar 2."
+    },
+    {
+      "BarRange": [
+        3,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Loop body enclosed by |: and :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory material, labeled as X."
+    },
+    {
+      "BarRange": [
+        3,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The single main thematic idea of the loop."
+    }
+  ]
+}

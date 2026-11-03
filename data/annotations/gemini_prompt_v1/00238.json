@@ -1,0 +1,26 @@
+{
+  "Tile": "\"1-UP\"",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Inference": "Single bar jingle ending with |]"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "St",
+      "Section": "X",
+      "Inference": "Stingers use X as a placeholder"
+    }
+  ]
+}

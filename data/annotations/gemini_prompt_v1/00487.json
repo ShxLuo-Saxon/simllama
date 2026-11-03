@@ -1,0 +1,52 @@
+{
+  "Tile": "A Glossary of Foes",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory hits ending with a pickup to the main melody."
+    },
+    {
+      "BarRange": [
+        5,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body containing the primary swing melody, ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase."
+    },
+    {
+      "BarRange": [
+        5,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "First statement of the main 16-bar swing theme."
+    },
+    {
+      "BarRange": [
+        21,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeat of Theme A with a slightly modified final bar."
+    }
+  ]
+}

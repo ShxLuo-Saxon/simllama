@@ -1,0 +1,26 @@
+{
+  "Tile": "World 2",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Inference": "Enclosed in repeat signs |: and :|"
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary 8-bar looping theme"
+    }
+  ]
+}

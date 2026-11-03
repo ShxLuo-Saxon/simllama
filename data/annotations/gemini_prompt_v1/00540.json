@@ -1,0 +1,52 @@
+{
+  "Tile": "Map",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Inference": "The section ends with a || double barline at bar 18."
+    },
+    {
+      "BarRange": [
+        19,
+        34
+      ],
+      "Function": "Lp",
+      "Inference": "The section ends with a :| repeat sign at bar 34."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        18
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary melody and rhythmic structure after a brief 2-bar accompaniment intro."
+    },
+    {
+      "BarRange": [
+        19,
+        26
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting musical idea with chordal hits and a new harmonic texture."
+    },
+    {
+      "BarRange": [
+        27,
+        34
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Returns to the exact same melody and structure as the primary A theme."
+    }
+  ]
+}

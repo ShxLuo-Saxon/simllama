@@ -1,0 +1,35 @@
+{
+  "Tile": "Beanbean Castle",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Inference": "The track plays from the start and ends with a :| at bar 16, looping indefinitely."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary grand theme, which is stated in D major then transposed to F major."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting rhythmic and melodic motif, played in F major then transposed to D major."
+    }
+  ]
+}

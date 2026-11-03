@@ -1,0 +1,43 @@
+{
+  "Tile": "Ending",
+  "IsAdaptive": true,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Inference": "Pickup measure ending with a loop start sign."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Inference": "Looping body ending with a repeat sign."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        1
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory pickup."
+    },
+    {
+      "BarRange": [
+        2,
+        5
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The main repeating melodic sequence."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Tile": "another building",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        24
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is wrapped in repeat barlines, acting as a single continuous background loop."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Initial theme featuring a chordal melody over a steady, separated bassline."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a contrasting theme with sustained melodic notes and stepwise climbing motion."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A distinct section characterized by an arpeggiated melodic texture leading to the loop turnaround."
+    }
+  ]
+}

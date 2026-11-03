@@ -1,0 +1,35 @@
+{
+  "Tile": "Ghost House",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is an infinite loop that repeats from the beginning, ending with a :| at bar 22."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Begins with a spooky atmospheric texture before introducing the primary minor-key melody and sustained chords."
+    },
+    {
+      "BarRange": [
+        13,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Develops the main theme further and concludes with a descending chromatic sequence to loop seamlessly."
+    }
+  ]
+}

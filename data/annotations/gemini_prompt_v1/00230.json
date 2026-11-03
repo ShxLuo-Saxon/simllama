@@ -1,0 +1,77 @@
+{
+  "Tile": "\"",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Inference": "Introductory accompaniment vamp before the main melody."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Inference": "Main melody begins, ending with a || at bar 12."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to Ab, ending with a || at bar 20."
+    },
+    {
+      "BarRange": [
+        21,
+        24
+      ],
+      "Function": "Br",
+      "Inference": "Transitional chords leading back to the loop start, ending with :|."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        4
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        5,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary thematic material in C major."
+    },
+    {
+      "BarRange": [
+        13,
+        20
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Direct transposition of section A to Ab major."
+    },
+    {
+      "BarRange": [
+        21,
+        24
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Non-thematic transitional bridge section."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Tile": "Secret Mine",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        28
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track is a single loop, ending with a repeat sign at bar 28."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main theme introduced and repeated with slight harmonic and melodic variations."
+    },
+    {
+      "BarRange": [
+        17,
+        28
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting melodic section that naturally transitions into a sparse, unaccompanied tail to restart the loop."
+    }
+  ]
+}

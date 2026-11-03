@@ -1,0 +1,77 @@
+{
+  "Tile": "To the Observatory Grounds 1 & 2",
+  "IsAdaptive": false,
+  "IsStinger": true,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Inference": "Intro of the first track, building up with arpeggios, ends with ||."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Ln",
+      "Inference": "Main linear body of the first track, ends with |] at bar 14."
+    },
+    {
+      "BarRange": [
+        15,
+        20
+      ],
+      "Function": "In",
+      "Inference": "Intro of the second track, identical to bars 1-6."
+    },
+    {
+      "BarRange": [
+        21,
+        23
+      ],
+      "Function": "Ou",
+      "Inference": "Short ending flourish for the second track, ends with |] at bar 23."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        6
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section, non-thematic build-up."
+    },
+    {
+      "BarRange": [
+        7,
+        14
+      ],
+      "Function": "Ln",
+      "Section": "A",
+      "Inference": "Primary melodic theme of the first track."
+    },
+    {
+      "BarRange": [
+        15,
+        20
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section for the second track, non-thematic."
+    },
+    {
+      "BarRange": [
+        21,
+        23
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Outro section, non-thematic concluding flourish."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "Tile": "Large Fry Cook-Off",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Inference": "Intro section establishing the groove, ends with ||."
+    },
+    {
+      "BarRange": [
+        13,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "First part of the loop starting with a Segno (S), ends with ||."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Inference": "Second part of the loop body, ends with ||."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Inference": "Third part of the loop body, ends with ||."
+    },
+    {
+      "BarRange": [
+        61,
+        68
+      ],
+      "Function": "Lp",
+      "Inference": "Fourth part of the loop body, ends with ||."
+    },
+    {
+      "BarRange": [
+        69,
+        76
+      ],
+      "Function": "Lp",
+      "Inference": "Final part of the loop body, ends with D.S. |]."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Intro section."
+    },
+    {
+      "BarRange": [
+        13,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Theme A with sparse melody and walking bass."
+    },
+    {
+      "BarRange": [
+        37,
+        44
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Theme B featuring rhythmic chordal hits."
+    },
+    {
+      "BarRange": [
+        45,
+        60
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Theme C introducing a flowing melodic line."
+    },
+    {
+      "BarRange": [
+        61,
+        68
+      ],
+      "Function": "Lp",
+      "Section": "D",
+      "Inference": "Theme D driven by syncopated piano block chords."
+    },
+    {
+      "BarRange": [
+        69,
+        76
+      ],
+      "Function": "Lp",
+      "Section": "X",
+      "Inference": "Non-thematic section returning to intro material."
+    }
+  ]
+}

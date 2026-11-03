@@ -1,0 +1,61 @@
+{
+  "Tile": "Purple Comet",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        36
+      ],
+      "Function": "Lp",
+      "Inference": "Main loop body starting in F, ends with || at bar 36."
+    },
+    {
+      "BarRange": [
+        37,
+        56
+      ],
+      "Function": "Lp",
+      "Inference": "Key change to Ab, ends with a :| repeat at bar 56."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Introduces the primary rhythmic motif and the main melody in F major."
+    },
+    {
+      "BarRange": [
+        13,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Repeats the primary melodic core and rhythmic structure with slight harmonic variations."
+    },
+    {
+      "BarRange": [
+        25,
+        36
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Introduces a new contrasting melody that builds tension and leads to the key change."
+    },
+    {
+      "BarRange": [
+        37,
+        56
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Modulates to Ab with a triumphant new theme, followed by a turnaround back to the start."
+    }
+  ]
+}

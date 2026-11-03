@@ -1,0 +1,128 @@
+{
+  "Tile": "Thwomp Volcano",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory bars ending with a |: sign."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Inference": "First looping melody section ending with :|."
+    },
+    {
+      "BarRange": [
+        7,
+        10
+      ],
+      "Function": "Br",
+      "Inference": "Transition with rests in melody, ending with |:."
+    },
+    {
+      "BarRange": [
+        11,
+        14
+      ],
+      "Function": "Lp",
+      "Inference": "Second looping melody section ending with :|."
+    },
+    {
+      "BarRange": [
+        15,
+        18
+      ],
+      "Function": "Br",
+      "Inference": "Bridge with accented bass, ending with |:."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Inference": "Third looping melody section ending with :|."
+    },
+    {
+      "BarRange": [
+        23,
+        24
+      ],
+      "Function": "Br",
+      "Inference": "Short transition ending with :| and loop instructions."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section."
+    },
+    {
+      "BarRange": [
+        3,
+        6
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main melody A."
+    },
+    {
+      "BarRange": [
+        7,
+        10
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge connecting to next melody."
+    },
+    {
+      "BarRange": [
+        11,
+        14
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Main melody B with harmonized notes."
+    },
+    {
+      "BarRange": [
+        15,
+        18
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge with strong rhythmic bass."
+    },
+    {
+      "BarRange": [
+        19,
+        22
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "Main melody C with syncopation."
+    },
+    {
+      "BarRange": [
+        23,
+        24
+      ],
+      "Function": "Br",
+      "Section": "X",
+      "Inference": "Bridge leading back to measure 3."
+    }
+  ]
+}

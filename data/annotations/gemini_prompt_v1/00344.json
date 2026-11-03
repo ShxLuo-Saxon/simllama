@@ -1,0 +1,61 @@
+{
+  "Tile": "Starship Mario 1",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Inference": "Starts freely, builds up groove, and ends with a |: at bar 8."
+    },
+    {
+      "BarRange": [
+        9,
+        32
+      ],
+      "Function": "Lp",
+      "Inference": "The main loop body containing the primary themes, ending with a :| at bar 32."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        8
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory section that establishes the harmonic and rhythmic foundation."
+    },
+    {
+      "BarRange": [
+        9,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary melody is introduced in the high register over the groove."
+    },
+    {
+      "BarRange": [
+        17,
+        24
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "A contrasting 4-bar phrase that resolves back into a return of the A theme."
+    },
+    {
+      "BarRange": [
+        25,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "C",
+      "Inference": "A new section featuring a slower harmonic progression and tremolo textures to conclude the loop."
+    }
+  ]
+}

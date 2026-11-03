@@ -1,0 +1,44 @@
+{
+  "Tile": "Piranha Plant's Lullaby",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        48
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track loops as indicated by the repeat sign at bar 48."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        16
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Main lullaby theme introduced with slow arpeggiated chords."
+    },
+    {
+      "BarRange": [
+        17,
+        32
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "A direct repetition of the main theme with minor voicing adjustments."
+    },
+    {
+      "BarRange": [
+        33,
+        48
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting section introducing repeated 8th notes and a rising harmonic progression."
+    }
+  ]
+}

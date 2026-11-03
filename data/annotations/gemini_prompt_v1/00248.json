@@ -1,0 +1,26 @@
+{
+  "Tile": "Underground Theme",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "Lp",
+      "Inference": "The entire track consists of a single loop body."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        7
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "The primary and only musical theme of the track."
+    }
+  ]
+}

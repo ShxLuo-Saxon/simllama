@@ -1,0 +1,69 @@
+{
+  "Tile": "\"Athletic Theme\" Super Mario Bros. 3",
+  "IsAdaptive": true,
+  "IsStinger": false,
+  "Function": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Inference": "Introductory phrase ending with a |: repeat sign."
+    },
+    {
+      "BarRange": [
+        3,
+        21
+      ],
+      "Function": "Lp",
+      "Inference": "Main looping body enclosed by |: and :|."
+    },
+    {
+      "BarRange": [
+        22,
+        22
+      ],
+      "Function": "Ou",
+      "Inference": "A single ending bar after the repeat."
+    }
+  ],
+  "Section": [
+    {
+      "BarRange": [
+        1,
+        2
+      ],
+      "Function": "In",
+      "Section": "X",
+      "Inference": "Introductory phrase."
+    },
+    {
+      "BarRange": [
+        3,
+        12
+      ],
+      "Function": "Lp",
+      "Section": "A",
+      "Inference": "Primary upbeat ragtime melody and chord sequence."
+    },
+    {
+      "BarRange": [
+        13,
+        21
+      ],
+      "Function": "Lp",
+      "Section": "B",
+      "Inference": "Contrasting syncopated arpeggio motif."
+    },
+    {
+      "BarRange": [
+        22,
+        22
+      ],
+      "Function": "Ou",
+      "Section": "X",
+      "Inference": "Final resolution chord."
+    }
+  ]
+}
